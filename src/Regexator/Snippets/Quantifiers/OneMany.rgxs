@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>Quantifiers</Category>
+            <Name>OneMany</Name>
+            <Title>One Many</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>Matches the previous element one or more times.</Description>
+            <SnippetKinds>
+                <SnippetKind>Surround</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[(%selected%%end%)+]]></Code>
+                <Code Kind="Lazy"><![CDATA[(%selected%%end%)+?]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

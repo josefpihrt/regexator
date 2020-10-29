@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GroupingConstructs</Category>
+            <Name>BalancingGroupQuotes</Name>
+            <Title>Balancing Group ''</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>Defines a balancing group.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+                <SnippetKind>Surround</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Literals>
+                <Literal>
+                    <Id>name1</Id>
+                    <Default>name1</Default>
+                    <Description>Current group (optional)</Description>
+                </Literal>
+                <Literal>
+                    <Id>name2</Id>
+                    <Default>name2</Default>
+                    <Description>Previously defined group</Description>
+                </Literal>
+            </Literals>
+            <Codes>
+                <Code><![CDATA[(?'%name1%-%name2%'%selected%%end%)]]></Code>
+                <Code Kind="Format" Options="IgnorePatternWhitespace"><![CDATA[(?'%name1%-%name2%'
+    %selected%%end%
+)]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

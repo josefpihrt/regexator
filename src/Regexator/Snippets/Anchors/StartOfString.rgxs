@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>Anchors</Category>
+            <Name>StartOfString</Name>
+            <Title>Start of String</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>The match must occur at the beginning of the string only.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\A]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

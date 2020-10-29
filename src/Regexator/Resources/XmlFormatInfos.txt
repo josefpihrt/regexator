@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFormatInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <FormatInfo>
+        <Name>PlainText</Name>
+        <Text>Plain Text</Text>
+        <Group>TextEditor</Group>
+        <BackColor>White</BackColor>
+        <BackColorEnabled>true</BackColorEnabled>
+        <ForeColor>Black</ForeColor>
+        <ForeColorEnabled>true</ForeColorEnabled>
+        <Bold>false</Bold>
+        <BoldEnabled>true</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>CurrentLineText</Name>
+        <Text>Current Line Text</Text>
+        <Group>TextEditor</Group>
+        <BackColor>White</BackColor>
+        <BackColorEnabled>true</BackColorEnabled>
+        <ForeColor>Black</ForeColor>
+        <ForeColorEnabled>true</ForeColorEnabled>
+        <Bold>true</Bold>
+        <BoldEnabled>true</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>MatchText</Name>
+        <Text>Match Text</Text>
+        <Group>TextEditor</Group>
+        <BackColor>PaleGreen</BackColor>
+        <BackColorEnabled>true</BackColorEnabled>
+        <ForeColor>Black</ForeColor>
+        <ForeColorEnabled>true</ForeColorEnabled>
+        <Bold>true</Bold>
+        <BoldEnabled>true</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>CharacterSymbol</Name>
+        <Text>Character Symbol</Text>
+        <Group>TextEditor</Group>
+        <BackColor>Empty</BackColor>
+        <BackColorEnabled>false</BackColorEnabled>
+        <ForeColor>Red</ForeColor>
+        <ForeColorEnabled>true</ForeColorEnabled>
+        <Bold>true</Bold>
+        <BoldEnabled>true</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>InfoText</Name>
+        <Text>Info Text</Text>
+        <Group>TextEditor</Group>
+        <BackColor>Lavender</BackColor>
+        <BackColorEnabled>true</BackColorEnabled>
+        <ForeColor>Black</ForeColor>
+        <ForeColorEnabled>true</ForeColorEnabled>
+        <Bold>true</Bold>
+        <BoldEnabled>true</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>BeforeAfterResult</Name>
+        <Text>Text Before And After Result</Text>
+        <Group>TextEditor</Group>
+        <BackColor>Lavender</BackColor>
+        <BackColorEnabled>true</BackColorEnabled>
+        <ForeColor>Black</ForeColor>
+        <ForeColorEnabled>true</ForeColorEnabled>
+        <Bold>false</Bold>
+        <BoldEnabled>true</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>SummaryText</Name>
+        <Text>Summary Text</Text>
+        <Group>Summary</Group>
+        <BackColor>White</BackColor>
+        <BackColorEnabled>true</BackColorEnabled>
+        <ForeColor>Black</ForeColor>
+        <ForeColorEnabled>true</ForeColorEnabled>
+        <Bold>false</Bold>
+        <BoldEnabled>true</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>SummaryHeadingText</Name>
+        <Text>Heading Text</Text>
+        <Group>Summary</Group>
+        <BackColor>White</BackColor>
+        <BackColorEnabled>true</BackColorEnabled>
+        <ForeColor>Black</ForeColor>
+        <ForeColorEnabled>true</ForeColorEnabled>
+        <Bold>true</Bold>
+        <BoldEnabled>true</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>SummaryValueText</Name>
+        <Text>Value Text</Text>
+        <Group>Summary</Group>
+        <BackColor>WhiteSmoke</BackColor>
+        <BackColorEnabled>true</BackColorEnabled>
+        <ForeColor>Black</ForeColor>
+        <ForeColorEnabled>true</ForeColorEnabled>
+        <Bold>false</Bold>
+        <BoldEnabled>true</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>TableText</Name>
+        <Text>Table Text</Text>
+        <Group>Table</Group>
+        <BackColor>White</BackColor>
+        <BackColorEnabled>true</BackColorEnabled>
+        <ForeColor>Black</ForeColor>
+        <ForeColorEnabled>true</ForeColorEnabled>
+        <Bold>false</Bold>
+        <BoldEnabled>false</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>TableSelectedText</Name>
+        <Text>Table Selected Text</Text>
+        <Group>Table</Group>
+        <BackColor>DodgerBlue</BackColor>
+        <BackColorEnabled>true</BackColorEnabled>
+        <ForeColor>White</ForeColor>
+        <ForeColorEnabled>true</ForeColorEnabled>
+        <Bold>false</Bold>
+        <BoldEnabled>false</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>DescriptionText</Name>
+        <Text>Description Text</Text>
+        <Group>Description</Group>
+        <BackColor>White</BackColor>
+        <BackColorEnabled>false</BackColorEnabled>
+        <ForeColor>Black</ForeColor>
+        <ForeColorEnabled>false</ForeColorEnabled>
+        <Bold>false</Bold>
+        <BoldEnabled>true</BoldEnabled>
+    </FormatInfo>
+    <FormatInfo>
+        <Name>SnippetListText</Name>
+        <Text>Snippet List Text</Text>
+        <Group>SnippetList</Group>
+        <BackColor>Empty</BackColor>
+        <BackColorEnabled>false</BackColorEnabled>
+        <ForeColor>Empty</ForeColor>
+        <ForeColorEnabled>false</ForeColorEnabled>
+        <Bold>false</Bold>
+        <BoldEnabled>false</BoldEnabled>
+    </FormatInfo>
+</ArrayOfFormatInfo>

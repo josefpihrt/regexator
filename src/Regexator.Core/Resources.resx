@@ -1,0 +1,1008 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CopyPath" xml:space="preserve">
+    <value>Copy Path</value>
+  </data>
+  <data name="Del" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="EllipsisStr" xml:space="preserve">
+    <value>…</value>
+  </data>
+  <data name="RemoveFromProject" xml:space="preserve">
+    <value>Remove From Project</value>
+  </data>
+  <data name="ExistingFileInput" xml:space="preserve">
+    <value>Existing File Input</value>
+  </data>
+  <data name="F2" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="F7" xml:space="preserve">
+    <value>F7</value>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="InvalidValueMsg" xml:space="preserve">
+    <value>Invalid value.</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NewFileInput" xml:space="preserve">
+    <value>New File Input</value>
+  </data>
+  <data name="NewProject" xml:space="preserve">
+    <value>New Project</value>
+  </data>
+  <data name="NewProjectWithFileInput" xml:space="preserve">
+    <value>New Project with File Input</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NumberStr" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="OpenInExplorer" xml:space="preserve">
+    <value>Open in Explorer</value>
+  </data>
+  <data name="OpenProject" xml:space="preserve">
+    <value>Open Project</value>
+  </data>
+  <data name="Pattern" xml:space="preserve">
+    <value>Pattern</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RegexatorIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Regexator.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="SaveChangesToFollowingItemsMsg" xml:space="preserve">
+    <value>Save changes to the following items?</value>
+  </data>
+  <data name="SetVisibility" xml:space="preserve">
+    <value>Set Visibility</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Regexator" xml:space="preserve">
+    <value>Regexator</value>
+  </data>
+  <data name="CtrlA" xml:space="preserve">
+    <value>Ctrl+A</value>
+  </data>
+  <data name="CtrlC" xml:space="preserve">
+    <value>Ctrl+C</value>
+  </data>
+  <data name="CtrlD" xml:space="preserve">
+    <value>Ctrl+D</value>
+  </data>
+  <data name="CtrlN" xml:space="preserve">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="CtrlO" xml:space="preserve">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="CtrlP" xml:space="preserve">
+    <value>Ctrl+P</value>
+  </data>
+  <data name="CtrlShiftA" xml:space="preserve">
+    <value>Ctrl+Shift+A</value>
+  </data>
+  <data name="CtrlV" xml:space="preserve">
+    <value>Ctrl+V</value>
+  </data>
+  <data name="CtrlX" xml:space="preserve">
+    <value>Ctrl+X</value>
+  </data>
+  <data name="CtrlY" xml:space="preserve">
+    <value>Ctrl+Y</value>
+  </data>
+  <data name="CtrlZ" xml:space="preserve">
+    <value>Ctrl+Z</value>
+  </data>
+  <data name="NoToAll" xml:space="preserve">
+    <value>No to All</value>
+  </data>
+  <data name="YesToAll" xml:space="preserve">
+    <value>Yes to All</value>
+  </data>
+  <data name="DoYouWantToSaveChangesMsg" xml:space="preserve">
+    <value>Do you want to save changes?</value>
+  </data>
+  <data name="NewPath" xml:space="preserve">
+    <value>New path</value>
+  </data>
+  <data name="OldPath" xml:space="preserve">
+    <value>Old path</value>
+  </data>
+  <data name="ProjectFileMovedMsg" xml:space="preserve">
+    <value>A project file has been moved.</value>
+  </data>
+  <data name="ColonStr" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="UseCurrentLineOnly" xml:space="preserve">
+    <value>Use Current Line Only</value>
+  </data>
+  <data name="HighlightText" xml:space="preserve">
+    <value>Highlight Text</value>
+  </data>
+  <data name="WrapTextTableOnly" xml:space="preserve">
+    <value>Wrap Text (Table Only)</value>
+  </data>
+  <data name="CarriageReturnSymbol" xml:space="preserve">
+    <value>Carriage Return Symbol</value>
+  </data>
+  <data name="ShowInfo" xml:space="preserve">
+    <value>Show Info</value>
+  </data>
+  <data name="LineFeedSymbol" xml:space="preserve">
+    <value>Linefeed Symbol</value>
+  </data>
+  <data name="NoCaptureSymbolTableOnly" xml:space="preserve">
+    <value>No Capture Symbol (Table Only)</value>
+  </data>
+  <data name="TabSymbol" xml:space="preserve">
+    <value>Tab Symbol</value>
+  </data>
+  <data name="FileIsAlreadyPartOfProjectMsg" xml:space="preserve">
+    <value>The file '{0}' is already part of the project.</value>
+  </data>
+  <data name="ProjectFileAlreadyExistsMsg" xml:space="preserve">
+    <value>The project file '{0}' already exists.</value>
+  </data>
+  <data name="FileAlreadyExistsMsg" xml:space="preserve">
+    <value>The file '{0}' already exists.</value>
+  </data>
+  <data name="OpenInput" xml:space="preserve">
+    <value>Open Input</value>
+  </data>
+  <data name="IcoCodeOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoCodeOpen.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoRename" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoRename.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoDelete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFileNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoFileNew.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFilePlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoFilePlus.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoCode.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCodeSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoCodeSelected.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCodeSolution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoCodeSolution.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoFile.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFileSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoFileSelected.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFileError" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoFileError.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCodeError" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoCodeError.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoOpen.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCodeNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoCodeNew.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProjectCannotContainItselfAsInputMsg" xml:space="preserve">
+    <value>A project cannot contain itself as an input.</value>
+  </data>
+  <data name="IcoReload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoReload.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="ParentDirectoryStr" xml:space="preserve">
+    <value>..</value>
+  </data>
+  <data name="IcoFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoFolder.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFolderOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoFolderOpen.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ShowHiddenFiles" xml:space="preserve">
+    <value>Show Hidden Files</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="InsertExtended" xml:space="preserve">
+    <value>Insert Extended</value>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="ShiftTab" xml:space="preserve">
+    <value>Shift+Tab</value>
+  </data>
+  <data name="Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>Favorite</value>
+  </data>
+  <data name="IcoInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoInfo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="EnableUndoRedo" xml:space="preserve">
+    <value>Enable Undo/Redo</value>
+  </data>
+  <data name="FolderNotFoundRemoveItFromRecentMsg" xml:space="preserve">
+    <value>The folder '{0}' cannot be found.
+Do you want to remove the reference to it from the recent list?</value>
+  </data>
+  <data name="FileNotFoundRemoveItFromRecentMsg" xml:space="preserve">
+    <value>The file '{0}' cannot be found.
+Do you want to remove the reference to it from the recent list?</value>
+  </data>
+  <data name="FileNotFoundRemoveItemMsg" xml:space="preserve">
+    <value>The file '{0}' cannot be found.
+Do you want to remove this item?</value>
+  </data>
+  <data name="FileNameHasInvalidFormatMsg" xml:space="preserve">
+    <value>The file name '{0}' has an invalid format.</value>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="CtrlLeft" xml:space="preserve">
+    <value>Ctrl+Left</value>
+  </data>
+  <data name="CtrlRight" xml:space="preserve">
+    <value>Ctrl+Right</value>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="FolderNameHasInvalidFormatMsg" xml:space="preserve">
+    <value>The folder name '{0}' has an invalid format.</value>
+  </data>
+  <data name="IcoSnippet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoSnippet.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoSnippetExtensible" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoSnippetExtensible.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCollapseAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoCollapseAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoExpandAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoExpandAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CtrlShift1" xml:space="preserve">
+    <value>Ctrl+Shift+1</value>
+  </data>
+  <data name="CtrlShift2" xml:space="preserve">
+    <value>Ctrl+Shift+2</value>
+  </data>
+  <data name="CtrlShift3" xml:space="preserve">
+    <value>Ctrl+Shift+3</value>
+  </data>
+  <data name="CtrlShift4" xml:space="preserve">
+    <value>Ctrl+Shift+4</value>
+  </data>
+  <data name="CtrlShift5" xml:space="preserve">
+    <value>Ctrl+Shift+5</value>
+  </data>
+  <data name="CtrlShift6" xml:space="preserve">
+    <value>Ctrl+Shift+6</value>
+  </data>
+  <data name="CtrlShift7" xml:space="preserve">
+    <value>Ctrl+Shift+7</value>
+  </data>
+  <data name="CtrlShift8" xml:space="preserve">
+    <value>Ctrl+Shift+8</value>
+  </data>
+  <data name="CtrlShift9" xml:space="preserve">
+    <value>Ctrl+Shift+9</value>
+  </data>
+  <data name="Set_" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="SetAll" xml:space="preserve">
+    <value>Set All</value>
+  </data>
+  <data name="SetNone" xml:space="preserve">
+    <value>Set None</value>
+  </data>
+  <data name="FileSystem" xml:space="preserve">
+    <value>File System</value>
+  </data>
+  <data name="Solution" xml:space="preserve">
+    <value>Solution</value>
+  </data>
+  <data name="CarriageReturnPlusLinefeed" xml:space="preserve">
+    <value>Carriage Return + Linefeed</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Environment" xml:space="preserve">
+    <value>Environment</value>
+  </data>
+  <data name="Linefeed" xml:space="preserve">
+    <value>Linefeed</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="SetAllVisible" xml:space="preserve">
+    <value>Set All Visible</value>
+  </data>
+  <data name="Hidden" xml:space="preserve">
+    <value>Hidden</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="Negative" xml:space="preserve">
+    <value>Negative</value>
+  </data>
+  <data name="CSharp" xml:space="preserve">
+    <value>C#</value>
+  </data>
+  <data name="VisualBasicAbbr" xml:space="preserve">
+    <value>VB</value>
+  </data>
+  <data name="ProjectFileContainsNoProjectElementMsg" xml:space="preserve">
+    <value>A project file contains no project element.</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>New Folder</value>
+  </data>
+  <data name="FolderNotFoundRemoveItemMsg" xml:space="preserve">
+    <value>The folder '{0}' cannot be found.
+Do you want to remove this item?</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FollowingFilesCouldNotBeLoadedMsg" xml:space="preserve">
+    <value>Following files could not be loaded:</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Item_WillBeDeletedPermanentlyMsg" xml:space="preserve">
+    <value>{0} will be deleted permanently.</value>
+  </data>
+  <data name="FollowingInputsCouldNotBeDeletedMsg" xml:space="preserve">
+    <value>Following inputs could not be deleted:</value>
+  </data>
+  <data name="HyphenStr" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="InputIsAlreadyPartOfProject" xml:space="preserve">
+    <value>Input is already a part of the project.</value>
+  </data>
+  <data name="CtrlDel" xml:space="preserve">
+    <value>Ctrl+Del</value>
+  </data>
+  <data name="FollowingProjectsCouldNotBeSavedMsg" xml:space="preserve">
+    <value>Following projects could not be saved:</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="SelectedItemsWillBeDeletedPermanentlyMsg" xml:space="preserve">
+    <value>The selected items will be deleted permanently.</value>
+  </data>
+  <data name="Item_AndAllItsContentWillBeDeletedPermanentlyMsg" xml:space="preserve">
+    <value>{0} and all its content will be deleted permanently.</value>
+  </data>
+  <data name="DoYouWantToReopenMsg" xml:space="preserve">
+    <value>Reopening will cause any changes you made to be discarded. Do you want to reopen {0}?</value>
+  </data>
+  <data name="DeleteInputs" xml:space="preserve">
+    <value>Delete Inputs</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="IcoArrowLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoArrowLeft.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoArrowRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoArrowRight.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CtrlShiftTilde" xml:space="preserve">
+    <value>Ctrl+Shift+~</value>
+  </data>
+  <data name="Extended" xml:space="preserve">
+    <value>Extended</value>
+  </data>
+  <data name="ItemNotFoundRemoveItemMsg" xml:space="preserve">
+    <value>The item '{0}' cannot be found.
+Do you want to remove this item?</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="PlusStr" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="Match" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="Matches" xml:space="preserve">
+    <value>Matches</value>
+  </data>
+  <data name="CopyOf" xml:space="preserve">
+    <value>Copy of</value>
+  </data>
+  <data name="FileAlreadyExistsDoYouWantToOvervwriteItMsg" xml:space="preserve">
+    <value>The file '{0}' already exists. Do you want to overwrite it?</value>
+  </data>
+  <data name="FollowingInputsCouldNotBeLoadedMsg" xml:space="preserve">
+    <value>Following inputs could not be loaded:</value>
+  </data>
+  <data name="F5" xml:space="preserve">
+    <value>F5</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="CSharpVerbatim" xml:space="preserve">
+    <value>C# Verbatim</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="OutputSummary" xml:space="preserve">
+    <value>Output Summary</value>
+  </data>
+  <data name="OutputTable" xml:space="preserve">
+    <value>Output Table</value>
+  </data>
+  <data name="OutputText" xml:space="preserve">
+    <value>Output Text</value>
+  </data>
+  <data name="ProjectExplorer" xml:space="preserve">
+    <value>Project Explorer</value>
+  </data>
+  <data name="ProjectInfo" xml:space="preserve">
+    <value>Project Info</value>
+  </data>
+  <data name="RegexOptions" xml:space="preserve">
+    <value>Regex Options</value>
+  </data>
+  <data name="Replacement" xml:space="preserve">
+    <value>Replacement</value>
+  </data>
+  <data name="DeleteAllInputFiles" xml:space="preserve">
+    <value>Delete All Input Files</value>
+  </data>
+  <data name="RemoveAllInputs" xml:space="preserve">
+    <value>Remove All Inputs</value>
+  </data>
+  <data name="NewInput" xml:space="preserve">
+    <value>New Input</value>
+  </data>
+  <data name="RemoveAllInputsMsg" xml:space="preserve">
+    <value>All inputs and all file inputs references will be permanently deleted from the project {0}.</value>
+  </data>
+  <data name="DeleteAllInputFilesMsg" xml:space="preserve">
+    <value>All input files of the project {0} will deleted permanently.</value>
+  </data>
+  <data name="InputIsAlreadyPartOfProjectOverwiteMsg" xml:space="preserve">
+    <value>Input is already part of the project. Do you want to overwrite it?</value>
+  </data>
+  <data name="NewProjectWithInput" xml:space="preserve">
+    <value>New Project with Input</value>
+  </data>
+  <data name="NewItem" xml:space="preserve">
+    <value>New Item</value>
+  </data>
+  <data name="IcoNewFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoNewFolder.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CurrentLineIncludesNewLine" xml:space="preserve">
+    <value>Current Line Includes New Line</value>
+  </data>
+  <data name="NameHasInvalidFormatMsg" xml:space="preserve">
+    <value>The name '{0}' has an invalid format.</value>
+  </data>
+  <data name="PressKey" xml:space="preserve">
+    <value>Press Key</value>
+  </data>
+  <data name="ParsingErrorAtIndex" xml:space="preserve">
+    <value>Parsing error at index</value>
+  </data>
+  <data name="FollowingFilesCouldNotBeDeletedMsg" xml:space="preserve">
+    <value>Following files could not be deleted:</value>
+  </data>
+  <data name="FileInput" xml:space="preserve">
+    <value>File Input</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="ProjectWithFileInput" xml:space="preserve">
+    <value>Project with File Input</value>
+  </data>
+  <data name="ProjectWithInput" xml:space="preserve">
+    <value>Project with Input</value>
+  </data>
+  <data name="ReferenceToFileWillBeRemovedFromProjectMsg" xml:space="preserve">
+    <value>Reference to the file {0} will be removed from the project.</value>
+  </data>
+  <data name="InputSync" xml:space="preserve">
+    <value>Input Sync</value>
+  </data>
+  <data name="PatternSync" xml:space="preserve">
+    <value>Pattern Sync</value>
+  </data>
+  <data name="ReplacementSync" xml:space="preserve">
+    <value>Replacement Sync</value>
+  </data>
+  <data name="IcoInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoInput.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoInputNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoInputNew.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoInputSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoInputSelected.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoNewProjectWithFileInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoNewProjectWithFileInput.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoNewProjectWithInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoNewProjectWithInput.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RemoveInvalidRecentItemsMsg" xml:space="preserve">
+    <value>{0} folder(s) and {1} project(s) will be permanently removed from recent list.</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="CurrentLine" xml:space="preserve">
+    <value>Current Line</value>
+  </data>
+  <data name="IgnoredGroups" xml:space="preserve">
+    <value>Ignored Groups</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="NewLine" xml:space="preserve">
+    <value>New Line</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Encoding" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="NoInvalidRecentItemsFoundMsg" xml:space="preserve">
+    <value>No invalid recent items found.</value>
+  </data>
+  <data name="OpenInputCannotBeMovedMsg" xml:space="preserve">
+    <value>Open input cannot be moved.</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="IcoCopy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoCopy.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoCut.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoPaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoPaste.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="Split" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="VisualBasic" xml:space="preserve">
+    <value>Visual Basic</value>
+  </data>
+  <data name="OpenInNotepad" xml:space="preserve">
+    <value>Open in Notepad</value>
+  </data>
+  <data name="IcoNewItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoNewItem.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCheckAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoCheckAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoUncheckAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoUncheckAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XmlRegexOptionsItems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\XmlRegexOptionsItems.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="SetDefaultVisibility" xml:space="preserve">
+    <value>Set Default Visibility</value>
+  </data>
+  <data name="ShowDescription" xml:space="preserve">
+    <value>Show Description</value>
+  </data>
+  <data name="ShowHotkeyNumber" xml:space="preserve">
+    <value>Show Hotkey Number</value>
+  </data>
+  <data name="Toggle" xml:space="preserve">
+    <value>Toggle</value>
+  </data>
+  <data name="ToggleOption" xml:space="preserve">
+    <value>Toggle Option</value>
+  </data>
+  <data name="Excluded" xml:space="preserve">
+    <value>Excluded</value>
+  </data>
+  <data name="DeleteAllFileInputs" xml:space="preserve">
+    <value>Delete all file inputs</value>
+  </data>
+  <data name="SpaceSymbol" xml:space="preserve">
+    <value>Space Symbol</value>
+  </data>
+  <data name="Escaped" xml:space="preserve">
+    <value>Escaped</value>
+  </data>
+  <data name="Lazy" xml:space="preserve">
+    <value>Lazy</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="IcoMatchCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoMatchCase.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoMatchWhole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoMatchWhole.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoArrowRightSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoArrowRightSmall.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoReplace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoReplace.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoReplaceAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoReplaceAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FollowingTextWasNotFoundMsg" xml:space="preserve">
+    <value>The following specified text was not found:</value>
+  </data>
+  <data name="OccurrencesReplacedMsg" xml:space="preserve">
+    <value>occurrence(s) replaced.</value>
+  </data>
+  <data name="FindReachedStartingPointMsg" xml:space="preserve">
+    <value>Find reached the starting point of the search.</value>
+  </data>
+  <data name="IcoClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoClose.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ToLowercase" xml:space="preserve">
+    <value>To Lowercase</value>
+  </data>
+  <data name="ToUppercase" xml:space="preserve">
+    <value>To Uppercase</value>
+  </data>
+  <data name="NoSuccess" xml:space="preserve">
+    <value>No Success</value>
+  </data>
+  <data name="ProjectCannotBeSavedMsg" xml:space="preserve">
+    <value>A project cannot be saved.</value>
+  </data>
+  <data name="ProjectContainsInvalidCharMsg" xml:space="preserve">
+    <value>{0} text contains invalid character '{1}', decimal value {2}, hexadecimal value {3}.</value>
+  </data>
+  <data name="AltA" xml:space="preserve">
+    <value>Alt+A</value>
+  </data>
+  <data name="AltC" xml:space="preserve">
+    <value>Alt+C</value>
+  </data>
+  <data name="AltR" xml:space="preserve">
+    <value>Alt+R</value>
+  </data>
+  <data name="AltW" xml:space="preserve">
+    <value>Alt+W</value>
+  </data>
+  <data name="F3" xml:space="preserve">
+    <value>F3</value>
+  </data>
+  <data name="FindNext" xml:space="preserve">
+    <value>Find next</value>
+  </data>
+  <data name="MatchCase" xml:space="preserve">
+    <value>Match case</value>
+  </data>
+  <data name="MatchWholeWord" xml:space="preserve">
+    <value>Match whole word</value>
+  </data>
+  <data name="ReplaceAll" xml:space="preserve">
+    <value>Replace all</value>
+  </data>
+  <data name="ReplacementTerm" xml:space="preserve">
+    <value>Replacement term</value>
+  </data>
+  <data name="ReplaceNext" xml:space="preserve">
+    <value>Replace next</value>
+  </data>
+  <data name="SearchTerm" xml:space="preserve">
+    <value>Search term</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="IcoCultureInvariant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoCultureInvariant.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoECMAScript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoECMAScript.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoIgnoreCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoIgnoreCase.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoSquareBrackets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\IcoSquareBrackets.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopyPattern" xml:space="preserve">
+    <value>Copy Pattern</value>
+  </data>
+  <data name="SearchInput" xml:space="preserve">
+    <value>Search Input</value>
+  </data>
+  <data name="SearchOutput" xml:space="preserve">
+    <value>Search Output</value>
+  </data>
+  <data name="SearchPattern" xml:space="preserve">
+    <value>Search Pattern</value>
+  </data>
+  <data name="SearchReplacement" xml:space="preserve">
+    <value>Search Replacement</value>
+  </data>
+  <data name="FindResults" xml:space="preserve">
+    <value>Find Results</value>
+  </data>
+  <data name="InvalidRecentItemsRemovedMsg" xml:space="preserve">
+    <value>{0} folder(s) and {1} project(s) were removed from recent list.</value>
+  </data>
+  <data name="FindAll" xml:space="preserve">
+    <value>Find All</value>
+  </data>
+  <data name="StopFind" xml:space="preserve">
+    <value>Stop Find</value>
+  </data>
+  <data name="FileSystemSearch" xml:space="preserve">
+    <value>File System Search</value>
+  </data>
+  <data name="FileNamePart" xml:space="preserve">
+    <value>File Name Part</value>
+  </data>
+  <data name="SearchMode" xml:space="preserve">
+    <value>Search Mode</value>
+  </data>
+  <data name="SearchOption" xml:space="preserve">
+    <value>Search Option</value>
+  </data>
+  <data name="_0_AndAllItsContentWillBeDeletedPermanently" xml:space="preserve">
+    <value>{0} and all its content will be deleted permanently.</value>
+  </data>
+  <data name="_0_WillBeDeletedPermanently" xml:space="preserve">
+    <value>{0} will be deleted permanently.</value>
+  </data>
+</root>

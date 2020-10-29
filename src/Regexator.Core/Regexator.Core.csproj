@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9862FE99-AF06-4515-A2F1-FC7FD706E92E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Regexator</RootNamespace>
+    <AssemblyName>Regexator.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\global.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\global.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Pihrtsoft.Text.RegularExpressions.Linq, Version=2.5.0.0, Culture=neutral, PublicKeyToken=7b6a2af53c8ae8ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\LinqToRegex.2.5.0\lib\net40\Pihrtsoft.Text.RegularExpressions.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BinarySearcher.cs" />
+    <Compile Include="ClipboardMode.cs" />
+    <Compile Include="Collections\Generic\EnumerableExtensions.cs" />
+    <Compile Include="Collections\Generic\ICollectionExtensions.cs" />
+    <Compile Include="Collections\Generic\IListExtensions.cs" />
+    <Compile Include="Collections\Generic\LimitedCollection.cs" />
+    <Compile Include="Collections\Generic\SortableBindingList.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="CommandHistory.cs" />
+    <Compile Include="ContainerProps.cs" />
+    <Compile Include="Drawing\BrightnessColorSorter.cs" />
+    <Compile Include="Drawing\ColorSortMode.cs" />
+    <Compile Include="Drawing\DrawingUtility.cs" />
+    <Compile Include="Drawing\HueColorSorter.cs" />
+    <Compile Include="Drawing\NameColorSorter.cs" />
+    <Compile Include="Drawing\PrintUtility.cs" />
+    <Compile Include="Drawing\RichTextBoxPrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Extensions\EnumExtensions.cs" />
+    <Compile Include="Extensions\ExceptionExtensions.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="FileSystem\DirectoryCommand.cs" />
+    <Compile Include="FileSystem\Exceptions.cs" />
+    <Compile Include="FileSystem\FileInputCommand.cs" />
+    <Compile Include="FileSystem\FileSystemSearchSettings.cs" />
+    <Compile Include="FileSystem\IClipboardNode.cs" />
+    <Compile Include="FileSystemSearchInfo.cs" />
+    <Compile Include="FileSystem\InputCommand.cs" />
+    <Compile Include="FileSystem\ItemKind.cs" />
+    <Compile Include="FileSystem\NodeImageIndex.cs" />
+    <Compile Include="FileSystem\OpenMode.cs" />
+    <Compile Include="FileSystem\ProjectCommand.cs" />
+    <Compile Include="FileSystem\SaveMode.cs" />
+    <Compile Include="FileSystem\View.cs" />
+    <Compile Include="HtmlUtility.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="IndexSearcherResult.cs" />
+    <Compile Include="InputKind.cs" />
+    <Compile Include="InputOptions.cs" />
+    <Compile Include="InputProps.cs" />
+    <Compile Include="Int32BinarySearcher.cs" />
+    <Compile Include="IO\FileLock.cs" />
+    <Compile Include="IO\FileNamePart.cs" />
+    <Compile Include="IO\FileSystem.cs" />
+    <Compile Include="IO\FileSystemEntry.cs" />
+    <Compile Include="IO\FileSystemInfoExtensions.cs" />
+    <Compile Include="IO\FileSystemSearcher.cs" />
+    <Compile Include="IO\FileSystemUtility.cs" />
+    <Compile Include="IO\SearchMode.cs" />
+    <Compile Include="IO\SearchResult.cs" />
+    <Compile Include="IO\SearchResultEqualityComparer.cs" />
+    <Compile Include="IO\SearchResultSorter.cs" />
+    <Compile Include="IO\SearchResultState.cs" />
+    <Compile Include="IO\XmlSanitizingStreamReader.cs" />
+    <Compile Include="ItemAttributes.cs" />
+    <Compile Include="KeyboardUtility.cs" />
+    <Compile Include="KeyStates.cs" />
+    <Compile Include="MessageDialog.cs" />
+    <Compile Include="MessageResult.cs" />
+    <Compile Include="OutputOptions.cs" />
+    <Compile Include="Output\MatchTextIterator.cs" />
+    <Compile Include="Output\TextAlignment.cs" />
+    <Compile Include="Output\TextBuilder.cs" />
+    <Compile Include="PatternOptions.cs" />
+    <Compile Include="RedrawDisabler.cs" />
+    <Compile Include="RegexCategory.cs" />
+    <Compile Include="ReplacementOptions.cs" />
+    <Compile Include="ScrollBlocker.cs" />
+    <Compile Include="Snippets\SnippetCodeKind.cs" />
+    <Compile Include="Snippets\SnippetKinds.cs" />
+    <Compile Include="Snippets\SnippetOrigin.cs" />
+    <Compile Include="TextSearchMode.cs" />
+    <Compile Include="Text\BracketKind.cs" />
+    <Compile Include="Text\EncodingItem.cs" />
+    <Compile Include="Text\Extensions.cs" />
+    <Compile Include="Text\FindResult.cs" />
+    <Compile Include="Text\Indenter.cs" />
+    <Compile Include="Text\ITextContainer.cs" />
+    <Compile Include="Text\NewLineMode.cs" />
+    <Compile Include="Text\OutputSearchDefinition.cs" />
+    <Compile Include="Text\PatternLibrary.cs" />
+    <Compile Include="Text\RegexOptionsUtility.cs" />
+    <Compile Include="Text\RegularExpressions\CaptureEqualityComparer.cs" />
+    <Compile Include="Text\RegularExpressions\CaptureItem.cs" />
+    <Compile Include="Text\RegularExpressions\CaptureItemCollection.cs" />
+    <Compile Include="Text\RegularExpressions\CaptureItemEqualityComparer.cs" />
+    <Compile Include="Text\RegularExpressions\CharMatchInfo.cs" />
+    <Compile Include="Text\RegularExpressions\EnumerableExtensions.cs" />
+    <Compile Include="Text\RegularExpressions\Extensions\RegexExtensions.cs" />
+    <Compile Include="Text\RegularExpressions\GroupEqualityComparer.cs" />
+    <Compile Include="Text\RegularExpressions\GroupInfo.cs" />
+    <Compile Include="Text\RegularExpressions\GroupInfoCollection.cs" />
+    <Compile Include="Text\RegularExpressions\GroupInfoIndexEqualityComparer.cs" />
+    <Compile Include="Text\RegularExpressions\GroupInfoSorter.cs" />
+    <Compile Include="Text\RegularExpressions\GroupItem.cs" />
+    <Compile Include="Text\RegularExpressions\GroupItemCollection.cs" />
+    <Compile Include="Text\RegularExpressions\GroupItemEqualityComparer.cs" />
+    <Compile Include="Text\RegularExpressions\GroupSettings.cs" />
+    <Compile Include="Text\RegularExpressions\GroupSortProperty.cs" />
+    <Compile Include="Text\RegularExpressions\GroupSplitItem.cs" />
+    <Compile Include="Text\RegularExpressions\LimitState.cs" />
+    <Compile Include="Text\RegularExpressions\MatchData.cs" />
+    <Compile Include="Text\RegularExpressions\MatchEqualityComparer.cs" />
+    <Compile Include="Text\RegularExpressions\MatchItem.cs" />
+    <Compile Include="Text\RegularExpressions\MatchItemCollection.cs" />
+    <Compile Include="Text\RegularExpressions\MatchItemEqualityComparer.cs" />
+    <Compile Include="Text\RegularExpressions\MatchSplitItem.cs" />
+    <Compile Include="Text\RegularExpressions\RegexReplacer.cs" />
+    <Compile Include="Text\RegularExpressions\ReplaceData.cs" />
+    <Compile Include="Text\RegularExpressions\ReplaceItem.cs" />
+    <Compile Include="Text\RegularExpressions\ReplaceItemCollection.cs" />
+    <Compile Include="Text\RegularExpressions\ReplaceItemEqualityComparer.cs" />
+    <Compile Include="Text\RegularExpressions\ReplacementMode.cs" />
+    <Compile Include="Text\RegularExpressions\ReplacementSettings.cs" />
+    <Compile Include="Text\RegularExpressions\ReplaceResult.cs" />
+    <Compile Include="Text\RegularExpressions\ReplaceResultEqualityComparer.cs" />
+    <Compile Include="Text\RegularExpressions\SplitData.cs" />
+    <Compile Include="Text\RegularExpressions\SplitItem.cs" />
+    <Compile Include="Text\RegularExpressions\SplitItemCollection.cs" />
+    <Compile Include="Text\RegularExpressions\SplitItemEqualityComparer.cs" />
+    <Compile Include="Text\RegularExpressions\SplitItemKind.cs" />
+    <Compile Include="Text\RichTextBoxSearcher.cs" />
+    <Compile Include="Text\RichTextBoxWrapper.cs" />
+    <Compile Include="Text\SearchDefinition.cs" />
+    <Compile Include="Text\SearcherState.cs" />
+    <Compile Include="Text\SearchHelper.cs" />
+    <Compile Include="Text\SearchMatch.cs" />
+    <Compile Include="Text\SearchOptions.cs" />
+    <Compile Include="Text\SummaryElements.cs" />
+    <Compile Include="Text\ExportMode.cs" />
+    <Compile Include="Text\ConcatOperatorPosition.cs" />
+    <Compile Include="Text\TextSearcher.cs" />
+    <Compile Include="Text\TextSpan.cs" />
+    <Compile Include="Text\TextSpanComparer.cs" />
+    <Compile Include="Text\TextSpanExtensions.cs" />
+    <Compile Include="Text\TextUtility.cs" />
+    <Compile Include="UI\CharacterAnalyzerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CharacterAnalyzerForm.Designer.cs">
+      <DependentUpon>CharacterAnalyzerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Output\OutputFormatter.cs" />
+    <Compile Include="Text\CarriageReturnProcessor.cs" />
+    <Compile Include="UI\GroupInfoItem.cs" />
+    <Compile Include="Snippets\SnippetCodeSenseItem.cs" />
+    <Compile Include="Snippets\SnippetTitleSenseItem.cs" />
+    <Compile Include="ContainerPropsExtensions.cs" />
+    <Compile Include="Output\CaptureBlockIterator.cs" />
+    <Compile Include="Output\CaptureInfoSelections.cs" />
+    <Compile Include="Output\SplitBlockIterator.cs" />
+    <Compile Include="FileSystem\ClipboardItem.cs" />
+    <Compile Include="FileSystem\DragItem.cs" />
+    <Compile Include="FileSystem\IInputContainer.cs" />
+    <Compile Include="FileSystem\INode.cs" />
+    <Compile Include="FileSystem\SaveExecutor.cs" />
+    <Compile Include="NewItemCommand.cs" />
+    <Compile Include="EnumParseResult.cs" />
+    <Compile Include="RegexOptionsCollection.cs" />
+    <Compile Include="Text\INewLineMode.cs" />
+    <Compile Include="Text\InputTextProcessor.cs" />
+    <Compile Include="FileSystem\InputNode.cs" />
+    <Compile Include="FileSystem\DragDrop.cs" />
+    <Compile Include="FileSystem\KeyProcessor.cs" />
+    <Compile Include="FileSystem\FileConnection.cs" />
+    <Compile Include="ItemAttributesExtensions.cs" />
+    <Compile Include="FileSystem\ClipboardManager.cs" />
+    <Compile Include="Output\Enums.cs" />
+    <Compile Include="ErrorInfo.cs" />
+    <Compile Include="FileSystem\FileSystemCommand.cs" />
+    <Compile Include="FileSystem\ContextMenuStripFactory.cs" />
+    <Compile Include="FileSystem\CopySuffixGenerator.cs" />
+    <Compile Include="FileSystem\InvalidInputNode.cs" />
+    <Compile Include="FileSystem\InvalidNode.cs" />
+    <Compile Include="FileSystem\InvalidProjectNode.cs" />
+    <Compile Include="FileSystem\NodeFactory.cs" />
+    <Compile Include="FileSystem\SuffixGenerator.cs" />
+    <Compile Include="FileSystem\FileSystemManager.cs" />
+    <Compile Include="FileSystem\RecentDirectory.cs" />
+    <Compile Include="FileSystem\RecentProject.cs" />
+    <Compile Include="InputCollection.cs" />
+    <Compile Include="LocalizedDisplayNameAttribute.cs" />
+    <Compile Include="Text\SummaryElement.cs" />
+    <Compile Include="RegexOptionsManager.cs" />
+    <Compile Include="UI\EnumUtility.cs" />
+    <Compile Include="UI\NewItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NewItemForm.Designer.cs">
+      <DependentUpon>NewItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FindToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\SaveFormTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UndoEventArgs.cs" />
+    <Compile Include="ValueRestorer.cs" />
+    <Compile Include="VersionConverter.cs" />
+    <Compile Include="Windows\Forms\ColorComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ColorPicker.cs" />
+    <Compile Include="Windows\Forms\ColorPickerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ColorPickerTableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ControlExtensions.cs" />
+    <Compile Include="Windows\Forms\DataGridViewColumnCollectionExtensions.cs" />
+    <Compile Include="Windows\Forms\DataGridViewColumnExtensions.cs" />
+    <Compile Include="Windows\Forms\DataGridViewColumnInfo.cs" />
+    <Compile Include="Windows\Forms\DataGridViewDisableButtonCell.cs" />
+    <Compile Include="Windows\Forms\DataGridViewDisableButtonColumn.cs" />
+    <Compile Include="Windows\Forms\DataGridViewExtensions.cs" />
+    <Compile Include="Windows\Forms\DataGridViewRowCollectionExtensions.cs" />
+    <Compile Include="Windows\Forms\DataGridViewRowExtensions.cs" />
+    <Compile Include="Windows\Forms\ExtendedDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ExtendedListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ExtendedRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ExtendedSplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ExtendedTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ExtendedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ExtendedToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\ExtendedTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\FormExtensions.cs" />
+    <Compile Include="Windows\Forms\ListViewExtensions.cs" />
+    <Compile Include="Windows\Forms\ListViewItemComparer.cs" />
+    <Compile Include="Windows\Forms\RichTextBoxExtensions.cs" />
+    <Compile Include="Windows\Forms\SelectionMemento.cs" />
+    <Compile Include="Windows\Forms\TabControlExtensions.cs" />
+    <Compile Include="Windows\Forms\TabPageExtensions.cs" />
+    <Compile Include="Windows\Forms\TextBoxBaseExtensions.cs" />
+    <Compile Include="Windows\Forms\TextBoxTextSpan.cs" />
+    <Compile Include="Windows\Forms\TextBoxUtility.cs" />
+    <Compile Include="Windows\Forms\ToolStripDropDownExtensions.cs" />
+    <Compile Include="Windows\Forms\ToolStripItemCollectionExtensions.cs" />
+    <Compile Include="Windows\Forms\ToolStripSpringTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows\Forms\TreeNodeExtensions.cs" />
+    <Compile Include="Windows\Forms\TreeViewExtensions.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan1\OutputInfo.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan1\GroupSettings.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan1\ProjectInfo.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan1\Replacement.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan1\ProjectContainer.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan1\ProjectsElement.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan2\Input.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan2\Project.cs" />
+    <Compile Include="Xml\Serialization\GuideItem.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan2\OutputInfo.cs" />
+    <Compile Include="Xml\Serialization\Projects\GroupSettings.cs" />
+    <Compile Include="Xml\Serialization\Projects\Input.cs" />
+    <Compile Include="Xml\Serialization\Projects\FileSystemSearchInfo.cs" />
+    <Compile Include="Xml\Serialization\Projects\OutputInfo.cs" />
+    <Compile Include="Xml\Serialization\Projects\Pattern.cs" />
+    <Compile Include="Xml\Serialization\Projects\Project.cs" />
+    <Compile Include="Xml\Serialization\Projects\ProjectInfo.cs" />
+    <Compile Include="Xml\Serialization\Projects\ProjectsElement.cs" />
+    <Compile Include="Xml\Serialization\Projects\ProjectSerializationCancelEventArgs.cs" />
+    <Compile Include="Xml\Serialization\Projects\Replacement.cs" />
+    <Compile Include="Xml\Serialization\RegexCategoryInfo.cs" />
+    <Compile Include="Xml\Serialization\RegexOptionsItem.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan2\Replacement.cs" />
+    <Compile Include="FileSystem\Executor.cs" />
+    <Compile Include="Snippets\LiteralInfo.cs" />
+    <Compile Include="Snippets\SenseDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Snippets\SnippetErrorInfo.cs" />
+    <Compile Include="UI\ErrorInfoDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectInfoPropertyGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectDeleteForm.Designer.cs">
+      <DependentUpon>ProjectDeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Enums.cs" />
+    <Compile Include="UI\SwitcherItem.cs" />
+    <Compile Include="Pattern.cs" />
+    <Compile Include="Output\MatchTableBuilder.cs" />
+    <Compile Include="Output\RegexBlock.cs" />
+    <Compile Include="EnumHelper.cs" />
+    <Compile Include="FileSystem\FileErrorInfo.cs" />
+    <Compile Include="UI\ErrorInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ErrorInfoForm.Designer.cs">
+      <DependentUpon>ErrorInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileSystem\EnumUtility.cs" />
+    <Compile Include="FileSystem\SaveEventArgs.cs" />
+    <Compile Include="InputPropsExtensions.cs" />
+    <Compile Include="ProjectInfo.cs" />
+    <Compile Include="Snippets\Snippet.cs" />
+    <Compile Include="Snippets\SnippetInsertProcessor.cs" />
+    <Compile Include="Snippets\SnippetLiteral.cs" />
+    <Compile Include="Snippets\SnippetSearchManager.cs" />
+    <Compile Include="Output\CaptureBlock.cs" />
+    <Compile Include="FormatInfo.cs" />
+    <Compile Include="UI\SwitcherItemCollection.cs" />
+    <Compile Include="UI\RegexOptionsDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Snippets\CodeSense.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Snippets\CodeSense.Designer.cs">
+      <DependentUpon>CodeSense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Snippets\Enums.cs" />
+    <Compile Include="Snippets\ExtendedSnippetInfo.cs" />
+    <Compile Include="Snippets\SnippetLiteralEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Snippets\SnippetLiteralEditor.Designer.cs">
+      <DependentUpon>SnippetLiteralEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Snippets\SenseItemSorter.cs" />
+    <Compile Include="Snippets\SenseTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Text\Captions.cs" />
+    <Compile Include="Text\CSharpBuilder.cs" />
+    <Compile Include="Text\EnumHelper.cs" />
+    <Compile Include="Text\CodeBuilderSettings.cs" />
+    <Compile Include="Text\TextProcessor.cs" />
+    <Compile Include="Text\FormattedValue.cs" />
+    <Compile Include="Output\RegexBuilder.cs" />
+    <Compile Include="Output\MatchTextBuilder.cs" />
+    <Compile Include="Output\InfoSelections.cs" />
+    <Compile Include="Output\ReplaceBlock.cs" />
+    <Compile Include="Output\ReplaceOutputProcessor.cs" />
+    <Compile Include="Output\SplitBlock.cs" />
+    <Compile Include="Output\SplitTextBuilder.cs" />
+    <Compile Include="FileSystem\DirectoryNode.cs" />
+    <Compile Include="FileSystem\FileInputNode.cs" />
+    <Compile Include="FileSystem\ProjectNode.cs" />
+    <Compile Include="FileSystem\RootNode.cs" />
+    <Compile Include="UI\GroupDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Text\CodeBuilder.cs" />
+    <Compile Include="Text\CodeImporter.cs" />
+    <Compile Include="FileSystem\Dialogs.cs" />
+    <Compile Include="FileSystem\SaveManager.cs" />
+    <Compile Include="FileSystem\NodeSorter.cs" />
+    <Compile Include="FileSystem\FileSystemHistory.cs" />
+    <Compile Include="FileSystem\FileSystemUtility.cs" />
+    <Compile Include="FileSystem\RecentItem.cs" />
+    <Compile Include="FileSystem\Enums.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="FileSystem\RecentManager.cs" />
+    <Compile Include="RegexCategoryInfo.cs" />
+    <Compile Include="RegexInfo.cs" />
+    <Compile Include="Replacement.cs" />
+    <Compile Include="Output\ReplaceBuilder.cs" />
+    <Compile Include="Text\NewLineLiteral.cs" />
+    <Compile Include="Text\SummaryBuilder.cs" />
+    <Compile Include="Text\Symbols.cs" />
+    <Compile Include="Text\TextBoxSummaryBuilder.cs" />
+    <Compile Include="Text\TextLine.cs" />
+    <Compile Include="Text\VisualBasicBuilder.cs" />
+    <Compile Include="Xml\Serialization\FormatGroup.cs" />
+    <Compile Include="Xml\Serialization\FormatInfo.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan2\GroupSettings.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan2\Pattern.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan2\ProjectInfo.cs" />
+    <Compile Include="Xml\Serialization\Snippets\CodeElement.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan1\Input.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan1\Project.cs" />
+    <Compile Include="Xml\Serialization\ProjectsVersionLessThan2\ProjectsElement.cs" />
+    <Compile Include="Xml\Serialization\Snippets\RegexSnippet.cs" />
+    <Compile Include="Xml\Serialization\Projects\ProjectSerializationEventArgs.cs" />
+    <Compile Include="Xml\Serialization\Projects\ProjectSerializer.cs" />
+    <Compile Include="Text\SummaryBuilderBase.cs" />
+    <Compile Include="Text\SummaryInfo.cs" />
+    <Compile Include="Text\SummarySettings.cs" />
+    <Compile Include="Snippets\SenseItem.cs" />
+    <Compile Include="FormatGroup.cs" />
+    <Compile Include="Xml\Serialization\Snippets\HeaderElement.cs" />
+    <Compile Include="Xml\Serialization\Snippets\RegexSnippetsElement.cs" />
+    <Compile Include="Xml\Serialization\Snippets\SnippetElement.cs" />
+    <Compile Include="Xml\Serialization\Snippets\SnippetLiteral.cs" />
+    <Compile Include="Output\SplitBuilder.cs" />
+    <Compile Include="IndexSearcherItem.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="OutputInfo.cs" />
+    <Compile Include="GroupSettingsHelper.cs" />
+    <Compile Include="IndexSearcher.cs" />
+    <Compile Include="Input.cs" />
+    <Compile Include="ProjectContainer.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="FileSystem\FileSystemNode.cs" />
+    <Compile Include="FileSystem\FileSystemTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\SaveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SaveForm.Designer.cs">
+      <DependentUpon>SaveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Snippets\SnippetSenseItem.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Output\OutputSettings.cs" />
+    <Compile Include="Output\MatchBuilder.cs" />
+    <Compile Include="GuideItem.cs" />
+    <Compile Include="GuideSearchManager.cs" />
+    <Compile Include="Text\PatternFormatter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegexOptionsItem.cs" />
+    <Compile Include="UI\RegexOptionsPanel.cs" />
+    <Compile Include="Snippets\RegexSnippet.cs" />
+    <Compile Include="RichTextBoxUtility.cs" />
+    <Compile Include="SearchManagerBase.cs" />
+    <Compile Include="Xml\Serialization\Snippets\SnippetSerializer.cs" />
+    <Compile Include="Xml\Serialization\Snippets\SnippetInfo.cs" />
+    <Compile Include="UI\SearchToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Xml\Serialization\XmlSerializationManager.cs" />
+    <Compile Include="Xml\Serialization\XmlSerializationManagerOfT.cs" />
+    <Compile Include="Xml\XmlUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\CharacterAnalyzerForm.resx">
+      <DependentUpon>CharacterAnalyzerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewItemForm.resx">
+      <DependentUpon>NewItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectDeleteForm.resx">
+      <DependentUpon>ProjectDeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ErrorInfoForm.resx">
+      <DependentUpon>ErrorInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SaveForm.resx">
+      <DependentUpon>SaveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Snippets\CodeSense.resx">
+      <DependentUpon>CodeSense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Snippets\SnippetLiteralEditor.resx">
+      <DependentUpon>SnippetLiteralEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\ColorPickerForm.resx">
+      <DependentUpon>ColorPickerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Forms\ExtendedListView.resx">
+      <DependentUpon>ExtendedListView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Resources\Regexator.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoReload.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCodeOpen.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoRename.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoDelete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoFileNew.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoFilePlus.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCodeSolution.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCode.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCodeSelected.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoFile.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoFileSelected.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoFileError.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCodeError.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoOpen.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCodeNew.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoChecked.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCheckedAll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCheckedNone.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCheckedNot.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoFolder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoFolderOpen.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoHeart.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoInsertSnippet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoInsertSnippet2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoInfo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoSnippetExtensible.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoSnippet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCollapseAll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoExpandAll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoArrowLeft.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoArrowRight.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoNewFolder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoInput.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoInputNew.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoInputSelected.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoNewProjectWithFileInput.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoNewProjectWithInput.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCopy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCut.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoPaste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoNewItem.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCheckAll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoUncheckAll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XmlRegexOptionsItems.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoMatchCase.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoMatchWhole.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoArrowRightSmall.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoReplace.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoReplaceAll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoClose.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCultureInvariant.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoECMAScript.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoIgnoreCase.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoSquareBrackets.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

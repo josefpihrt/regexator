@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>CharacterClasses</Category>
+            <Name>CharacterGroup</Name>
+            <Title>Character Group</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>Matches any single character in the range from first to last.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+                <SnippetKind>Surround</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[[%selected%%end%]]]></Code>
+                <Code Kind="Negative"><![CDATA[[^%selected%%end%]]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

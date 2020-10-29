@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>Quantifiers</Category>
+            <Name>Count</Name>
+            <Title>Count</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>Matches the previous element at least n times, but no more than m times.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Literals>
+                <Literal>
+                    <Id>minCount</Id>
+                    <Default>0</Default>
+                    <Description>At least n times</Description>
+                </Literal>
+                <Literal>
+                    <Id>maxCount</Id>
+                    <Default>1</Default>
+                    <Description>No more than m times</Description>
+                </Literal>
+            </Literals>
+            <Codes>
+                <Code><![CDATA[{%minCount%,%maxCount%}]]></Code>
+                <Code Kind="Lazy"><![CDATA[{%minCount%,%maxCount%}?]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

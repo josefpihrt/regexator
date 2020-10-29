@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>CharacterClasses</Category>
+            <Name>Digit</Name>
+            <Title>Digit</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>Matches a digit.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\d]]></Code>
+                <Code Kind="Negative"><![CDATA[\D]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

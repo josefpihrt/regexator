@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFormatGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <FormatGroup>
+        <Name>TextEditor</Name>
+        <Text>Text Editor</Text>
+        <FontFamily>Consolas</FontFamily>
+        <FontSize>8</FontSize>
+    </FormatGroup>
+    <FormatGroup>
+        <Name>Summary</Name>
+        <Text>Summary</Text>
+        <FontFamily>Consolas</FontFamily>
+        <FontSize>8</FontSize>
+    </FormatGroup>
+    <FormatGroup>
+        <Name>Table</Name>
+        <Text>Table</Text>
+        <FontFamily>Segoe UI</FontFamily>
+        <FontSize>8</FontSize>
+    </FormatGroup>
+    <FormatGroup>
+        <Name>Description</Name>
+        <Text>Description</Text>
+        <FontFamily>Segoe UI</FontFamily>
+        <FontSize>9</FontSize>
+    </FormatGroup>
+    <FormatGroup>
+        <Name>SnippetList</Name>
+        <Text>Snippet List</Text>
+        <FontFamily>Segoe UI</FontFamily>
+        <FontSize>8</FontSize>
+    </FormatGroup>
+</ArrayOfFormatGroup>

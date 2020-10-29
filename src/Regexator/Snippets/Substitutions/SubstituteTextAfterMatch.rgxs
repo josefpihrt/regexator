@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>Substitutions</Category>
+            <Name>SubstituteTextAfterMatch</Name>
+            <Title>Substitute Text After Match</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>Substitutes all the text of the input string after the match.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[$']]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

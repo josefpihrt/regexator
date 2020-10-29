@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>AllControlCharacters</Name>
+            <Title>All Control Characters</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>All control characters. This includes the Cc, Cf, Cs, Co, and Cn categories.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{C}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{C}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>AllDiacriticMarks</Name>
+            <Title>All Diacritic Marks</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>All diacritic marks. This includes the Mn, Mc, and Me categories.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{M}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{M}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>AllLetterCharacters</Name>
+            <Title>All Letter Characters</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>All letter characters. This includes the Lu, Ll, Lt, Lm, and Lo characters.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{L}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{L}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>AllNumbers</Name>
+            <Title>All Numbers</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>All numbers. This includes the Nd, Nl, and No categories.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{N}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{N}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>AllPunctuationCharacters</Name>
+            <Title>All Punctuation Characters</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>All punctuation characters. This includes the Pc, Pd, Ps, Pe, Pi, Pf, and Po categories.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{P}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{P}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>AllSeparatorCharacters</Name>
+            <Title>All Separator Characters</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>All separator characters. This includes the Zs, Zl, and Zp categories.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Z}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Z}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>AllSymbols</Name>
+            <Title>All Symbols</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>All symbols. This includes the Sm, Sc, Sk, and So categories.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{S}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{S}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>LetterLowercase</Name>
+            <Title>Letter, Lowercase</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Letter, Lowercase</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Ll}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Ll}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>LetterModifier</Name>
+            <Title>Letter, Modifier</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Letter, Modifier</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Lm}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Lm}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>LetterOther</Name>
+            <Title>Letter, Other</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Letter, Other</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Lo}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Lo}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>LetterTitlecase</Name>
+            <Title>Letter, Titlecase</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Letter, Titlecase</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Lt}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Lt}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>LetterUppercase</Name>
+            <Title>Letter, Uppercase</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Letter, Uppercase</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Lu}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Lu}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>MarkEnclosing</Name>
+            <Title>Mark, Enclosing</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Mark, Enclosing</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Me}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Me}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>MarkNonspacing</Name>
+            <Title>Mark, Nonspacing</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Mark, Nonspacing</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Mn}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Mn}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>MarkSpacingCombining</Name>
+            <Title>Mark, Spacing Combining</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Mark, Spacing Combining</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Mc}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Mc}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>NumberDecimalDigit</Name>
+            <Title>Number, Decimal Digit</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Number, Decimal Digit</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Nd}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Nd}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>NumberLetter</Name>
+            <Title>Number, Letter</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Number, Letter</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Nl}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Nl}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>NumberOther</Name>
+            <Title>Number, Other</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Number, Other</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{No}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{No}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>OtherControl</Name>
+            <Title>Other, Control</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Other, Control</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Cc}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Cc}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>OtherFormat</Name>
+            <Title>Other, Format</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Other, Format</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Cf}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Cf}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>OtherNotAssigned</Name>
+            <Title>Other, Not Assigned</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Other, Not Assigned (no characters have this property)</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Cn}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Cn}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>OtherPrivateUse</Name>
+            <Title>Other, Private Use</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Other, Private Use</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Co}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Co}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>OtherSurrogate</Name>
+            <Title>Other, Surrogate</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Other, Surrogate</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Cs}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Cs}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>PunctuationClose</Name>
+            <Title>Punctuation, Close</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Punctuation, Close</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Pe}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Pe}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>PunctuationConnector</Name>
+            <Title>Punctuation, Connector</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Punctuation, Connector</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Pc}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Pc}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>PunctuationDash</Name>
+            <Title>Punctuation, Dash</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Punctuation, Dash</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Pd}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Pd}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>PunctuationFinalQuote</Name>
+            <Title>Punctuation, Final Quote</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Punctuation, Final quote (may behave like Ps or Pe depending on usage)</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Pf}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Pf}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>PunctuationInitialQuote</Name>
+            <Title>Punctuation, Initial Quote</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Punctuation, Initial quote (may behave like Ps or Pe depending on usage)</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Pi}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Pi}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>PunctuationOpen</Name>
+            <Title>Punctuation, Open</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Punctuation, Open</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Ps}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Ps}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>PunctuationOther</Name>
+            <Title>Punctuation, Other</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Punctuation, Other</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Po}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Po}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>SeparatorLine</Name>
+            <Title>Separator, Line</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Separator, Line</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Zl}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Zl}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>SeparatorParagraph</Name>
+            <Title>Separator, Paragraph</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Separator, Paragraph</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Zp}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Zp}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>SeparatorSpace</Name>
+            <Title>Separator, Space</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Separator, Space</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Zs}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Zs}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>SymbolCurrency</Name>
+            <Title>Symbol, Currency</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Symbol, Currency</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Sc}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Sc}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>SymbolMath</Name>
+            <Title>Symbol, Math</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Symbol, Math</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Sm}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Sm}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>SymbolModifier</Name>
+            <Title>Symbol, Modifier</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Symbol, Modifier</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{Sk}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{Sk}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>GeneralCategories</Category>
+            <Name>SymbolOther</Name>
+            <Title>Symbol, Other</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>Symbol, Other</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{So}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{So}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

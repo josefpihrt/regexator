@@ -1,0 +1,128 @@
+ Null
+StartOfHeading
+StartOfText
+EndOfText
+EndOfTransmission
+Enquiry
+Acknowledge
+Bell
+Backspace
+Tab
+Linefeed
+ VerticalTab
+FormFeed
+ CarriageReturn
+ShiftOut
+ShiftIn
+DataLinkEscape
+DeviceControlOne
+DeviceControlTwo
+DeviceControlThree
+DeviceControlFour
+NegativeAcknowledge
+SynchronousIdle
+EndOfTransmissionBlock
+Cancel
+EndOfMedium
+Substitute
+Escape
+InformationSeparatorFour
+InformationSeparatorThree
+InformationSeparatorTwo
+InformationSeparatorOne
+Space
+ExclamationMark
+QuotationMark
+NumberSign
+Dollar
+Percent
+Ampersand
+Apostrophe
+LeftParenthesis
+RightParenthesis
+Asterisk
+Plus
+Comma
+Hyphen
+FullStop
+Slash
+ DigitZero
+ DigitOne
+ DigitTwo
+ DigitThree
+ DigitFour
+ DigitFive
+ DigitSix
+ DigitSeven
+ DigitEight
+ DigitNine
+Colon
+Semicolon
+LessThan
+EqualsSign
+GreaterThan
+QuestionMark
+CommercialAt
+ CapitalLetterA
+ CapitalLetterB
+ CapitalLetterC
+ CapitalLetterD
+ CapitalLetterE
+ CapitalLetterF
+ CapitalLetterG
+ CapitalLetterH
+ CapitalLetterI
+ CapitalLetterJ
+ CapitalLetterK
+ CapitalLetterL
+ CapitalLetterM
+ CapitalLetterN
+ CapitalLetterO
+ CapitalLetterP
+ CapitalLetterQ
+ CapitalLetterR
+ CapitalLetterS
+ CapitalLetterT
+ CapitalLetterU
+ CapitalLetterV
+ CapitalLetterW
+ CapitalLetterX
+ CapitalLetterY
+ CapitalLetterZ
+LeftSquareBracket
+Backslash
+RightSquareBracket
+CircumflexAccent
+LowLine
+GraveAccent
+ SmallLetterA
+ SmallLetterB
+ SmallLetterC
+ SmallLetterD
+ SmallLetterE
+ SmallLetterF
+ SmallLetterG
+ SmallLetterH
+ SmallLetterI
+ SmallLetterJ
+ SmallLetterK
+ SmallLetterL
+ SmallLetterM
+ SmallLetterN
+ SmallLetterO
+ SmallLetterP
+ SmallLetterQ
+ SmallLetterR
+ SmallLetterS
+ SmallLetterT
+ SmallLetterU
+ SmallLetterV
+ SmallLetterW
+ SmallLetterX
+ SmallLetterY
+ SmallLetterZ
+LeftCurlyBracket
+VerticalLine
+RightCurlyBracket
+Tilde
+Delete

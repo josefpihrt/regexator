@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>Miscellaneous</Category>
+            <Name>InlineOptions</Name>
+            <Title>Inline Options</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>Applies or disables options.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Literals>
+                <Literal>
+                    <Id>apply</Id>
+                    <Default>imnsx</Default>
+                    <Description>Options to apply</Description>
+                </Literal>
+                <Literal>
+                    <Id>disable</Id>
+                    <Default>-imnsx</Default>
+                    <Description>Options to disable (optional)</Description>
+                </Literal>
+            </Literals>
+            <Codes>
+                <Code><![CDATA[(?%apply%%disable%)%end%]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

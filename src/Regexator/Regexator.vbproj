@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{83937431-293D-43F9-9FB7-BC53C8B1A9A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>Regexator</RootNamespace>
+    <AssemblyName>Regexator</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ApplicationRevision>116</ApplicationRevision>
+    <ApplicationVersion>1.5.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants>TATA=False, NO_INSTALL=False</DefineConstants>
+    <CodeAnalysisRuleSet>..\global.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants>TATA=False, NO_INSTALL=True</DefineConstants>
+    <CodeAnalysisRuleSet>..\global.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7C4C1D0866D1355B4674CBAFB14B6893F7E13854</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Regexator_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Regexator.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Pihrtsoft.Text.RegularExpressions.Linq, Version=2.5.0.0, Culture=neutral, PublicKeyToken=7b6a2af53c8ae8ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\LinqToRegex.2.5.0\lib\net40\Pihrtsoft.Text.RegularExpressions.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\AppFindToolStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AppSearchToolStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AppTabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\AppToolStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FileSystemSearchDataGridView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FileSystemSearchTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FileSystemSearchResultsContextMenuStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\OptionToolStripButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FindRichTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="_App\HighlightOptions.vb" />
+    <Compile Include="Controls\FileSystemSearchResultsDataGridView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_App\AppDialogs.vb" />
+    <Compile Include="_App\ExplorerStatusStripRenderer.vb" />
+    <Compile Include="_App\FileSystemSearchInfo.vb" />
+    <Compile Include="_App\SummaryCreator.vb" />
+    <Compile Include="_Panels\FileSystemSearchResultsPanel.vb" />
+    <Compile Include="_Panels\Panels.vb" />
+    <Compile Include="_Panels\RegexOptionsPanel.vb" />
+    <Compile Include="_App\Commands.vb" />
+    <Compile Include="_App\Exporter.vb" />
+    <Compile Include="_Panels\OutputTablePanel.vb" />
+    <Compile Include="_Panels\OutputTextPanel.vb" />
+    <Compile Include="_App\RecentSnippetItem.vb" />
+    <Compile Include="_App\SnippetDirectory.vb" />
+    <Compile Include="_App\SubstitutionSnippetSorter.vb" />
+    <Compile Include="_Panels\FindResultsPanel.vb" />
+    <Compile Include="_Panels\SummaryPanel.vb" />
+    <Compile Include="_App\Switcher.vb" />
+    <Compile Include="_App\MenuFactory.vb" />
+    <Compile Include="Controls\ExportRichTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FormattedPatternRichTextBox.vb" />
+    <Compile Include="Controls\SearchTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FileSystemSearchBox.Designer.vb">
+      <DependentUpon>FileSystemSearchBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FileSystemSearchBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SnippetDirectoryDataGridView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\EulaForm.Designer.vb">
+      <DependentUpon>EulaForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EulaForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="_App\ToolStripItemFactory.vb" />
+    <Compile Include="Controls\CurrentLineBox.Designer.vb">
+      <DependentUpon>CurrentLineBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CurrentLineBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SwitcherContextMenuStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\UserGuideForm.Designer.vb">
+      <DependentUpon>UserGuideForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserGuideForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\AppLiteralEditor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_App\AppForms.vb" />
+    <Compile Include="_App\Formats.vb" />
+    <Compile Include="_App\AppSettings.vb" />
+    <Compile Include="_App\SnippetInitializer.vb" />
+    <Compile Include="_App\SnippetManager.vb" />
+    <Compile Include="_App\AppToolStripRenderer.vb" />
+    <Compile Include="_App\AppUtility.vb" />
+    <Compile Include="_App\Enums.vb" />
+    <Compile Include="_App\NativeMethods.vb" />
+    <Compile Include="_App\RegexatorApplication.vb" />
+    <Compile Include="_Panels\ExplorerPanel.vb" />
+    <Compile Include="_Panels\GroupPanel.vb" />
+    <Compile Include="Controls\SnippetSense.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="_App\SnippetToolStripItemFactory.vb" />
+    <Compile Include="Controls\MainMenuStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\InputRichTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\OutputDataGridView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\OutputRichTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\OutputToolStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Panels\InfoPanel.vb" />
+    <Compile Include="_App\FormattedPatternTab.vb" />
+    <Compile Include="_Panels\ReplacementPanel.vb" />
+    <Compile Include="Controls\PatternRichTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_App\DataManager.vb" />
+    <Compile Include="_App\AppPaths.vb" />
+    <Compile Include="_Panels\OutputPanel.vb" />
+    <Compile Include="_Panels\PatternPanel.vb" />
+    <Compile Include="Forms\AboutForm.Designer.vb">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AboutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GuideForm.Designer.vb">
+      <DependentUpon>GuideForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GuideForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\MainToolStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_App\App.vb" />
+    <Compile Include="_Panels\InputPanel.vb" />
+    <Compile Include="Forms\OptionsForm.Designer.vb">
+      <DependentUpon>OptionsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OptionsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RegexRichTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Panels\ExportPanel.vb" />
+    <Compile Include="Controls\ReplacementRichTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SummaryRichTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\FileSystemSearchBox.resx">
+      <DependentUpon>FileSystemSearchBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AboutForm.resx">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EulaForm.resx">
+      <DependentUpon>EulaForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserGuideForm.resx">
+      <DependentUpon>UserGuideForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GuideForm.resx">
+      <DependentUpon>GuideForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OptionsForm.resx">
+      <DependentUpon>OptionsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Docs\eula.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Docs\user_guide.mht">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Docs\user_guide.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="My Project\app.manifest" />
+    <None Include="packages.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\IcoExport.ico" />
+    <None Include="Resources\IcoImport.ico" />
+    <None Include="Resources\IcoTilde.ico" />
+    <None Include="Resources\IcoDelete.ico" />
+    <None Include="Resources\IcoArrows.ico" />
+    <None Include="Resources\IcoNewProjectWithFileInput.ico" />
+    <None Include="Resources\IcoNewProjectWithInput.ico" />
+    <None Include="Resources\RtfEula.txt" />
+    <None Include="Resources\IcoFolder.ico" />
+    <None Include="Resources\IcoNewItem.ico" />
+    <None Include="Resources\IcoCheckAll.ico" />
+    <None Include="Resources\IcoUncheckAll.ico" />
+    <None Include="Resources\IcoCompiled.ico" />
+    <None Include="Resources\IcoCultureInvariant.ico" />
+    <None Include="Resources\IcoECMAScript.ico" />
+    <None Include="Resources\IcoExplicitCapture.ico" />
+    <None Include="Resources\IcoIgnoreCase.ico" />
+    <None Include="Resources\IcoIgnorePatternWhitespace.ico" />
+    <None Include="Resources\IcoMultiline.ico" />
+    <None Include="Resources\IcoRightToLeft.ico" />
+    <None Include="Resources\IcoSingleline.ico" />
+    <None Include="Resources\IcoWordWrap.ico" />
+    <None Include="Resources\IcoAll.ico" />
+    <None Include="Resources\IcoLayout.ico" />
+    <None Include="Resources\IcoOpenLink.ico" />
+    <None Include="Resources\IcoDescription.ico" />
+    <None Include="Resources\IcoALower.ico" />
+    <None Include="Resources\IcoAUpper.ico" />
+    <None Include="Resources\IcoHighlightAll.ico" />
+    <None Include="Resources\IcoSpaceSymbol.ico" />
+    <None Include="Resources\BasicLatinCharacters.txt" />
+    <None Include="Resources\Latin1SupplementCharacters.txt" />
+    <None Include="Resources\XmlGeneralCategories.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\XmlNamedBlocks.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\IcoGroupLayout.ico" />
+    <None Include="Resources\IcoValueLayout.ico" />
+    <None Include="Resources\IcoMultilineLiteral.ico" />
+    <None Include="Resources\IcoClose.ico" />
+    <None Include="Resources\IcoMediaStop.ico" />
+    <None Include="Resources\IcoTree.ico" />
+    <None Include="Resources\IcoExtension.ico" />
+    <None Include="Resources\IcoFileName.ico" />
+    <None Include="Resources\IcoFileNameWithoutExtension.ico" />
+    <None Include="Resources\IcoFile.ico" />
+    <None Include="Resources\IcoWidth.ico" />
+    <None Include="Resources\IcoOpen.ico" />
+    <Content Include="Snippets\AlternationConstructs\If.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\AlternationConstructs\Or.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\Contiguous.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\EndOfStringOrBeforeEndingLinefeed.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\WordBoundary.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\BackreferenceConstructs\NamedBackreference.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\BackreferenceConstructs\NamedBackreferenceQuotes.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\UnicodeCategoryOrBlock.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\WhiteSpaceCharacter.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\WordCharacter.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\ASCIIChar.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\ASCIIControlChar.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\Backspace.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\Bell.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\CarriageReturn.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\Escape.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\FormFeed.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\Linefeed.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\Tab.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\UTF16Char.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\VerticalTab.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\GroupingConstructs\BalancingGroup.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Snippets\GroupingConstructs\BalancingGroupQuotes.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\GroupingConstructs\GroupOptions.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\GroupingConstructs\NoncapturingGroup.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Miscellaneous\AngleBrackets.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Miscellaneous\CurlyBrackets.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Miscellaneous\InlineComment.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Miscellaneous\InlineOptions.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Miscellaneous\SquareBrackets.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Substitutions\SubstituteEntireInputString.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Substitutions\SubstituteEntireMatch.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Substitutions\SubstituteLastCapturedGroup.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Substitutions\SubstituteNamedGroup.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Substitutions\SubstituteTextAfterMatch.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Substitutions\SubstituteTextBeforeMatch.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\CharacterGroup.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Miscellaneous\RoundBracketsEscaped.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\CharacterGroupRange.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\WhiteSpaceExceptNewLine.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterEscapes\NewLine.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\CharacterSubtraction.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Quantifiers\Count.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Quantifiers\Maybe.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Quantifiers\MaybeMany.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Quantifiers\OneMany.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\AnyMaybeManyLazy.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\EndOfLineInvariant.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\StartOfLineInvariant.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\Alphanumeric.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\AnyInvariant.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\ArabicDigit.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\LatinLetter.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\EndOfLine.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\EndOfLineOrBeforeCarriageReturn.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\EndOfString.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\StartOfLine.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\StartOfString.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\Assert.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\AssertBack.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\NotAssert.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\NotAssertBack.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\GroupingConstructs\CapturingGroup.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\GroupingConstructs\NamedGroup.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\GroupingConstructs\NamedGroupQuotes.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\GroupingConstructs\NonbacktrackingGroup.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\EntireInput.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Anchors\EntireLine.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Substitutions\SubstituteDollar.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\Miscellaneous\Word.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\AlphanumericLower.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\AlphanumericUpper.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\Digit.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\HexadecimalDigit.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\CharacterClasses\NewLineChar.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\AlternationConstructs\DisallowGroup.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Snippets\AlternationConstructs\RequireGroup.rgxs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Regexator.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoArrowLeft.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoArrowRight.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoMediaPlay.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCode.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCurrent.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoSortAlphabetically.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoReload.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoSettings.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoPaintRoller.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoSave.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoSelection.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoHelp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoSearch.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoRectangleSmall.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoM.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoS.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoAscending.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoDescending.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoFindFirst.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoFindLast.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoFindNext.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoFindPrevious.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCommentAdd.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCommentRemove.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoInfo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoR.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCodeOpen.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoArrowLeftSmall.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCopy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCut.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoPaste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCollapseAll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoPrint.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoArrowRightSmall.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XmlGuideItems.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoExit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoRename.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCodeNew.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoArrowDownSmall.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoLetterASmall.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCodeSolution.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PngRegexator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoMediaPause.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCrLf.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoLf.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoSnippet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XmlRegexCategoryInfos.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoCSharp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoVisualBasic.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoIndentQuotes.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoLimit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoExportImport.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoArrowLeftSmallInverse.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoArrowRightSmallInverse.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoSaveAll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoGoToCursor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoUndoEnabled.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XmlFormatGroups.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XmlFormatInfos.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoSnippetExtensible.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcoExpandAll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Regexator.Core\Regexator.Core.csproj">
+      <Project>{9862fe99-af06-4515-a2f1-fc7fd706e92e}</Project>
+      <Name>Regexator.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

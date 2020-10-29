@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>Anchors</Category>
+            <Name>EndOfLineOrBeforeCarriageReturn</Name>
+            <Title>End of Line or Before Carriage Return</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>The match must occur before \r at the end of the string (or line if RegexOptions.Multiline), or at the end of the string (or line if RegexOptions.Multiline).</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[(?=\r?$)]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

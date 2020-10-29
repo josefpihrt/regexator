@@ -1,0 +1,314 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="OutputEnabled" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MainFormLocation" Roaming="true" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="MainFormSize" Roaming="true" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">800, 600</Value>
+    </Setting>
+    <Setting Name="MainFormWindowState" Roaming="true" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Maximized</Value>
+    </Setting>
+    <Setting Name="AppExitSuccess" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GuideFormLocation" Roaming="true" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="GuideFormSize" Roaming="true" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">800, 600</Value>
+    </Setting>
+    <Setting Name="GuideFormWindowState" Roaming="true" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Maximized</Value>
+    </Setting>
+    <Setting Name="MainFormSplitterDistanceMain" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="MainFormSplitterDistancePattern" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="MatchTimeout" Roaming="true" Type="System.TimeSpan" Scope="User">
+      <Value Profile="(Default)">00:00:02</Value>
+    </Setting>
+    <Setting Name="FileSystemUseRecycleBin" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DefaultRegexOptions" Roaming="true" Type="System.Text.RegularExpressions.RegexOptions" Scope="User">
+      <Value Profile="(Default)">IgnoreCase, ExplicitCapture, IgnorePatternWhitespace</Value>
+    </Setting>
+    <Setting Name="RecentProjects" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RecentItemsMaxCount" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">32</Value>
+    </Setting>
+    <Setting Name="DefaultPatternOptions" Roaming="true" Type="Regexator.PatternOptions" Scope="User">
+      <Value Profile="(Default)">None</Value>
+    </Setting>
+    <Setting Name="DefaultInputOptions" Roaming="true" Type="Regexator.InputOptions" Scope="User">
+      <Value Profile="(Default)">Highlight</Value>
+    </Setting>
+    <Setting Name="SettingsUpgradeRequired" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DefaultOutputOptions" Roaming="true" Type="Regexator.OutputOptions" Scope="User">
+      <Value Profile="(Default)">Highlight, Info, CarriageReturnSymbol, LinefeedSymbol, TabSymbol, NoCaptureSymbol</Value>
+    </Setting>
+    <Setting Name="GuideFormSplitterDistanceMain" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">150</Value>
+    </Setting>
+    <Setting Name="RecentDirectories" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FileSystemShowHidden" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FavoriteSnippets" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Anchors.NotAssert&lt;/string&gt;
+  &lt;string&gt;Anchors.Assert&lt;/string&gt;
+  &lt;string&gt;Anchors.NotAssertBack&lt;/string&gt;
+  &lt;string&gt;Anchors.AssertBack&lt;/string&gt;
+  &lt;string&gt;Anchors.EntireLine&lt;/string&gt;
+  &lt;string&gt;Anchors.StartOfLine&lt;/string&gt;
+  &lt;string&gt;Anchors.EndOfLine&lt;/string&gt;
+  &lt;string&gt;CharacterClasses.AnyMaybeManyLazy&lt;/string&gt;
+  &lt;string&gt;CharacterClasses.CharacterGroup&lt;/string&gt;
+  &lt;string&gt;CharacterEscapes.NewLine&lt;/string&gt;
+  &lt;string&gt;GroupingConstructs.NamedGroup&lt;/string&gt;
+  &lt;string&gt;GroupingConstructs.NoncapturingGroup&lt;/string&gt;
+  &lt;string&gt;Quantifiers.Count&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="HiddenCategories" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Substitutions&lt;/string&gt;
+  &lt;string&gt;NamedBlocks&lt;/string&gt;
+  &lt;string&gt;Latin1Supplement&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="DefaultFontSize" Roaming="true" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="ProjectExplorerOnLeft" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OtherTabNames" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DefaultReplacementOptions" Roaming="true" Type="Regexator.ReplacementOptions" Scope="User">
+      <Value Profile="(Default)">None</Value>
+    </Setting>
+    <Setting Name="OutputLimitEnabled" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OutputLimit" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="TextOutputTabNames" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OutputNumberAlignment" Roaming="true" Type="Regexator.Output.TextAlignment" Scope="User">
+      <Value Profile="(Default)">Right</Value>
+    </Setting>
+    <Setting Name="DefaultFavoriteSnippets" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Anchors.NotAssert&lt;/string&gt;
+  &lt;string&gt;Anchors.Assert&lt;/string&gt;
+  &lt;string&gt;Anchors.NotAssertBack&lt;/string&gt;
+  &lt;string&gt;Anchors.AssertBack&lt;/string&gt;
+  &lt;string&gt;Anchors.EntireLine&lt;/string&gt;
+  &lt;string&gt;Anchors.StartOfLine&lt;/string&gt;
+  &lt;string&gt;Anchors.EndOfLine&lt;/string&gt;
+  &lt;string&gt;CharacterClasses.AnyMaybeManyLazy&lt;/string&gt;
+  &lt;string&gt;CharacterClasses.CharacterGroup&lt;/string&gt;
+  &lt;string&gt;CharacterEscapes.NewLine&lt;/string&gt;
+  &lt;string&gt;GroupingConstructs.NamedGroup&lt;/string&gt;
+  &lt;string&gt;GroupingConstructs.NoncapturingGroup&lt;/string&gt;
+  &lt;string&gt;Quantifiers.Count&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="OutputMatchTableByGroups" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OutputOmitRepeatedInfo" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LinefeedSymbol" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CarriageReturnSymbol" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TabSymbol" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="NoCaptureSymbol" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastProjectPath" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastDirectoryPath" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="VisibleRegexOptions" Roaming="true" Type="System.Text.RegularExpressions.RegexOptions" Scope="User">
+      <Value Profile="(Default)">IgnoreCase, Multiline, ExplicitCapture, Singleline, IgnorePatternWhitespace</Value>
+    </Setting>
+    <Setting Name="DefaultReplacementNewLine" Roaming="true" Type="Text.NewLineMode" Scope="User">
+      <Value Profile="(Default)">Lf</Value>
+    </Setting>
+    <Setting Name="DefaultInputNewLine" Roaming="true" Type="Text.NewLineMode" Scope="User">
+      <Value Profile="(Default)">Lf</Value>
+    </Setting>
+    <Setting Name="UserGuideFormLocation" Roaming="true" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="UserGuideFormSize" Roaming="true" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">800, 600</Value>
+    </Setting>
+    <Setting Name="UserGuideFormWindowState" Roaming="true" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Maximized</Value>
+    </Setting>
+    <Setting Name="PatternIndentNewLine" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SelectEntireCurrentLineAfterLoad" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DefaultInputEncoding" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)">utf-8</Value>
+    </Setting>
+    <Setting Name="SnippetDirectories" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SetOptionsIfRequiredBySnippet" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UndoItemsMaxCount" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="RecentSnippetsMaxCount" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">16</Value>
+    </Setting>
+    <Setting Name="CheckAppVersion" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CheckAppVersionLastDate" Roaming="true" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2015-01-01</Value>
+    </Setting>
+    <Setting Name="CheckAppVersionTimeSpan" Roaming="true" Type="System.TimeSpan" Scope="User">
+      <Value Profile="(Default)">7.00:00:00</Value>
+    </Setting>
+    <Setting Name="TrackActiveItemInSolutionExplorer" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ConfirmFileInputRemoval" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OutputHighlightBeforeAfterResult" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RegexOptionsDescriptionVisible" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RegexOptionsHotkeyNumberVisible" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="InputWordWrap" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PatternWordWrap" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ReplacementWordWrap" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="InputOutputOrientation" Roaming="true" Type="System.Windows.Forms.Orientation" Scope="User">
+      <Value Profile="(Default)">Vertical</Value>
+    </Setting>
+    <Setting Name="MainFormSplitterDistanceInputOutputHorizontal" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="MainFormSplitterDistanceInputOutputVertical" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="MainFormSplitterDistanceRegexHorizontal" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="MainFormSplitterDistanceRegexVertical" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="DefaultReplacementText" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)">$&amp;</Value>
+    </Setting>
+    <Setting Name="MainFormStatusBarVisible" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GuideSearchDescription" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SpaceSymbol" Roaming="true" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FavoriteCharacters" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FavoritePatternCharacters" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CheckAppVersionQuestionDisplayed" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CodeExportMode" Roaming="true" Type="Regexator.Text.ExportMode" Scope="User">
+      <Value Profile="(Default)">CSharpVerbatim</Value>
+    </Setting>
+    <Setting Name="CodeExportMultiline" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="FindResultsMatchCase" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FindResultsMachWholeWord" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FindResultsSearchPattern" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="FindResultsSearchInput" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="FindResultsSearchReplacement" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="FindResultsSearchOutput" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FindResultsSearchPhraseHistory" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OutputTextWordWrap" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OutputSummaryWordWrap" Roaming="true" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OutputTabNames" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FileSystemSearchTabNames" Roaming="true" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FileSystemSearchMaxCount" Roaming="true" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

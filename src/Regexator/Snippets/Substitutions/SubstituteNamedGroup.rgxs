@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>Substitutions</Category>
+            <Name>SubstituteNamedGroup</Name>
+            <Title>Substitute Named Group</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>Substitutes the last substring matched by the named group.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Literals>
+                <Literal>
+                    <Id>name</Id>
+                    <Default>name</Default>
+                    <Description>Group name</Description>
+                </Literal>
+            </Literals>
+            <Codes>
+                <Code><![CDATA[${%name%}%end%]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

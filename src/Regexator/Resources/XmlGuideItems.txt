@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuideItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <GuideItem>
+        <Text><![CDATA[( subexpression )]]></Text>
+        <Category>GroupingConstructs</Category>
+        <Description>Captures the matched subexpression into a numbered group.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?< name > subexpression )  (?' name ' subexpression )]]></Text>
+        <Category>GroupingConstructs</Category>
+        <Description>Captures the matched subexpression into a named group.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?: subexpression )]]></Text>
+        <Category>GroupingConstructs</Category>
+        <Description>Defines a noncapturing group (not needed if RegexOptions.ExplicitCapture).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?> subexpression )]]></Text>
+        <Category>GroupingConstructs</Category>
+        <Description>Nonbacktracking subexpression.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?< name1 - name2 > subexpression )  (?' name1 - name2 ' subexpression )]]></Text>
+        <Category>GroupingConstructs</Category>
+        <Description>Defines a balancing group.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?imnsx-imnsx: subexpression )]]></Text>
+        <Category>GroupingConstructs</Category>
+        <Description>Applies or disables the specified options within subexpression.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?( expression ) yes | no )]]></Text>
+        <Category>AlternationConstructs</Category>
+        <Description>Matches yes if expression is matched (equivalent to: ?(?= expression ) yes | no ).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?( name ) yes | no )]]></Text>
+        <Category>AlternationConstructs</Category>
+        <Description>Matches yes if named group has a match.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?( number ) yes | no )]]></Text>
+        <Category>AlternationConstructs</Category>
+        <Description>Matches yes if numbered group has a match.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[|]]></Text>
+        <Category>AlternationConstructs</Category>
+        <Description>Matches any one element separated by | .</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[.]]></Text>
+        <Category>CharacterClasses</Category>
+        <Description>Matches any single character except \n (or any single character if RegexOptions.Singleline).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\d  \D]]></Text>
+        <Category>CharacterClasses</Category>
+        <Description>A (non-) decimal digit.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\s  \S]]></Text>
+        <Category>CharacterClasses</Category>
+        <Description>A (non-) white-space character.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\w  \W]]></Text>
+        <Category>CharacterClasses</Category>
+        <Description>A (non-) word character.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\p{ name }  \P{ name }]]></Text>
+        <Category>CharacterClasses</Category>
+        <Description>A character (not) in the Unicode general category or named block.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[[ character_group ]]]></Text>
+        <Category>CharacterClasses</Category>
+        <Description>Matches any single character in the character_group.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[[^ character_group ]]]></Text>
+        <Category>CharacterClasses</Category>
+        <Description>Matches any single character not in the character_group.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[[ first - last ]]]></Text>
+        <Category>CharacterClasses</Category>
+        <Description>Matches any single character in the range from first to last.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[[^ first - last ]]]></Text>
+        <Category>CharacterClasses</Category>
+        <Description>Matches any single character not in the range from first to last.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[[ base_group - [ excluded_group ]]]]></Text>
+        <Category>CharacterClasses</Category>
+        <Description>Matches any single character in the base_group except characters in the excluded_group.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[^]]></Text>
+        <Category>Anchors</Category>
+        <Description>The match must occur at the beginning of the string (or line if RegexOptions.Multiline).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[$]]></Text>
+        <Category>Anchors</Category>
+        <Description>The match must occur at the end of the string (or line if RegexOptions.Multiline), or before \n at the end of the string (or line if RegexOptions.Multiline).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\A]]></Text>
+        <Category>Anchors</Category>
+        <Description>The match must occur at the beginning of the string only.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\z \Z]]></Text>
+        <Category>Anchors</Category>
+        <Description>The match must occur at the end of the string (or before \n at the end of the string).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\G]]></Text>
+        <Category>Anchors</Category>
+        <Description>The match must occur at the position where the previous match ended.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\b \B]]></Text>
+        <Category>Anchors</Category>
+        <Description>(not) between \w and \W character.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?= subexpression )]]></Text>
+        <Category>Anchors</Category>
+        <Description>Zero-width positive lookahead assertion.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?! subexpression )]]></Text>
+        <Category>Anchors</Category>
+        <Description>Zero-width negative lookahead assertion.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?<= subexpression )]]></Text>
+        <Category>Anchors</Category>
+        <Description>Zero-width positive lookbehind assertion.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?<! subexpression )]]></Text>
+        <Category>Anchors</Category>
+        <Description>Zero-width negative lookbehind assertion.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\ number]]></Text>
+        <Category>BackreferenceConstructs</Category>
+        <Description>Matches the value of a numbered subexpression (or octal ASCII).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\k< name >  \k' name ']]></Text>
+        <Category>BackreferenceConstructs</Category>
+        <Description>Matches the value of a named expression.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[$ number]]></Text>
+        <Category>Substitutions</Category>
+        <Description>Substitutes the last substring matched by the numbered group.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[${ name }]]></Text>
+        <Category>Substitutions</Category>
+        <Description>Substitutes the last substring matched by the named group.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[$$]]></Text>
+        <Category>Substitutions</Category>
+        <Description>Substitutes a literal "$".</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[$&]]></Text>
+        <Category>Substitutions</Category>
+        <Description>Substitutes the entire match.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[$`]]></Text>
+        <Category>Substitutions</Category>
+        <Description>Substitutes all the text of the input string before the match.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[$']]></Text>
+        <Category>Substitutions</Category>
+        <Description>Substitutes all the text of the input string after the match.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[$+]]></Text>
+        <Category>Substitutions</Category>
+        <Description>Substitutes the last captured group.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[$_]]></Text>
+        <Category>Substitutions</Category>
+        <Description>Substitutes the entire input string.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\a]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Matches a bell character, \u0007.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\b]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>In a character class, matches a backspace, \u0008.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\t]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Matches a tab, \u0009.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\r]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Matches a carriage return, \u000D.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\v]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Matches a vertical tab, \u000B.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\f]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Matches a form feed, \u000C.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\n]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Matches a linefeed, \u000A.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\e]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Matches an escape, \u001B.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\c X  \c x]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Matches the ASCII control character, where X or x is the letter of control character.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\ nnn]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Matches an ASCII character (octal up to three digits) (or backreference).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\x nn]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Matches an ASCII character (hexadecimal two digits).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\u nnnn]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Matches an Unicode character (hexadecimal four digits).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[\]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Disambiguates language elements (e.g. *) and literals (e.g. \*).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[All characters except: . ^ $ { [ ( | ) * + ? \ ]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>No special meaning (they match themselves).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[] or -]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Special meaning only after [ .</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[}]]></Text>
+        <Category>CharacterEscapes</Category>
+        <Description>Special meaning only after { (never needs to be escaped).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[*]]></Text>
+        <Category>Quantifiers</Category>
+        <Description>Matches the previous element zero or more times.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[+]]></Text>
+        <Category>Quantifiers</Category>
+        <Description>Matches the previous element one or more times.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[?]]></Text>
+        <Category>Quantifiers</Category>
+        <Description>Matches the previous element zero or one time.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[{ n }]]></Text>
+        <Category>Quantifiers</Category>
+        <Description>Matches the previous element exactly n times.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[{ n ,} ]]></Text>
+        <Category>Quantifiers</Category>
+        <Description>Matches the previous element at least n times.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[{ n , m }]]></Text>
+        <Category>Quantifiers</Category>
+        <Description>Matches the previous element from n to m times.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[ ?]]></Text>
+        <Category>Quantifiers</Category>
+        <Description>... but as few times as possible.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?# comment )]]></Text>
+        <Category>Miscellaneous</Category>
+        <Description>Inline comment (ends at the first closing parenthesis).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[# comment]]></Text>
+        <Category>Miscellaneous</Category>
+        <Description>x-mode comment (continues to the end of the line).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[(?imnsx-imnsx)]]></Text>
+        <Category>Miscellaneous</Category>
+        <Description>Sets or disables options.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IgnoreCase  i]]></Text>
+        <Category>Options</Category>
+        <Description>Use case-insensitive matching.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Multiline  m]]></Text>
+        <Category>Options</Category>
+        <Description>^ and $ match the beginning and end of each line (instead of the beginning and end of the input string).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[ExplicitCapture  n]]></Text>
+        <Category>Options</Category>
+        <Description>Do not capture unnamed groups.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Singleline  s]]></Text>
+        <Category>Options</Category>
+        <Description>The period (.) matches every character (instead of every character except \n).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IgnorePatternWhitespace  x]]></Text>
+        <Category>Options</Category>
+        <Description>Exclude unescaped white-space from the pattern and enable comments after a number sign (#).</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Compiled]]></Text>
+        <Category>Options</Category>
+        <Description>Compile the regular expression to an assembly.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[CultureInvariant]]></Text>
+        <Category>Options</Category>
+        <Description>Ignore cultural differences between languages.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[ECMAScript]]></Text>
+        <Category>Options</Category>
+        <Description>Enable ECMAScript-compliant behavior for the expression.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[RightToLeft]]></Text>
+        <Category>Options</Category>
+        <Description>Search moves from right to left instead of from left to right.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[None]]></Text>
+        <Category>Options</Category>
+        <Description>Use default behavior.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsBasicLatin]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0000 - 007F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsLatin-1Supplement]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0080 - 00FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsLatinExtended-A]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0100 - 017F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsLatinExtended-B]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0180 - 024F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsIPAExtensions]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0250 - 02AF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsSpacingModifierLetters]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>02B0 - 02FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCombiningDiacriticalMarks]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0300 - 036F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsGreek or IsGreekandCoptic]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0370 - 03FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCyrillic]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0400 - 04FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCyrillicSupplement]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0500 - 052F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsArmenian]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0530 - 058F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsHebrew]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0590 - 05FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsArabic]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0600 - 06FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsSyriac]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0700 - 074F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsThaana]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0780 - 07BF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsDevanagari]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0900 - 097F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsBengali]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0980 - 09FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsGurmukhi]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0A00 - 0A7F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsGujarati]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0A80 - 0AFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsOriya]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0B00 - 0B7F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsTamil]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0B80 - 0BFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsTelugu]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0C00 - 0C7F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsKannada]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0C80 - 0CFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsMalayalam]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0D00 - 0D7F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsSinhala]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0D80 - 0DFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsThai]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0E00 - 0E7F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsLao]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0E80 - 0EFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsTibetan]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>0F00 - 0FFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsMyanmar]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1000 - 109F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsGeorgian]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>10A0 - 10FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsHangulJamo]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1100 - 11FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsEthiopic]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1200 - 137F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCherokee]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>13A0 - 13FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsUnifiedCanadianAboriginalSyllabics]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1400 - 167F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsOgham]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1680 - 169F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsRunic]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>16A0 - 16FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsTagalog]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1700 - 171F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsHanunoo]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1720 - 173F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsBuhid]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1740 - 175F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsTagbanwa]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1760 - 177F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsKhmer]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1780 - 17FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsMongolian]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1800 - 18AF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsLimbu]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1900 - 194F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsTaiLe]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1950 - 197F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsKhmerSymbols]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>19E0 - 19FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsPhoneticExtensions]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1D00 - 1D7F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsLatinExtendedAdditional]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1E00 - 1EFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsGreekExtended]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>1F00 - 1FFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsGeneralPunctuation]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2000 - 206F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsSuperscriptsandSubscripts]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2070 - 209F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCurrencySymbols]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>20A0 - 20CF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCombiningDiacriticalMarksforSymbols or IsCombiningMarksforSymbols]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>20D0 - 20FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsLetterlikeSymbols]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2100 - 214F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsNumberForms]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2150 - 218F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsArrows]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2190 - 21FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsMathematicalOperators]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2200 - 22FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsMiscellaneousTechnical]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2300 - 23FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsControlPictures]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2400 - 243F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsOpticalCharacterRecognition]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2440 - 245F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsEnclosedAlphanumerics]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2460 - 24FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsBoxDrawing]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2500 - 257F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsBlockElements]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2580 - 259F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsGeometricShapes]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>25A0 - 25FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsMiscellaneousSymbols]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2600 - 26FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsDingbats]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2700 - 27BF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsMiscellaneousMathematicalSymbols-A]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>27C0 - 27EF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsSupplementalArrows-A]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>27F0 - 27FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsBraillePatterns]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2800 - 28FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsSupplementalArrows-B]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2900 - 297F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsMiscellaneousMathematicalSymbols-B]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2980 - 29FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsSupplementalMathematicalOperators]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2A00 - 2AFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsMiscellaneousSymbolsandArrows]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2B00 - 2BFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCJKRadicalsSupplement]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2E80 - 2EFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsKangxiRadicals]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2F00 - 2FDF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsIdeographicDescriptionCharacters]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>2FF0 - 2FFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCJKSymbolsandPunctuation]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>3000 - 303F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsHiragana]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>3040 - 309F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsKatakana]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>30A0 - 30FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsBopomofo]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>3100 - 312F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsHangulCompatibilityJamo]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>3130 - 318F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsKanbun]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>3190 - 319F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsBopomofoExtended]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>31A0 - 31BF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsKatakanaPhoneticExtensions]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>31F0 - 31FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsEnclosedCJKLettersandMonths]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>3200 - 32FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCJKCompatibility]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>3300 - 33FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCJKUnifiedIdeographsExtensionA]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>3400 - 4DBF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsYijingHexagramSymbols]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>4DC0 - 4DFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCJKUnifiedIdeographs]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>4E00 - 9FFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsYiSyllables]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>A000 - A48F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsYiRadicals]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>A490 - A4CF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsHangulSyllables]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>AC00 - D7AF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsHighSurrogates]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>D800 - DB7F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsHighPrivateUseSurrogates]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>DB80 - DBFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsLowSurrogates]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>DC00 - DFFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsPrivateUse or IsPrivateUseArea]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>E000 - F8FF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCJKCompatibilityIdeographs ]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>F900 - FAFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsAlphabeticPresentationForms ]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>FB00 - FB4F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsArabicPresentationForms-A ]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>FB50 - FDFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsVariationSelectors ]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>FE00 - FE0F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCombiningHalfMarks ]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>FE20 - FE2F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsCJKCompatibilityForms ]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>FE30 - FE4F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsSmallFormVariants ]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>FE50 - FE6F</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsArabicPresentationForms-B ]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>FE70 - FEFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsHalfwidthandFullwidthForms ]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>FF00 - FFEF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[IsSpecials]]></Text>
+        <Category>NamedBlocks</Category>
+        <Description>FFF0 - FFFF</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Lu]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Letter, Uppercase</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Ll]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Letter, Lowercase</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Lt]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Letter, Titlecase</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Lm]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Letter, Modifier</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Lo]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Letter, Other</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[L]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>All letter characters. This includes the Lu, Ll, Lt, Lm, and Lo characters.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Mn]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Mark, Nonspacing</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Mc]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Mark, Spacing Combining</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Me]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Mark, Enclosing</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[M]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>All diacritic marks. This includes the Mn, Mc, and Me categories.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Nd]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Number, Decimal Digit</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Nl]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Number, Letter</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[No]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Number, Other</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[N]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>All numbers. This includes the Nd, Nl, and No categories.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Pc]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Punctuation, Connector</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Pd]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Punctuation, Dash</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Ps]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Punctuation, Open</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Pe]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Punctuation, Close</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Pi]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Punctuation, Initial quote (may behave like Ps or Pe depending on usage)</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Pf]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Punctuation, Final quote (may behave like Ps or Pe depending on usage)</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Po]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Punctuation, Other</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[P]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>All punctuation characters. This includes the Pc, Pd, Ps, Pe, Pi, Pf, and Po categories.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Sm]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Symbol, Math</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Sc]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Symbol, Currency</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Sk]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Symbol, Modifier</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[So]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Symbol, Other</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[S]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>All symbols. This includes the Sm, Sc, Sk, and So categories.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Zs]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Separator, Space</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Zl]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Separator, Line</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Zp]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Separator, Paragraph</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Z]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>All separator characters. This includes the Zs, Zl, and Zp categories.</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Cc]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Other, Control</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Cf]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Other, Format</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Cs]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Other, Surrogate</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Co]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Other, Private Use</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[Cn]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>Other, Not Assigned (no characters have this property)</Description>
+    </GuideItem>
+    <GuideItem>
+        <Text><![CDATA[C]]></Text>
+        <Category>GeneralCategories</Category>
+        <Description>All control characters. This includes the Cc, Cf, Cs, Co, and Cn categories.</Description>
+    </GuideItem>
+</ArrayOfGuideItem>

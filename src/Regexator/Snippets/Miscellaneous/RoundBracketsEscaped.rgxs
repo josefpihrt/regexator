@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>Miscellaneous</Category>
+            <Name>RoundBracketsEscaped</Name>
+            <Title>Round Brackets (Escaped)</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>Round brackets (escaped)</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+                <SnippetKind>Surround</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\(%selected%%end%\)]]></Code>
+                <Code Kind="Format" Options="IgnorePatternWhitespace"><![CDATA[\(
+    %selected%%end%
+\)]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

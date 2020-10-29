@@ -1,0 +1,2003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IcoRegexator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Regexator.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoArrowLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoArrowLeft.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoArrowRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoArrowRight.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCode.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCurrent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCurrent.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoMediaPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoMediaPlay.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoSortAlphabetically" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSortAlphabetically.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoReload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoReload.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoSettings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSettings.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoPaintRoller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoPaintRoller.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoSave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSave.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoSelection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSelection.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoHelp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoHelp.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSearch.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoRectangleSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoRectangleSmall.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoM.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoS.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoAscending" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoAscending.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoDescending" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoDescending.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFindFirst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoFindFirst.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFindLast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoFindLast.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFindNext" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoFindNext.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFindPrevious" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoFindPrevious.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCommentAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCommentAdd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCommentRemove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCommentRemove.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoInfo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoR.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCodeOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCodeOpen.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoArrowLeftSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoArrowLeftSmall.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCopy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCopy.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCut.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoPaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoPaste.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ErrorOccurredMsg" xml:space="preserve">
+    <value>Ooops, an error occurred. The application will be terminated now.</value>
+  </data>
+  <data name="Exit_" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="NewProject" xml:space="preserve">
+    <value>New Project</value>
+  </data>
+  <data name="NewProjectWithFileInput" xml:space="preserve">
+    <value>New Project with File Input</value>
+  </data>
+  <data name="OpenProject" xml:space="preserve">
+    <value>Open Project</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AllRightsReserved" xml:space="preserve">
+    <value>All rights reserved.</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="CommentSelectedLines" xml:space="preserve">
+    <value>Comment Selected Lines</value>
+  </data>
+  <data name="CommentSelection" xml:space="preserve">
+    <value>Comment Selection</value>
+  </data>
+  <data name="CopyValue" xml:space="preserve">
+    <value>Copy Value</value>
+  </data>
+  <data name="EllipsisStr" xml:space="preserve">
+    <value>…</value>
+  </data>
+  <data name="EscapeSelection" xml:space="preserve">
+    <value>Escape Selection</value>
+  </data>
+  <data name="ToggleSelectionMode" xml:space="preserve">
+    <value>Toggle Selection Mode</value>
+  </data>
+  <data name="ToggleCurrentLineMode" xml:space="preserve">
+    <value>Toggle Current Line Mode</value>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="Expansion" xml:space="preserve">
+    <value>Expansion</value>
+  </data>
+  <data name="FirstItem" xml:space="preserve">
+    <value>First Item</value>
+  </data>
+  <data name="ToggleHighlighting" xml:space="preserve">
+    <value>Toggle Highlighting</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="LastItem" xml:space="preserve">
+    <value>Last Item</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="Lines" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="LinkCursor" xml:space="preserve">
+    <value>Link Cursor</value>
+  </data>
+  <data name="NextItem" xml:space="preserve">
+    <value>Next Item</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PreviousItem" xml:space="preserve">
+    <value>Previous Item</value>
+  </data>
+  <data name="QuickGuide" xml:space="preserve">
+    <value>Quick Guide</value>
+  </data>
+  <data name="RecentProjects" xml:space="preserve">
+    <value>Recent Projects</value>
+  </data>
+  <data name="SaveAll" xml:space="preserve">
+    <value>Save All</value>
+  </data>
+  <data name="SaveProject" xml:space="preserve">
+    <value>Save Project</value>
+  </data>
+  <data name="ToggleOutput" xml:space="preserve">
+    <value>Toggle Output</value>
+  </data>
+  <data name="SurroundsWith" xml:space="preserve">
+    <value>Surrounds With</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="UncommentSelectedLines" xml:space="preserve">
+    <value>Uncomment Selected Lines</value>
+  </data>
+  <data name="UncommentSelection" xml:space="preserve">
+    <value>Uncomment Selection</value>
+  </data>
+  <data name="UnescapeSelection" xml:space="preserve">
+    <value>Unescape Selection</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Formatted" xml:space="preserve">
+    <value>Formatted</value>
+  </data>
+  <data name="Match" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="Matches" xml:space="preserve">
+    <value>Matches</value>
+  </data>
+  <data name="MatchMode" xml:space="preserve">
+    <value>Match Mode</value>
+  </data>
+  <data name="Replacement" xml:space="preserve">
+    <value>Replacement</value>
+  </data>
+  <data name="ReplaceMode" xml:space="preserve">
+    <value>Replace Mode</value>
+  </data>
+  <data name="SortOrder" xml:space="preserve">
+    <value>Sort Order</value>
+  </data>
+  <data name="SplitMode" xml:space="preserve">
+    <value>Split Mode</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Guide" xml:space="preserve">
+    <value>Guide</value>
+  </data>
+  <data name="ShowGuideSense" xml:space="preserve">
+    <value>Show Guide Sense</value>
+  </data>
+  <data name="ShowSense" xml:space="preserve">
+    <value>Show Sense</value>
+  </data>
+  <data name="FileSystem" xml:space="preserve">
+    <value>File System</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="InputOptions" xml:space="preserve">
+    <value>Input Options</value>
+  </data>
+  <data name="MoveDeletedItemsToRecycleBin" xml:space="preserve">
+    <value>Move deleted items to recycle bin</value>
+  </data>
+  <data name="OutputOptions" xml:space="preserve">
+    <value>Output Options</value>
+  </data>
+  <data name="PatternOptions" xml:space="preserve">
+    <value>Pattern Options</value>
+  </data>
+  <data name="ProjectDefaultValues" xml:space="preserve">
+    <value>Project Default Values</value>
+  </data>
+  <data name="RegexOptions" xml:space="preserve">
+    <value>Regex Options</value>
+  </data>
+  <data name="AltF4" xml:space="preserve">
+    <value>Alt+F4</value>
+  </data>
+  <data name="AltLeft" xml:space="preserve">
+    <value>Alt+Left</value>
+  </data>
+  <data name="AltRight" xml:space="preserve">
+    <value>Alt+Right</value>
+  </data>
+  <data name="ClosingRoundBracketStr" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="ColonStr" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="CtrlA" xml:space="preserve">
+    <value>Ctrl+A</value>
+  </data>
+  <data name="CtrlC" xml:space="preserve">
+    <value>Ctrl+C</value>
+  </data>
+  <data name="CtrlLeft" xml:space="preserve">
+    <value>Ctrl+Left</value>
+  </data>
+  <data name="CtrlN" xml:space="preserve">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="CtrlP" xml:space="preserve">
+    <value>Ctrl+P</value>
+  </data>
+  <data name="CtrlQ" xml:space="preserve">
+    <value>Ctrl+Q</value>
+  </data>
+  <data name="CtrlRight" xml:space="preserve">
+    <value>Ctrl+Right</value>
+  </data>
+  <data name="CtrlS" xml:space="preserve">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="CtrlShiftA" xml:space="preserve">
+    <value>Ctrl+Shift+A</value>
+  </data>
+  <data name="CtrlShiftS" xml:space="preserve">
+    <value>Ctrl+Shift+S</value>
+  </data>
+  <data name="CtrlV" xml:space="preserve">
+    <value>Ctrl+V</value>
+  </data>
+  <data name="CtrlX" xml:space="preserve">
+    <value>Ctrl+X</value>
+  </data>
+  <data name="CtrlY" xml:space="preserve">
+    <value>Ctrl+Y</value>
+  </data>
+  <data name="CtrlZ" xml:space="preserve">
+    <value>Ctrl+Z</value>
+  </data>
+  <data name="F1" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="OpeningRoundBracketStr" xml:space="preserve">
+    <value>(</value>
+  </data>
+  <data name="SaveInput" xml:space="preserve">
+    <value>Save Input</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Skip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="SkipAll" xml:space="preserve">
+    <value>Skip All</value>
+  </data>
+  <data name="IcoPrint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoPrint.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoArrowRightSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoArrowRightSmall.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snippets" xml:space="preserve">
+    <value>Snippets</value>
+  </data>
+  <data name="Colors" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="FillColor" xml:space="preserve">
+    <value>Fill Color</value>
+  </data>
+  <data name="MaxNumberOfRecentItems" xml:space="preserve">
+    <value>Maximum number of recent items</value>
+  </data>
+  <data name="RegexMatchTimeoutMsg" xml:space="preserve">
+    <value>Regular expression match time out (in seconds, application restart needed for changes to take effect)</value>
+  </data>
+  <data name="TextColor" xml:space="preserve">
+    <value>Text Color</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>What's New</value>
+  </data>
+  <data name="XmlGuideItems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XmlGuideItems.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="CtrlE" xml:space="preserve">
+    <value>Ctrl+E</value>
+  </data>
+  <data name="CtrlR" xml:space="preserve">
+    <value>Ctrl+R</value>
+  </data>
+  <data name="Error_" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="NoGroupChecked" xml:space="preserve">
+    <value>No group checked</value>
+  </data>
+  <data name="NoMatch" xml:space="preserve">
+    <value>No match</value>
+  </data>
+  <data name="SettingsInitializationErrorMsg" xml:space="preserve">
+    <value>The application settings cannot be loaded. Do you want to reset your settings before the application will shut down?</value>
+  </data>
+  <data name="IcoExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoExit.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoRename" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoRename.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCodeNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCodeNew.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brackets" xml:space="preserve">
+    <value>Brackets</value>
+  </data>
+  <data name="Ctrl1" xml:space="preserve">
+    <value>Ctrl+1</value>
+  </data>
+  <data name="Ctrl2" xml:space="preserve">
+    <value>Ctrl+2</value>
+  </data>
+  <data name="Ctrl3" xml:space="preserve">
+    <value>Ctrl+3</value>
+  </data>
+  <data name="CtrlShift1" xml:space="preserve">
+    <value>Ctrl+Shift+1</value>
+  </data>
+  <data name="CtrlShift2" xml:space="preserve">
+    <value>Ctrl+Shift+2</value>
+  </data>
+  <data name="CtrlShift3" xml:space="preserve">
+    <value>Ctrl+Shift+3</value>
+  </data>
+  <data name="IcoArrowDownSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoArrowDownSmall.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CtrlG" xml:space="preserve">
+    <value>Ctrl+G</value>
+  </data>
+  <data name="DropDownList" xml:space="preserve">
+    <value>Drop-Down List</value>
+  </data>
+  <data name="IcoLetterASmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoLetterASmall.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Executing" xml:space="preserve">
+    <value>Executing</value>
+  </data>
+  <data name="Find" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FindCapture" xml:space="preserve">
+    <value>Find Capture</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>First</value>
+    <comment>Capture</comment>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Last</value>
+    <comment>Capture</comment>
+  </data>
+  <data name="Next_" xml:space="preserve">
+    <value>Next</value>
+    <comment>Capture</comment>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous</value>
+    <comment>Capture</comment>
+  </data>
+  <data name="RecentFolders" xml:space="preserve">
+    <value>Recent Folders</value>
+  </data>
+  <data name="IcoCodeSolution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCodeSolution.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoTo_" xml:space="preserve">
+    <value>Go To</value>
+  </data>
+  <data name="Multiline" xml:space="preserve">
+    <value>Multiline</value>
+  </data>
+  <data name="NoCaptureSymbol" xml:space="preserve">
+    <value>No Capture Symbol</value>
+  </data>
+  <data name="SnippetsCode" xml:space="preserve">
+    <value>Snippets (Code)</value>
+  </data>
+  <data name="SnippetsText" xml:space="preserve">
+    <value>Snippets (Text)</value>
+  </data>
+  <data name="RemovePathFromRecentMsg" xml:space="preserve">
+    <value>Do you want to remove the reference to '{0}' from the recent list?</value>
+  </data>
+  <data name="CrLf" xml:space="preserve">
+    <value>CR LF</value>
+  </data>
+  <data name="Lf" xml:space="preserve">
+    <value>LF</value>
+  </data>
+  <data name="NewLine" xml:space="preserve">
+    <value>New Line</value>
+  </data>
+  <data name="ParentDirectoryStr" xml:space="preserve">
+    <value>..</value>
+  </data>
+  <data name="ShowSubfolders" xml:space="preserve">
+    <value>Show subfolders</value>
+  </data>
+  <data name="PngRegexator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PngRegexator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoMediaPause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoMediaPause.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ctrl4" xml:space="preserve">
+    <value>Ctrl+4</value>
+  </data>
+  <data name="CtrlShift4" xml:space="preserve">
+    <value>Ctrl+Shift+4</value>
+  </data>
+  <data name="HiddenCategories" xml:space="preserve">
+    <value>Hidden Categories</value>
+  </data>
+  <data name="FavoriteSnippets" xml:space="preserve">
+    <value>Favorite Snippets</value>
+  </data>
+  <data name="IcoCrLf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCrLf.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoLf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoLf.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoSnippet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSnippet.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IndexAbbr" xml:space="preserve">
+    <value>Ix</value>
+  </data>
+  <data name="LineAbbr" xml:space="preserve">
+    <value>Ln</value>
+  </data>
+  <data name="LinesAbbr" xml:space="preserve">
+    <value>Ls</value>
+  </data>
+  <data name="WrapText" xml:space="preserve">
+    <value>Wrap Text</value>
+  </data>
+  <data name="DisplayProperty" xml:space="preserve">
+    <value>Display Property</value>
+  </data>
+  <data name="HighlightExtensibleSnippets" xml:space="preserve">
+    <value>Highlight extensible snippets</value>
+  </data>
+  <data name="ShowExtendedSnippetsDsc" xml:space="preserve">
+    <value>Show extended snippets ('Ext' and 'Not' suffix)</value>
+  </data>
+  <data name="ShowDropDownOnSpace" xml:space="preserve">
+    <value>Show drop-down on space key (Ctrl+Shift+Space)</value>
+  </data>
+  <data name="DropDown" xml:space="preserve">
+    <value>Drop Down</value>
+  </data>
+  <data name="ShowDescription" xml:space="preserve">
+    <value>Show description</value>
+  </data>
+  <data name="CtrlShiftSpace" xml:space="preserve">
+    <value>Ctrl+Shift+Space</value>
+  </data>
+  <data name="ClosingSquareBracketStr" xml:space="preserve">
+    <value>]</value>
+  </data>
+  <data name="OpeningSquareBracketStr" xml:space="preserve">
+    <value>[</value>
+  </data>
+  <data name="XmlRegexCategoryInfos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XmlRegexCategoryInfos.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Left</value>
+    <comment>Position</comment>
+  </data>
+  <data name="ProjectExplorerPosition" xml:space="preserve">
+    <value>Project Explorer Position</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Right</value>
+    <comment>Position</comment>
+  </data>
+  <data name="GoToCursor" xml:space="preserve">
+    <value>Go To Cursor</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="IcoCSharp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCSharp.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoVisualBasic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoVisualBasic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AtSymbolStr" xml:space="preserve">
+    <value>@</value>
+  </data>
+  <data name="IcoIndentQuotes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoIndentQuotes.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConcatOperatorVisualBasic" xml:space="preserve">
+    <value>Concatenation Operator (Visual Basic)</value>
+  </data>
+  <data name="ConcatOperatorPosition" xml:space="preserve">
+    <value>Concatenation Operator Position</value>
+  </data>
+  <data name="NewLineLiteral" xml:space="preserve">
+    <value>New Line Literal</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="DisplayTitle" xml:space="preserve">
+    <value>Display Title</value>
+  </data>
+  <data name="ShowHiddenFilesLC" xml:space="preserve">
+    <value>Show hidden files</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="Pattern" xml:space="preserve">
+    <value>Pattern</value>
+  </data>
+  <data name="ReplacementOptions" xml:space="preserve">
+    <value>Replacement Options</value>
+  </data>
+  <data name="IcoLimit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoLimit.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OutputItemsLimit" xml:space="preserve">
+    <value>Output items limit</value>
+  </data>
+  <data name="MaxNumberOfItemsExceededMsg" xml:space="preserve">
+    <value>Maximum number of items exceeded.</value>
+  </data>
+  <data name="ToggleLimitation" xml:space="preserve">
+    <value>Toggle Limitation</value>
+  </data>
+  <data name="CtrlO" xml:space="preserve">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="ContentFont" xml:space="preserve">
+    <value>Content Font</value>
+  </data>
+  <data name="HeadingFont" xml:space="preserve">
+    <value>Heading Font</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Fonts" xml:space="preserve">
+    <value>Fonts</value>
+  </data>
+  <data name="Heading" xml:space="preserve">
+    <value>Heading</value>
+  </data>
+  <data name="CSharpAbbr" xml:space="preserve">
+    <value>C#</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="VisualBasic" xml:space="preserve">
+    <value>Visual Basic</value>
+  </data>
+  <data name="ChooseFillColor" xml:space="preserve">
+    <value>Choose Fill Color</value>
+  </data>
+  <data name="ChooseTextColor" xml:space="preserve">
+    <value>Choose Text Color</value>
+  </data>
+  <data name="IcoExportImport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoExportImport.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExportImport" xml:space="preserve">
+    <value>Export/Import</value>
+  </data>
+  <data name="ExportToCSharp" xml:space="preserve">
+    <value>Export to C#</value>
+  </data>
+  <data name="ExportToVisualBasic" xml:space="preserve">
+    <value>Export to Visual Basic</value>
+  </data>
+  <data name="ImportFromCSharp" xml:space="preserve">
+    <value>Import from C#</value>
+  </data>
+  <data name="ImportFromVisualBasic" xml:space="preserve">
+    <value>Import from Visual Basic</value>
+  </data>
+  <data name="IcoArrowLeftSmallInverse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoArrowLeftSmallInverse.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoArrowRightSmallInverse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoArrowRightSmallInverse.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="NavigateBackward" xml:space="preserve">
+    <value>Navigate Backward</value>
+  </data>
+  <data name="NavigateForward" xml:space="preserve">
+    <value>Navigate Forward</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="UnableToImportCodeMsg" xml:space="preserve">
+    <value>Unable to import code.</value>
+  </data>
+  <data name="CtrlShiftMinus" xml:space="preserve">
+    <value>Ctrl+Shift+-</value>
+  </data>
+  <data name="FontsAndColors" xml:space="preserve">
+    <value>Fonts and Colors</value>
+  </data>
+  <data name="HighlightFillColor" xml:space="preserve">
+    <value>Highlight Fill Color</value>
+  </data>
+  <data name="HighlightTextColor" xml:space="preserve">
+    <value>Highlight Text Color</value>
+  </data>
+  <data name="Regexator" xml:space="preserve">
+    <value>Regexator</value>
+  </data>
+  <data name="CtrlMinus" xml:space="preserve">
+    <value>Ctrl+-</value>
+  </data>
+  <data name="SaveInputAs" xml:space="preserve">
+    <value>Save Input As</value>
+  </data>
+  <data name="SaveProjectAs" xml:space="preserve">
+    <value>Save Project As</value>
+  </data>
+  <data name="AddSpaceToRegexOptionNameMsg" xml:space="preserve">
+    <value>Add space to regex option name</value>
+  </data>
+  <data name="ChangeEvaluationMode" xml:space="preserve">
+    <value>Change Evaluation Mode</value>
+  </data>
+  <data name="CheckAll" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="CheckAllButThis" xml:space="preserve">
+    <value>Check All But This</value>
+  </data>
+  <data name="CheckNone" xml:space="preserve">
+    <value>Check None</value>
+  </data>
+  <data name="CheckThisOnly" xml:space="preserve">
+    <value>Check This Only</value>
+  </data>
+  <data name="CtrlTilde" xml:space="preserve">
+    <value>Ctrl+~</value>
+  </data>
+  <data name="NumberAlignment" xml:space="preserve">
+    <value>Number alignment</value>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="ShowNumberOfChildren" xml:space="preserve">
+    <value>Show a number of children</value>
+  </data>
+  <data name="IcoSaveAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSaveAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SetDefaultFavoriteSnippets" xml:space="preserve">
+    <value>Set Default Favorite Snippets</value>
+  </data>
+  <data name="UseHighlightColors" xml:space="preserve">
+    <value>Use highlight colors</value>
+  </data>
+  <data name="DoYouWantToSetDefaultFavoriteSnippetsMsg" xml:space="preserve">
+    <value>Do you want to set default favorite snippets?</value>
+  </data>
+  <data name="GroupLayout" xml:space="preserve">
+    <value>Group Layout</value>
+  </data>
+  <data name="ValueLayout" xml:space="preserve">
+    <value>Value Layout</value>
+  </data>
+  <data name="OmitRepeatedInfo" xml:space="preserve">
+    <value>Omit repeated info</value>
+  </data>
+  <data name="Tree" xml:space="preserve">
+    <value>Tree</value>
+  </data>
+  <data name="PlusStr" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="IcoGoToCursor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoGoToCursor.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShowCaptureCount" xml:space="preserve">
+    <value>Show capture count</value>
+  </data>
+  <data name="Symbols" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="Default_" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="XmlFormatGroups" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XmlFormatGroups.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="XmlFormatInfos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XmlFormatInfos.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="IcoSnippetExtensible" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSnippetExtensible.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ListSnippets" xml:space="preserve">
+    <value>List Snippets</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="AltShiftLeft" xml:space="preserve">
+    <value>Alt+Shift+Left</value>
+  </data>
+  <data name="AltShiftRight" xml:space="preserve">
+    <value>Alt+Shift+Right</value>
+  </data>
+  <data name="IcoCollapseAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCollapseAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoExpandAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoExpandAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CleanCode" xml:space="preserve">
+    <value>Clean Code</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Favorite" xml:space="preserve">
+    <value>Favorite</value>
+  </data>
+  <data name="IsExtensible" xml:space="preserve">
+    <value>Is Extensible</value>
+  </data>
+  <data name="Surround" xml:space="preserve">
+    <value>Surround</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Ctrl0" xml:space="preserve">
+    <value>Ctrl+0</value>
+  </data>
+  <data name="Ctrl5" xml:space="preserve">
+    <value>Ctrl+5</value>
+  </data>
+  <data name="Ctrl6" xml:space="preserve">
+    <value>Ctrl+6</value>
+  </data>
+  <data name="Ctrl7" xml:space="preserve">
+    <value>Ctrl+7</value>
+  </data>
+  <data name="Ctrl8" xml:space="preserve">
+    <value>Ctrl+8</value>
+  </data>
+  <data name="Ctrl9" xml:space="preserve">
+    <value>Ctrl+9</value>
+  </data>
+  <data name="Set_" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="RegexOptionsList" xml:space="preserve">
+    <value>Regex Options List</value>
+  </data>
+  <data name="GroupList" xml:space="preserve">
+    <value>Group List</value>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="SetAll" xml:space="preserve">
+    <value>Set All</value>
+  </data>
+  <data name="SetAllButThis" xml:space="preserve">
+    <value>Set All But This</value>
+  </data>
+  <data name="SetNone" xml:space="preserve">
+    <value>Set None</value>
+  </data>
+  <data name="SetThisOnly" xml:space="preserve">
+    <value>Set This Only</value>
+  </data>
+  <data name="UserGuide" xml:space="preserve">
+    <value>User Guide</value>
+  </data>
+  <data name="CopyAll" xml:space="preserve">
+    <value>Copy All</value>
+  </data>
+  <data name="SubstitutionSnippets" xml:space="preserve">
+    <value>Substitution Snippets</value>
+  </data>
+  <data name="SetGroupDefaultsMsg" xml:space="preserve">
+    <value>Do you want to set group to its default values?</value>
+  </data>
+  <data name="SetGroupsDefaultsMsg" xml:space="preserve">
+    <value>Do you want to set all groups to its default values?</value>
+  </data>
+  <data name="SetItemDefaultsMsg" xml:space="preserve">
+    <value>Do you want to set item to its default values?</value>
+  </data>
+  <data name="CarriageReturn" xml:space="preserve">
+    <value>Carriage Return</value>
+  </data>
+  <data name="Linefeed" xml:space="preserve">
+    <value>Linefeed</value>
+  </data>
+  <data name="NoCapture" xml:space="preserve">
+    <value>No Capture</value>
+  </data>
+  <data name="Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="ApplicableForPatternEditorSnippetList" xml:space="preserve">
+    <value>Applicable for pattern editor snippet list.</value>
+  </data>
+  <data name="ProjectExplorerView" xml:space="preserve">
+    <value>Project explorer view</value>
+  </data>
+  <data name="CarriageReturnPlusLinefeed" xml:space="preserve">
+    <value>Carriage Return + Linefeed</value>
+  </data>
+  <data name="ShiftF1" xml:space="preserve">
+    <value>Shift+F1</value>
+  </data>
+  <data name="EngineHasTimedOutMsg" xml:space="preserve">
+    <value>Engine has timed out</value>
+  </data>
+  <data name="InvalidPattern" xml:space="preserve">
+    <value>Invalid Pattern</value>
+  </data>
+  <data name="ExtendedCleanCode" xml:space="preserve">
+    <value>Extended Clean Code</value>
+  </data>
+  <data name="ExtendedCode" xml:space="preserve">
+    <value>Extended Code</value>
+  </data>
+  <data name="IcoExport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoExport.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="CopyCellValue" xml:space="preserve">
+    <value>Copy Cell Value</value>
+  </data>
+  <data name="InputDefaultValues" xml:space="preserve">
+    <value>Input Default Values</value>
+  </data>
+  <data name="CtrlShiftE" xml:space="preserve">
+    <value>Ctrl+Shift+E</value>
+  </data>
+  <data name="IcoImport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoImport.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopyColumn" xml:space="preserve">
+    <value>Copy Column</value>
+  </data>
+  <data name="AllCategories" xml:space="preserve">
+    <value>All Categories</value>
+  </data>
+  <data name="Constructor" xml:space="preserve">
+    <value>Constructor</value>
+  </data>
+  <data name="ShowHotkeyNumber" xml:space="preserve">
+    <value>Show hotkey number</value>
+  </data>
+  <data name="CtrlShiftQ" xml:space="preserve">
+    <value>Ctrl+Shift+Q</value>
+  </data>
+  <data name="ByCode" xml:space="preserve">
+    <value>By Code</value>
+  </data>
+  <data name="ByTitle" xml:space="preserve">
+    <value>By Title</value>
+  </data>
+  <data name="ByValue" xml:space="preserve">
+    <value>By Value</value>
+  </data>
+  <data name="EscapeUnescape" xml:space="preserve">
+    <value>Escape/Unescape</value>
+  </data>
+  <data name="FavoriteCharacters" xml:space="preserve">
+    <value>Favorite Characters</value>
+  </data>
+  <data name="Characters" xml:space="preserve">
+    <value>Characters</value>
+  </data>
+  <data name="IcoTilde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoTilde.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ShowTotalNumberOfCaptures" xml:space="preserve">
+    <value>Show a total number of captures</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Del" xml:space="preserve">
+    <value>Del</value>
+    <comment>Delete key abbreviation</comment>
+  </data>
+  <data name="F2" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="Debug" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="LinesOrganizer" xml:space="preserve">
+    <value>Lines Organizer</value>
+  </data>
+  <data name="NumberSignStr" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="PlainText" xml:space="preserve">
+    <value>Plain Text</value>
+  </data>
+  <data name="RichTextFormat" xml:space="preserve">
+    <value>Rich Text Format</value>
+  </data>
+  <data name="DoYouWantToSetDefaultFavoriteCharactersMsg" xml:space="preserve">
+    <value>Do you want to set default favorite characters?</value>
+  </data>
+  <data name="SaveReplacement" xml:space="preserve">
+    <value>Save Replacement</value>
+  </data>
+  <data name="DisableAllSymbols" xml:space="preserve">
+    <value>Disable All Symbols</value>
+  </data>
+  <data name="EnableAllSymbols" xml:space="preserve">
+    <value>Enable All Symbols</value>
+  </data>
+  <data name="SetOutputTextAsInputText" xml:space="preserve">
+    <value>Set Output Text as Input Text</value>
+  </data>
+  <data name="SetDefaultFont" xml:space="preserve">
+    <value>Set Default Font</value>
+  </data>
+  <data name="SetGroupDefaultFontMsg" xml:space="preserve">
+    <value>Do you want to set group font to its default value?</value>
+  </data>
+  <data name="SetGroupDefaults" xml:space="preserve">
+    <value>Set Group Defaults</value>
+  </data>
+  <data name="SetGroupsDefaults" xml:space="preserve">
+    <value>Set Groups Defaults</value>
+  </data>
+  <data name="RemoveIndent" xml:space="preserve">
+    <value>Remove Indent</value>
+  </data>
+  <data name="IcoDelete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoDelete.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpandAllNodes" xml:space="preserve">
+    <value>Expand all nodes</value>
+  </data>
+  <data name="TextEditor" xml:space="preserve">
+    <value>Text Editor</value>
+  </data>
+  <data name="IndentNewLinePatternEditorOnly" xml:space="preserve">
+    <value>Indent new line (pattern editor only)</value>
+  </data>
+  <data name="SelectEntireCurrentLineAfterLoad" xml:space="preserve">
+    <value>Select entire current line after load</value>
+  </data>
+  <data name="ClearAllText" xml:space="preserve">
+    <value>Clear All Text</value>
+  </data>
+  <data name="CopyCurrentText" xml:space="preserve">
+    <value>Copy Current Text</value>
+  </data>
+  <data name="CopyText" xml:space="preserve">
+    <value>Copy Text</value>
+  </data>
+  <data name="SaveAsRtf" xml:space="preserve">
+    <value>Save As Rtf</value>
+  </data>
+  <data name="SaveAsTxt" xml:space="preserve">
+    <value>Save As Txt</value>
+  </data>
+  <data name="SaveTextAs" xml:space="preserve">
+    <value>Save Text As</value>
+  </data>
+  <data name="SavePattern" xml:space="preserve">
+    <value>Save Pattern</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SelectValue" xml:space="preserve">
+    <value>Select Value</value>
+  </data>
+  <data name="SelectInputValue" xml:space="preserve">
+    <value>Select Input Value</value>
+  </data>
+  <data name="SelectOutputValue" xml:space="preserve">
+    <value>Select Output Value</value>
+  </data>
+  <data name="SearchProjectExplorerCtrlF" xml:space="preserve">
+    <value>Search Project Explorer (Ctrl+F)</value>
+  </data>
+  <data name="MoveFirst" xml:space="preserve">
+    <value>Move First</value>
+  </data>
+  <data name="MoveLast" xml:space="preserve">
+    <value>Move Last</value>
+  </data>
+  <data name="MoveNext" xml:space="preserve">
+    <value>Move Next</value>
+  </data>
+  <data name="MovePrevious" xml:space="preserve">
+    <value>Move Previous</value>
+  </data>
+  <data name="SaveProjectInfo" xml:space="preserve">
+    <value>Save Project Info</value>
+  </data>
+  <data name="AllEncodings" xml:space="preserve">
+    <value>All Encodings</value>
+  </data>
+  <data name="Encoding" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="FollowingSnippetsCouldNotBeLoadedMsg" xml:space="preserve">
+    <value>Following snippets could not be loaded:</value>
+  </data>
+  <data name="ViewErrorLog" xml:space="preserve">
+    <value>View Error Log</value>
+  </data>
+  <data name="SetDefaultEncoding" xml:space="preserve">
+    <value>Set Default Encoding</value>
+  </data>
+  <data name="CodePage" xml:space="preserve">
+    <value>Code Page</value>
+  </data>
+  <data name="CommaStr" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="NoItems" xml:space="preserve">
+    <value>No Items</value>
+  </data>
+  <data name="RecentSnippets" xml:space="preserve">
+    <value>Recent Snippets</value>
+  </data>
+  <data name="SaveText" xml:space="preserve">
+    <value>Save Text</value>
+  </data>
+  <data name="CtrlT" xml:space="preserve">
+    <value>Ctrl+T</value>
+  </data>
+  <data name="ListRecentSnippets" xml:space="preserve">
+    <value>List Recent Snippets</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="ResetZoom" xml:space="preserve">
+    <value>Reset Zoom</value>
+  </data>
+  <data name="CtrlAlt0" xml:space="preserve">
+    <value>Ctrl+Alt+0</value>
+  </data>
+  <data name="SetRegexOptionsIfRequiredBySnippet" xml:space="preserve">
+    <value>Set regex options if required by snippet</value>
+  </data>
+  <data name="CtrlShiftN" xml:space="preserve">
+    <value>Ctrl+Shift+N</value>
+  </data>
+  <data name="EnableUndoRedo" xml:space="preserve">
+    <value>Enable Undo/Redo</value>
+  </data>
+  <data name="ExportSnippet" xml:space="preserve">
+    <value>Export Snippet</value>
+  </data>
+  <data name="ExportPattern" xml:space="preserve">
+    <value>Export Pattern</value>
+  </data>
+  <data name="ImportPattern" xml:space="preserve">
+    <value>Import Pattern</value>
+  </data>
+  <data name="IcoArrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoArrows.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IAgree" xml:space="preserve">
+    <value>I Agree</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="NewProjectWithInput" xml:space="preserve">
+    <value>New Project with Input</value>
+  </data>
+  <data name="SaveAsFile" xml:space="preserve">
+    <value>Save As File</value>
+  </data>
+  <data name="SaveInputAsFile" xml:space="preserve">
+    <value>Save Input As File</value>
+  </data>
+  <data name="NewItem" xml:space="preserve">
+    <value>New Item</value>
+  </data>
+  <data name="NewVersion" xml:space="preserve">
+    <value>New Version</value>
+  </data>
+  <data name="NewVersionAvailableMsg" xml:space="preserve">
+    <value>Regexator {0} is available. Do you want to go to the download page?</value>
+  </data>
+  <data name="IncludeNewLine" xml:space="preserve">
+    <value>Include New Line</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="ToggleInfo" xml:space="preserve">
+    <value>Toggle Info</value>
+  </data>
+  <data name="ToggleSymbols" xml:space="preserve">
+    <value>Toggle Symbols</value>
+  </data>
+  <data name="TrackActiveItem" xml:space="preserve">
+    <value>Track active item</value>
+  </data>
+  <data name="CopySpecial" xml:space="preserve">
+    <value>Copy Special</value>
+  </data>
+  <data name="PasteSpecial" xml:space="preserve">
+    <value>Paste Special</value>
+  </data>
+  <data name="IcoNewProjectWithFileInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoNewProjectWithFileInput.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoNewProjectWithInput" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoNewProjectWithInput.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CtrlShiftC" xml:space="preserve">
+    <value>Ctrl+Shift+C</value>
+  </data>
+  <data name="CtrlShiftV" xml:space="preserve">
+    <value>Ctrl+Shift+V</value>
+  </data>
+  <data name="RtfEula" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RtfEula.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="RemoveInvalidRecentItems" xml:space="preserve">
+    <value>Remove Invalid Recent Items</value>
+  </data>
+  <data name="CloseInput" xml:space="preserve">
+    <value>Close Input</value>
+  </data>
+  <data name="CloseProject" xml:space="preserve">
+    <value>Close Project</value>
+  </data>
+  <data name="ConfirmFileInputRemoval" xml:space="preserve">
+    <value>Confirm file input removal</value>
+  </data>
+  <data name="Instance" xml:space="preserve">
+    <value>Instance</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="Split" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="Static_" xml:space="preserve">
+    <value>Static</value>
+  </data>
+  <data name="HighlightBeforeAndAfterResult" xml:space="preserve">
+    <value>Highlight before and after result</value>
+  </data>
+  <data name="CopyUniqueValues" xml:space="preserve">
+    <value>Copy Unique Values</value>
+  </data>
+  <data name="IgnoreCase" xml:space="preserve">
+    <value>Ignore Case</value>
+  </data>
+  <data name="IcoFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoFolder.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoNewItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoNewItem.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileAmp" xml:space="preserve">
+    <value>&amp;File</value>
+    <comment>&amp;</comment>
+  </data>
+  <data name="GroupsAmp" xml:space="preserve">
+    <value>&amp;Groups</value>
+    <comment>&amp;</comment>
+  </data>
+  <data name="HelpAmp" xml:space="preserve">
+    <value>&amp;Help</value>
+    <comment>&amp;</comment>
+  </data>
+  <data name="InputAmp" xml:space="preserve">
+    <value>&amp;Input</value>
+    <comment>&amp;</comment>
+  </data>
+  <data name="OutputAmp" xml:space="preserve">
+    <value>&amp;Output</value>
+    <comment>&amp;</comment>
+  </data>
+  <data name="PatternAmp" xml:space="preserve">
+    <value>&amp;Pattern</value>
+    <comment>&amp;</comment>
+  </data>
+  <data name="RegexOptionsAmp" xml:space="preserve">
+    <value>Regex Option&amp;s</value>
+    <comment>&amp;</comment>
+  </data>
+  <data name="ReplacementAmp" xml:space="preserve">
+    <value>&amp;Replacement</value>
+    <comment>&amp;</comment>
+  </data>
+  <data name="ToolsAmp" xml:space="preserve">
+    <value>&amp;Tools</value>
+    <comment>&amp;</comment>
+  </data>
+  <data name="IcoCheckAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCheckAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoUncheckAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoUncheckAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCompiled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCompiled.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoCultureInvariant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoCultureInvariant.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoECMAScript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoECMAScript.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoExplicitCapture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoExplicitCapture.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoIgnoreCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoIgnoreCase.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoIgnorePatternWhitespace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoIgnorePatternWhitespace.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoMultiline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoMultiline.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoRightToLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoRightToLeft.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoSingleline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSingleline.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoWordWrap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoWordWrap.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToggleWordWrap" xml:space="preserve">
+    <value>Toggle Word Wrap</value>
+  </data>
+  <data name="WordWrap" xml:space="preserve">
+    <value>Word Wrap</value>
+  </data>
+  <data name="Horizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="InputOutputOrientation" xml:space="preserve">
+    <value>Input/Output Orientation</value>
+  </data>
+  <data name="Vertical" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="RestoreDefaultVisibility" xml:space="preserve">
+    <value>Restore Default Visibility</value>
+  </data>
+  <data name="HorizontalLayout" xml:space="preserve">
+    <value>Horizontal Layout</value>
+  </data>
+  <data name="VerticalLayout" xml:space="preserve">
+    <value>Vertical Layout</value>
+  </data>
+  <data name="IcoAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighlightAll" xml:space="preserve">
+    <value>Highlight All</value>
+  </data>
+  <data name="Toggle" xml:space="preserve">
+    <value>Toggle</value>
+  </data>
+  <data name="ToggleGroup" xml:space="preserve">
+    <value>Toggle Group</value>
+  </data>
+  <data name="Escape" xml:space="preserve">
+    <value>Escape</value>
+  </data>
+  <data name="AdjustSelection" xml:space="preserve">
+    <value>Adjust Selection</value>
+  </data>
+  <data name="ToLower" xml:space="preserve">
+    <value>To Lower</value>
+  </data>
+  <data name="ToUpper" xml:space="preserve">
+    <value>To Upper</value>
+  </data>
+  <data name="Unescape" xml:space="preserve">
+    <value>Unescape</value>
+  </data>
+  <data name="ToSingleLine" xml:space="preserve">
+    <value>To Single Line</value>
+  </data>
+  <data name="AsSingleLine" xml:space="preserve">
+    <value>As Single Line</value>
+  </data>
+  <data name="ExportMode" xml:space="preserve">
+    <value>Export Mode</value>
+  </data>
+  <data name="ShowStatusBar" xml:space="preserve">
+    <value>Show Status Bar</value>
+  </data>
+  <data name="EvaluationMode" xml:space="preserve">
+    <value>Evaluation Mode</value>
+  </data>
+  <data name="ToggleNewLine" xml:space="preserve">
+    <value>Toggle New Line</value>
+  </data>
+  <data name="AltDown" xml:space="preserve">
+    <value>Alt+Down</value>
+  </data>
+  <data name="AltUp" xml:space="preserve">
+    <value>Alt+Up</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="SelectedTextLines" xml:space="preserve">
+    <value>Selected Text Lines</value>
+  </data>
+  <data name="TrimWhiteSpaceMultiline" xml:space="preserve">
+    <value>Trim White-space (multiline)</value>
+  </data>
+  <data name="TrimLeadingWhiteSpaceMultiline" xml:space="preserve">
+    <value>Trim Leading White-space (multiline)</value>
+  </data>
+  <data name="TrimTrailingWhiteSpaceMultiline" xml:space="preserve">
+    <value>Trim Trailing White-space (multiline)</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="F5" xml:space="preserve">
+    <value>F5</value>
+  </data>
+  <data name="IcoLayout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoLayout.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToggleLayout" xml:space="preserve">
+    <value>Toggle Layout</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ViewAmp" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="IcoOpenLink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoOpenLink.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="IcoDescription" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoDescription.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearchInDescription" xml:space="preserve">
+    <value>Search in Description</value>
+  </data>
+  <data name="IcoALower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoALower.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoAUpper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoAUpper.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InputFileEncoding" xml:space="preserve">
+    <value>Input File Encoding</value>
+  </data>
+  <data name="ProjectExplorer" xml:space="preserve">
+    <value>Project Explorer</value>
+  </data>
+  <data name="RemoveWhiteSpaceLines" xml:space="preserve">
+    <value>Remove White-space Lines</value>
+  </data>
+  <data name="RemoveEmptyLines" xml:space="preserve">
+    <value>Remove Empty Lines</value>
+  </data>
+  <data name="ToLowercase" xml:space="preserve">
+    <value>To Lowercase</value>
+  </data>
+  <data name="ToUppercase" xml:space="preserve">
+    <value>To Uppercase</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="SelectedLines" xml:space="preserve">
+    <value>Selected Lines</value>
+  </data>
+  <data name="Uncomment" xml:space="preserve">
+    <value>Uncomment</value>
+  </data>
+  <data name="IcoHighlightAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoHighlightAll.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CtrlKCtrlC" xml:space="preserve">
+    <value>Ctrl+K, Ctrl+C</value>
+  </data>
+  <data name="CtrlKCtrlU" xml:space="preserve">
+    <value>Ctrl+K, Ctrl+U</value>
+  </data>
+  <data name="CtrlShiftU" xml:space="preserve">
+    <value>Ctrl+Shift+U</value>
+  </data>
+  <data name="IcoSpaceSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoSpaceSymbol.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Space" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="AltF2" xml:space="preserve">
+    <value>Alt+F2</value>
+  </data>
+  <data name="CtrlF2" xml:space="preserve">
+    <value>Ctrl+F2</value>
+  </data>
+  <data name="CtrlShiftF2" xml:space="preserve">
+    <value>Ctrl+Shift+F2</value>
+  </data>
+  <data name="RecentCharacters" xml:space="preserve">
+    <value>Recent Characters</value>
+  </data>
+  <data name="Escaped" xml:space="preserve">
+    <value>Escaped</value>
+  </data>
+  <data name="BasicLatinCharacters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BasicLatinCharacters.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Latin1SupplementCharacters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Latin1SupplementCharacters.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="ShowBasicLatinCharacters" xml:space="preserve">
+    <value>Show Basic Latin Characters</value>
+  </data>
+  <data name="ShowLatin1SupplementCharacters" xml:space="preserve">
+    <value>Show Latin 1 Supplement Characters</value>
+  </data>
+  <data name="CtrlShiftW" xml:space="preserve">
+    <value>Ctrl+Shift+W</value>
+  </data>
+  <data name="CtrlW" xml:space="preserve">
+    <value>Ctrl+W</value>
+  </data>
+  <data name="ListCharacters" xml:space="preserve">
+    <value>List Characters</value>
+  </data>
+  <data name="ListRecentCharacters" xml:space="preserve">
+    <value>List Recent Characters</value>
+  </data>
+  <data name="XmlGeneralCategories" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XmlGeneralCategories.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="XmlNamedBlocks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XmlNamedBlocks.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="CtrlU" xml:space="preserve">
+    <value>Ctrl+U</value>
+  </data>
+  <data name="DoYouWantToCheckForUpdatesMsg" xml:space="preserve">
+    <value>Do you want to check for updates?</value>
+  </data>
+  <data name="FileWasNotFound" xml:space="preserve">
+    <value>The file '{0}' was not found.</value>
+  </data>
+  <data name="ClearRecentFolderList" xml:space="preserve">
+    <value>Clear Recent Folder List</value>
+  </data>
+  <data name="ClearRecentProjectList" xml:space="preserve">
+    <value>Clear Recent Project List</value>
+  </data>
+  <data name="IcoGroupLayout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoGroupLayout.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoValueLayout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoValueLayout.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaveOutputText" xml:space="preserve">
+    <value>Save Output Text</value>
+  </data>
+  <data name="CharacterAnalyzer" xml:space="preserve">
+    <value>Character Analyzer</value>
+  </data>
+  <data name="EngineFailedWhileProcessingInput" xml:space="preserve">
+    <value>Engine failed while processing an input</value>
+  </data>
+  <data name="OpenExternalHelp" xml:space="preserve">
+    <value>Open External Help</value>
+  </data>
+  <data name="IcoMultilineLiteral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoMultilineLiteral.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Highlight</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>Unable to check for updates.</value>
+  </data>
+  <data name="YouAreUsingNewestVersion" xml:space="preserve">
+    <value>You are using newest version.</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>Color Picker</value>
+  </data>
+  <data name="Capture" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="Captures" xml:space="preserve">
+    <value>Captures</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="Replacements" xml:space="preserve">
+    <value>Replacements</value>
+  </data>
+  <data name="Splits" xml:space="preserve">
+    <value>Splits</value>
+  </data>
+  <data name="FindResults" xml:space="preserve">
+    <value>Find Results</value>
+  </data>
+  <data name="SearchFiles" xml:space="preserve">
+    <value>Search Files</value>
+  </data>
+  <data name="FindWasStoppedInProgress" xml:space="preserve">
+    <value>Find was stopped in progress.</value>
+  </data>
+  <data name="CtrlShiftI" xml:space="preserve">
+    <value>Ctrl+Shift+I</value>
+  </data>
+  <data name="CtrlShiftO" xml:space="preserve">
+    <value>Ctrl+Shift+O</value>
+  </data>
+  <data name="CtrlShiftP" xml:space="preserve">
+    <value>Ctrl+Shift+P</value>
+  </data>
+  <data name="CtrlShiftR" xml:space="preserve">
+    <value>Ctrl+Shift+R</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Directory" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="DirectoryName" xml:space="preserve">
+    <value>Directory Name</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="NewFileName" xml:space="preserve">
+    <value>New File Name</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="IcoClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoClose.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="IcoMediaStop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoMediaStop.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoTree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoTree.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="StopSearch" xml:space="preserve">
+    <value>Stop Search</value>
+  </data>
+  <data name="SearchExtension" xml:space="preserve">
+    <value>Search Extension</value>
+  </data>
+  <data name="SearchFileNameWithExtension" xml:space="preserve">
+    <value>Search File Name</value>
+  </data>
+  <data name="SearchFileNameWithoutExtension" xml:space="preserve">
+    <value>Search File Name Without Extension</value>
+  </data>
+  <data name="SearchSubdirectories" xml:space="preserve">
+    <value>Search Subdirectories</value>
+  </data>
+  <data name="IcoExtension" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoExtension.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFileName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoFileName.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcoFileNameWithoutExtension" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoFileNameWithoutExtension.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileSystemSearch" xml:space="preserve">
+    <value>File System Search</value>
+  </data>
+  <data name="Unchanged" xml:space="preserve">
+    <value>Unchanged</value>
+  </data>
+  <data name="SearchDirectoryName" xml:space="preserve">
+    <value>Search Directory Name</value>
+  </data>
+  <data name="SearchFileName" xml:space="preserve">
+    <value>Search File Name</value>
+  </data>
+  <data name="IcoFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoFile.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>New Name</value>
+  </data>
+  <data name="SearchDirectories" xml:space="preserve">
+    <value>Search Directories</value>
+  </data>
+  <data name="SearchFileNameAndExtension" xml:space="preserve">
+    <value>Search File Name and Extension</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="DoYouReallyWantToMoveThisItemToRecycleBin" xml:space="preserve">
+    <value>Do you really want to move this item to recycle bin?</value>
+  </data>
+  <data name="DoYouReallyWantToPermanentlyDeleteThisItem" xml:space="preserve">
+    <value>Do you really want to permanently delete this item?</value>
+  </data>
+  <data name="DoYouReallyWantToRenameSelectedItems" xml:space="preserve">
+    <value>Do you really want to rename selected items?</value>
+  </data>
+  <data name="DoYouReallyWantToMoveSelectedItemsToRecycleBin" xml:space="preserve">
+    <value>Do you really want to move selected items to recycle bin?</value>
+  </data>
+  <data name="DoYouReallyWantToPermanentlyDeleteSelectedItems" xml:space="preserve">
+    <value>Do you really want to permanently delete selected items?</value>
+  </data>
+  <data name="DoYouReallyWantToRenameThisItem" xml:space="preserve">
+    <value>Do you really want to rename this item?</value>
+  </data>
+  <data name="IcoWidth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoWidth.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FitColumnsWidthToContent" xml:space="preserve">
+    <value>Fit Columns Width to Content</value>
+  </data>
+  <data name="OpenContainingFolder" xml:space="preserve">
+    <value>Open Containing Folder</value>
+  </data>
+  <data name="IcoOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcoOpen.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F4" xml:space="preserve">
+    <value>F4</value>
+  </data>
+  <data name="NewNameIsInvalidMsg" xml:space="preserve">
+    <value>New name is invalid.</value>
+  </data>
+  <data name="CtrlShiftG" xml:space="preserve">
+    <value>Ctrl+Shift+G</value>
+  </data>
+</root>

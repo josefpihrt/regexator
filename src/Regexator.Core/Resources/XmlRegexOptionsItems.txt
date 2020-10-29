@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRegexOptionsItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RegexOptionsItem>
+    <Value>Compiled</Value>
+    <Description>Compile the regular expression to an assembly.</Description>
+  </RegexOptionsItem>
+  <RegexOptionsItem>
+    <Value>CultureInvariant</Value>
+    <Description>Ignore cultural differences between languages.</Description>
+  </RegexOptionsItem>
+  <RegexOptionsItem>
+    <Value>ECMAScript</Value>
+    <Description>Enable ECMAScript-compliant behavior for the expression.</Description>
+  </RegexOptionsItem>
+  <RegexOptionsItem>
+    <Value>ExplicitCapture</Value>
+    <Description>Do not capture unnamed groups.</Description>
+  </RegexOptionsItem>
+  <RegexOptionsItem>
+    <Value>IgnoreCase</Value>
+    <Description>Use case-insensitive matching.</Description>
+  </RegexOptionsItem>
+  <RegexOptionsItem>
+    <Value>IgnorePatternWhitespace</Value>
+    <Description>Exclude unescaped white-space from the pattern and enable comments after a number sign (#).</Description>
+  </RegexOptionsItem>
+  <RegexOptionsItem>
+    <Value>Multiline</Value>
+    <Description>^ and $ match the beginning and end of each line (instead of the beginning and end of the input string).</Description>
+  </RegexOptionsItem>
+  <RegexOptionsItem>
+    <Value>RightToLeft</Value>
+    <Description>Search moves from right to left instead of from left to right.</Description>
+  </RegexOptionsItem>
+  <RegexOptionsItem>
+    <Value>Singleline</Value>
+    <Description>The period (.) matches every character (instead of every character except \n).</Description>
+  </RegexOptionsItem>
+</ArrayOfRegexOptionsItem>

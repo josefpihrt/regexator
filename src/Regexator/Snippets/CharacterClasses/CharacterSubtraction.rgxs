@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>CharacterClasses</Category>
+            <Name>CharacterSubtraction</Name>
+            <Title>Character Subtraction</Title>
+            <Author>Pihrtsoft</Author>
+            <Description>A character class subtraction.</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Literals>
+                <Literal>
+                    <Id>base</Id>
+                    <Default>base</Default>
+                    <Description>Base group</Description>
+                </Literal>
+                <Literal>
+                    <Id>excluded</Id>
+                    <Default>excluded</Default>
+                    <Description>Excluded group</Description>
+                </Literal>
+            </Literals>
+            <Codes>
+                <Code><![CDATA[[%base%-[%excluded%]]%end%]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>

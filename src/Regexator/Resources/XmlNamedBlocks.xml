@@ -1,0 +1,2271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RegexSnippets xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>AlphabeticPresentationForms</Name>
+            <Title>Alphabetic Presentation Forms</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>FB00 - FB4F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsAlphabeticPresentationForms}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsAlphabeticPresentationForms}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Arabic</Name>
+            <Title>Arabic</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0600 - 06FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsArabic}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsArabic}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>ArabicPresentationFormsA</Name>
+            <Title>Arabic Presentation Forms A</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>FB50 - FDFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsArabicPresentationForms-A}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsArabicPresentationForms-A}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>ArabicPresentationFormsB</Name>
+            <Title>Arabic Presentation Forms B</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>FE70 - FEFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsArabicPresentationForms-B}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsArabicPresentationForms-B}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Armenian</Name>
+            <Title>Armenian</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0530 - 058F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsArmenian}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsArmenian}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Arrows</Name>
+            <Title>Arrows</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2190 - 21FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsArrows}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsArrows}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>BasicLatin</Name>
+            <Title>Basic Latin</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0000 - 007F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsBasicLatin}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsBasicLatin}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Bengali</Name>
+            <Title>Bengali</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0980 - 09FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsBengali}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsBengali}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>BlockElements</Name>
+            <Title>Block Elements</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2580 - 259F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsBlockElements}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsBlockElements}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Bopomofo</Name>
+            <Title>Bopomofo</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>3100 - 312F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsBopomofo}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsBopomofo}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>BopomofoExtended</Name>
+            <Title>Bopomofo Extended</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>31A0 - 31BF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsBopomofoExtended}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsBopomofoExtended}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>BoxDrawing</Name>
+            <Title>Box Drawing</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2500 - 257F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsBoxDrawing}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsBoxDrawing}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>BraillePatterns</Name>
+            <Title>Braille Patterns</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2800 - 28FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsBraillePatterns}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsBraillePatterns}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Buhid</Name>
+            <Title>Buhid</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1740 - 175F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsBuhid}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsBuhid}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Cherokee</Name>
+            <Title>Cherokee</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>13A0 - 13FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCherokee}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCherokee}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CJKCompatibility</Name>
+            <Title>CJK Compatibility</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>3300 - 33FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCJKCompatibility}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCJKCompatibility}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CJKCompatibilityForms</Name>
+            <Title>CJK Compatibility Forms</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>FE30 - FE4F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCJKCompatibilityForms}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCJKCompatibilityForms}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CJKCompatibilityIdeographs</Name>
+            <Title>CJK Compatibility Ideographs</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>F900 - FAFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCJKCompatibilityIdeographs}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCJKCompatibilityIdeographs}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CJKRadicalsSupplement</Name>
+            <Title>CJK Radicals Supplement</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2E80 - 2EFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCJKRadicalsSupplement}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCJKRadicalsSupplement}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CJKSymbolsAndPunctuation</Name>
+            <Title>CJK Symbols and Punctuation</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>3000 - 303F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCJKSymbolsandPunctuation}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCJKSymbolsandPunctuation}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CJKUnifiedIdeographs</Name>
+            <Title>CJK Unified Ideographs</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>4E00 - 9FFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCJKUnifiedIdeographs}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCJKUnifiedIdeographs}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CJKUnifiedIdeographsExtensionA</Name>
+            <Title>CJK Unified Ideographs Extension A</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>3400 - 4DBF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCJKUnifiedIdeographsExtensionA}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCJKUnifiedIdeographsExtensionA}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CombiningDiacriticalMarks</Name>
+            <Title>Combining Diacritical Marks</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0300 - 036F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCombiningDiacriticalMarks}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCombiningDiacriticalMarks}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CombiningDiacriticalMarksForSymbols</Name>
+            <Title>Combining Diacritical Marks for Symbols</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>20D0 - 20FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCombiningDiacriticalMarksforSymbols}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCombiningDiacriticalMarksforSymbols}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CombiningHalfMarks</Name>
+            <Title>Combining Half Marks</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>FE20 - FE2F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCombiningHalfMarks}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCombiningHalfMarks}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CombiningMarksForSymbols</Name>
+            <Title>Combining Marks for Symbols</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>20D0 - 20FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCombiningMarksforSymbols}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCombiningMarksforSymbols}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>ControlPictures</Name>
+            <Title>Control Pictures</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2400 - 243F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsControlPictures}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsControlPictures}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CurrencySymbols</Name>
+            <Title>Currency Symbols</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>20A0 - 20CF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCurrencySymbols}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCurrencySymbols}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Cyrillic</Name>
+            <Title>Cyrillic</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0400 - 04FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCyrillic}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCyrillic}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>CyrillicSupplement</Name>
+            <Title>Cyrillic Supplement</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0500 - 052F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsCyrillicSupplement}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsCyrillicSupplement}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Devanagari</Name>
+            <Title>Devanagari</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0900 - 097F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsDevanagari}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsDevanagari}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Dingbats</Name>
+            <Title>Dingbats</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2700 - 27BF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsDingbats}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsDingbats}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>EnclosedAlphanumerics</Name>
+            <Title>Enclosed Alphanumerics</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2460 - 24FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsEnclosedAlphanumerics}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsEnclosedAlphanumerics}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>EnclosedCJKLettersAndMonths</Name>
+            <Title>Enclosed CJK Lettersand Months</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>3200 - 32FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsEnclosedCJKLettersandMonths}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsEnclosedCJKLettersandMonths}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Ethiopic</Name>
+            <Title>Ethiopic</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1200 - 137F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsEthiopic}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsEthiopic}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>GeneralPunctuation</Name>
+            <Title>General Punctuation</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2000 - 206F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsGeneralPunctuation}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsGeneralPunctuation}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>GeometricShapes</Name>
+            <Title>Geometric Shapes</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>25A0 - 25FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsGeometricShapes}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsGeometricShapes}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Georgian</Name>
+            <Title>Georgian</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>10A0 - 10FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsGeorgian}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsGeorgian}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Greek</Name>
+            <Title>Greek</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0370 - 03FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsGreek}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsGreek}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>GreekAndCoptic</Name>
+            <Title>Greek and Coptic</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0370 - 03FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsGreekandCoptic}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsGreekandCoptic}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>GreekExtended</Name>
+            <Title>Greek Extended</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1F00 - 1FFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsGreekExtended}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsGreekExtended}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Gujarati</Name>
+            <Title>Gujarati</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0A80 - 0AFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsGujarati}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsGujarati}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Gurmukhi</Name>
+            <Title>Gurmukhi</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0A00 - 0A7F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsGurmukhi}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsGurmukhi}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>HalfwidthAndFullwidthForms</Name>
+            <Title>Halfwidth and Fullwidth Forms</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>FF00 - FFEF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsHalfwidthandFullwidthForms}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsHalfwidthandFullwidthForms}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>HangulCompatibilityJamo</Name>
+            <Title>Hangul Compatibility Jamo</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>3130 - 318F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsHangulCompatibilityJamo}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsHangulCompatibilityJamo}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>HangulJamo</Name>
+            <Title>Hangul Jamo</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1100 - 11FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsHangulJamo}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsHangulJamo}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>HangulSyllables</Name>
+            <Title>Hangul Syllables</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>AC00 - D7AF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsHangulSyllables}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsHangulSyllables}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Hanunoo</Name>
+            <Title>Hanunoo</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1720 - 173F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsHanunoo}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsHanunoo}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Hebrew</Name>
+            <Title>Hebrew</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0590 - 05FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsHebrew}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsHebrew}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>HighPrivateUseSurrogates</Name>
+            <Title>High Private Use Surrogates</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>DB80 - DBFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsHighPrivateUseSurrogates}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsHighPrivateUseSurrogates}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>HighSurrogates</Name>
+            <Title>High Surrogates</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>D800 - DB7F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsHighSurrogates}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsHighSurrogates}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Hiragana</Name>
+            <Title>Hiragana</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>3040 - 309F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsHiragana}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsHiragana}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>IdeographicDescriptionCharacters</Name>
+            <Title>Ideographic Description Characters</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2FF0 - 2FFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsIdeographicDescriptionCharacters}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsIdeographicDescriptionCharacters}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>IPAExtensions</Name>
+            <Title>IPA Extensions</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0250 - 02AF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsIPAExtensions}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsIPAExtensions}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Kanbun</Name>
+            <Title>Kanbun</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>3190 - 319F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsKanbun}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsKanbun}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>KangxiRadicals</Name>
+            <Title>Kangxi Radicals</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2F00 - 2FDF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsKangxiRadicals}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsKangxiRadicals}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Kannada</Name>
+            <Title>Kannada</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0C80 - 0CFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsKannada}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsKannada}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Katakana</Name>
+            <Title>Katakana</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>30A0 - 30FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsKatakana}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsKatakana}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>KatakanaPhoneticExtensions</Name>
+            <Title>Katakana Phonetic Extensions</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>31F0 - 31FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsKatakanaPhoneticExtensions}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsKatakanaPhoneticExtensions}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Khmer</Name>
+            <Title>Khmer</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1780 - 17FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsKhmer}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsKhmer}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>KhmerSymbols</Name>
+            <Title>Khmer Symbols</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>19E0 - 19FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsKhmerSymbols}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsKhmerSymbols}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Lao</Name>
+            <Title>Lao</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0E80 - 0EFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsLao}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsLao}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Latin1Supplement</Name>
+            <Title>Latin 1 Supplement</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0080 - 00FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsLatin-1Supplement}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsLatin-1Supplement}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>LatinExtendedA</Name>
+            <Title>Latin Extended A</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0100 - 017F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsLatinExtended-A}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsLatinExtended-A}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>LatinExtendedAdditional</Name>
+            <Title>Latin Extended Additional</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1E00 - 1EFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsLatinExtendedAdditional}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsLatinExtendedAdditional}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>LatinExtendedB</Name>
+            <Title>Latin Extended B</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0180 - 024F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsLatinExtended-B}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsLatinExtended-B}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>LetterlikeSymbols</Name>
+            <Title>Letterlike Symbols</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2100 - 214F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsLetterlikeSymbols}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsLetterlikeSymbols}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Limbu</Name>
+            <Title>Limbu</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1900 - 194F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsLimbu}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsLimbu}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>LowSurrogates</Name>
+            <Title>Low Surrogates</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>DC00 - DFFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsLowSurrogates}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsLowSurrogates}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Malayalam</Name>
+            <Title>Malayalam</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0D00 - 0D7F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsMalayalam}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsMalayalam}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>MathematicalOperators</Name>
+            <Title>Mathematical Operators</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2200 - 22FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsMathematicalOperators}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsMathematicalOperators}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>MiscellaneousMathematicalSymbolsA</Name>
+            <Title>Miscellaneous Mathematical Symbols A</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>27C0 - 27EF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsMiscellaneousMathematicalSymbols-A}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsMiscellaneousMathematicalSymbols-A}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>MiscellaneousMathematicalSymbolsB</Name>
+            <Title>Miscellaneous Mathematical Symbols B</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2980 - 29FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsMiscellaneousMathematicalSymbols-B}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsMiscellaneousMathematicalSymbols-B}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>MiscellaneousSymbols</Name>
+            <Title>Miscellaneous Symbols</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2600 - 26FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsMiscellaneousSymbols}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsMiscellaneousSymbols}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>MiscellaneousSymbolsandArrows</Name>
+            <Title>Miscellaneous Symbolsand Arrows</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2B00 - 2BFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsMiscellaneousSymbolsandArrows}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsMiscellaneousSymbolsandArrows}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>MiscellaneousTechnical</Name>
+            <Title>Miscellaneous Technical</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2300 - 23FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsMiscellaneousTechnical}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsMiscellaneousTechnical}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Mongolian</Name>
+            <Title>Mongolian</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1800 - 18AF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsMongolian}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsMongolian}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Myanmar</Name>
+            <Title>Myanmar</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1000 - 109F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsMyanmar}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsMyanmar}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>NumberForms</Name>
+            <Title>Number Forms</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2150 - 218F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsNumberForms}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsNumberForms}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Ogham</Name>
+            <Title>Ogham</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1680 - 169F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsOgham}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsOgham}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>OpticalCharacterRecognition</Name>
+            <Title>Optical Character Recognition</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2440 - 245F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsOpticalCharacterRecognition}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsOpticalCharacterRecognition}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Oriya</Name>
+            <Title>Oriya</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0B00 - 0B7F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsOriya}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsOriya}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>PhoneticExtensions</Name>
+            <Title>Phonetic Extensions</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1D00 - 1D7F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsPhoneticExtensions}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsPhoneticExtensions}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>PrivateUse</Name>
+            <Title>Private Use</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>E000 - F8FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsPrivateUse}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsPrivateUse}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>PrivateUseArea</Name>
+            <Title>Private Use Area</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>E000 - F8FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsPrivateUseArea}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsPrivateUseArea}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Runic</Name>
+            <Title>Runic</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>16A0 - 16FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsRunic}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsRunic}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Sinhala</Name>
+            <Title>Sinhala</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0D80 - 0DFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsSinhala}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsSinhala}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>SmallFormVariants</Name>
+            <Title>Small Form Variants</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>FE50 - FE6F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsSmallFormVariants}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsSmallFormVariants}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>SpacingModifierLetters</Name>
+            <Title>Spacing Modifier Letters</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>02B0 - 02FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsSpacingModifierLetters}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsSpacingModifierLetters}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Specials</Name>
+            <Title>Specials</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>FFF0 - FFFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsSpecials}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsSpecials}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>SuperscriptsAndSubscripts</Name>
+            <Title>Superscripts and Subscripts</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2070 - 209F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsSuperscriptsandSubscripts}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsSuperscriptsandSubscripts}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>SupplementalArrowsA</Name>
+            <Title>Supplemental Arrows A</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>27F0 - 27FF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsSupplementalArrows-A}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsSupplementalArrows-A}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>SupplementalArrowsB</Name>
+            <Title>Supplemental Arrows B</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2900 - 297F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsSupplementalArrows-B}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsSupplementalArrows-B}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>SupplementalMathematicalOperators</Name>
+            <Title>Supplemental Mathematical Operators</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>2A00 - 2AFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsSupplementalMathematicalOperators}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsSupplementalMathematicalOperators}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Syriac</Name>
+            <Title>Syriac</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0700 - 074F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsSyriac}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsSyriac}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Tagalog</Name>
+            <Title>Tagalog</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1700 - 171F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsTagalog}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsTagalog}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Tagbanwa</Name>
+            <Title>Tagbanwa</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1760 - 177F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsTagbanwa}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsTagbanwa}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>TaiLe</Name>
+            <Title>Tai Le</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1950 - 197F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsTaiLe}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsTaiLe}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Tamil</Name>
+            <Title>Tamil</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0B80 - 0BFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsTamil}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsTamil}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Telugu</Name>
+            <Title>Telugu</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0C00 - 0C7F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsTelugu}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsTelugu}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Thaana</Name>
+            <Title>Thaana</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0780 - 07BF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsThaana}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsThaana}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Thai</Name>
+            <Title>Thai</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0E00 - 0E7F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsThai}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsThai}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>Tibetan</Name>
+            <Title>Tibetan</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>0F00 - 0FFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsTibetan}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsTibetan}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>UnifiedCanadianAboriginalSyllabics</Name>
+            <Title>Unified Canadian Aboriginal Syllabics</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>1400 - 167F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsUnifiedCanadianAboriginalSyllabics}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsUnifiedCanadianAboriginalSyllabics}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>VariationSelectors</Name>
+            <Title>Variation Selectors</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>FE00 - FE0F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsVariationSelectors}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsVariationSelectors}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>YijingHexagramSymbols</Name>
+            <Title>Yijing Hexagram Symbols</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>4DC0 - 4DFF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsYijingHexagramSymbols}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsYijingHexagramSymbols}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>YiRadicals</Name>
+            <Title>Yi Radicals</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>A490 - A4CF</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsYiRadicals}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsYiRadicals}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+    <RegexSnippet Version="1.0.0" Format="1.0.0">
+        <Header>
+            <Category>NamedBlocks</Category>
+            <Name>YiSyllables</Name>
+            <Title>Yi Syllables</Title>
+            <Author>Josef Pihrt</Author>
+            <Description>A000 - A48F</Description>
+            <SnippetKinds>
+                <SnippetKind>Regular</SnippetKind>
+            </SnippetKinds>
+            <Engines>
+                <Engine>DotNet</Engine>
+            </Engines>
+        </Header>
+        <Snippet>
+            <Codes>
+                <Code><![CDATA[\p{IsYiSyllables}]]></Code>
+                <Code Kind="Negative"><![CDATA[\P{IsYiSyllables}]]></Code>
+            </Codes>
+        </Snippet>
+    </RegexSnippet>
+</RegexSnippets>
