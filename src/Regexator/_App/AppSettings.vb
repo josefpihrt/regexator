@@ -30,9 +30,7 @@ Public NotInheritable Class AppSettings
         If upgrade Then
 #If NO_INSTALL Then
             Using frm As New EulaForm()
-                If frm.ShowDialog() = DialogResult.OK Then
-                    Process.Start(App.WebRoot & "/thanks.ashx")
-                Else
+                If frm.ShowDialog() <> DialogResult.OK Then
                     Environment.Exit(1)
                 End If
             End Using
