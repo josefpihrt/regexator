@@ -755,30 +755,26 @@ namespace Regexator.FileSystem
             if (node == null)
                 throw new ArgumentNullException(nameof(node));
 
-            if (LoadFileInputCheck(node))
+            if (File.Exists(node.Name))
             {
-                try
+                if (LoadFileInputCheck(node))
                 {
-                    LoadFileInput(node);
-                }
-                catch (Exception ex)
-                {
-                    if (ex is FileNotFoundException)
+                    try
                     {
-                        if (MessageDialog.Question(
-                            string.Format(
-                                CultureInfo.CurrentCulture,
-                                Resources.FileNotFoundRemoveItemMsg,
-                                node.FullName)) == DialogResult.Yes)
-                        {
-                            RemoveFileInput(node);
-                        }
+                        LoadFileInput(node);
                     }
-                    else if (!Executor.ProcessException(ex))
+                    catch (Exception ex) when (Executor.ProcessException(ex))
                     {
-                        throw;
                     }
                 }
+            }
+            else if (MessageDialog.Question(
+                string.Format(
+                    CultureInfo.CurrentCulture,
+                    Resources.FileNotFoundRemoveItemMsg,
+                    node.FullName)) == DialogResult.Yes)
+            {
+                RemoveFileInput(node);
             }
         }
 
@@ -790,6 +786,7 @@ namespace Regexator.FileSystem
                     CultureInfo.CurrentCulture,
                     Resources.DoYouWantToReopenMsg,
                     node.FileName.Enclose("'"));
+
                 return MessageDialog.Question(text) == DialogResult.Yes;
             }
             else
