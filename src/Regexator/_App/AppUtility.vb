@@ -48,71 +48,69 @@ Friend Class AppUtility
 
     End Sub
 
-    <SuppressMessage("Microsoft.Globalization", "CA1300:SpecifyMessageBoxOptions")>
-    Public Shared Sub CheckVersionAsync()
+    'Public Shared Sub CheckVersionAsync()
 
-        If My.Settings.CheckAppVersionQuestionDisplayed = False Then
-            My.Settings.CheckAppVersion = MessageDialog.Question(My.Resources.DoYouWantToCheckForUpdatesMsg) = DialogResult.Yes
-            My.Settings.CheckAppVersionQuestionDisplayed = True
-        End If
-        If My.Settings.CheckAppVersion Then
-            Dim span = Date.Now - My.Settings.CheckAppVersionLastDate
-            If span > My.Settings.CheckAppVersionTimeSpan Then
-                Dim client As New WebClient()
-                AddHandler client.DownloadStringCompleted,
-                    Sub(sender As Object, e As DownloadStringCompletedEventArgs)
-                        If e.Error Is Nothing Then
-                            My.Settings.CheckAppVersionLastDate = Date.Now
-                            Dim version As Version = Nothing
-                            If version.TryParse(e.Result, version) Then
-                                If version > My.Application.Info.Version Then
-                                    If MessageBox.Show(
-                                            String.Format(CultureInfo.CurrentCulture, My.Resources.NewVersionAvailableMsg, version.ToString()),
-                                            My.Resources.NewVersion,
-                                            MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information) = DialogResult.Yes Then
-                                        Process.Start(WebRoot & "/Download")
-                                    End If
-                                End If
-                            End If
-                        End If
-                    End Sub
-                client.DownloadStringAsync(New Uri(WebRoot & "/version.ashx"))
-            End If
-        End If
+    '    If My.Settings.CheckAppVersionQuestionDisplayed = False Then
+    '        My.Settings.CheckAppVersion = MessageDialog.Question(My.Resources.DoYouWantToCheckForUpdatesMsg) = DialogResult.Yes
+    '        My.Settings.CheckAppVersionQuestionDisplayed = True
+    '    End If
+    '    If My.Settings.CheckAppVersion Then
+    '        Dim span = Date.Now - My.Settings.CheckAppVersionLastDate
+    '        If span > My.Settings.CheckAppVersionTimeSpan Then
+    '            Dim client As New WebClient()
+    '            AddHandler client.DownloadStringCompleted,
+    '                Sub(sender As Object, e As DownloadStringCompletedEventArgs)
+    '                    If e.Error Is Nothing Then
+    '                        My.Settings.CheckAppVersionLastDate = Date.Now
+    '                        Dim version As Version = Nothing
+    '                        If Version.TryParse(e.Result, version) Then
+    '                            If version > My.Application.Info.Version Then
+    '                                If MessageBox.Show(
+    '                                        String.Format(CultureInfo.CurrentCulture, My.Resources.NewVersionAvailableMsg, version.ToString()),
+    '                                        My.Resources.NewVersion,
+    '                                        MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information) = DialogResult.Yes Then
+    '                                    Process.Start(WebRoot & "/Download")
+    '                                End If
+    '                            End If
+    '                        End If
+    '                    End If
+    '                End Sub
+    '            client.DownloadStringAsync(New Uri(WebRoot & "/version.ashx"))
+    '        End If
+    '    End If
 
-    End Sub
+    'End Sub
 
-    <SuppressMessage("Microsoft.Globalization", "CA1300:SpecifyMessageBoxOptions")>
-    Public Shared Sub CheckVersion()
+    'Public Shared Sub CheckVersion()
 
-        Dim s As String = Nothing
+    '    Dim s As String = Nothing
 
-        Using client As New WebClient()
-            Try
-                s = client.DownloadString(New Uri(WebRoot & "/version.ashx"))
-            Catch ex As WebException
-            End Try
-        End Using
+    '    Using client As New WebClient()
+    '        Try
+    '            s = client.DownloadString(New Uri(WebRoot & "/version.ashx"))
+    '        Catch ex As WebException
+    '        End Try
+    '    End Using
 
-        If s IsNot Nothing Then
-            Dim version As Version = Nothing
-            If version.TryParse(s, version) Then
-                If version > My.Application.Info.Version Then
-                    If MessageBox.Show(
-                            String.Format(CultureInfo.CurrentCulture, My.Resources.NewVersionAvailableMsg, version.ToString()),
-                            My.Resources.NewVersion,
-                            MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information) = DialogResult.Yes Then
-                        Process.Start(WebRoot & "/Download")
-                    End If
-                Else
-                    MessageDialog.Info(My.Resources.YouAreUsingNewestVersion)
-                End If
-            End If
-        Else
-            MessageDialog.Info(My.Resources.UnableToCheckForUpdates)
-        End If
+    '    If s IsNot Nothing Then
+    '        Dim version As Version = Nothing
+    '        If version.TryParse(s, version) Then
+    '            If version > My.Application.Info.Version Then
+    '                If MessageBox.Show(
+    '                        String.Format(CultureInfo.CurrentCulture, My.Resources.NewVersionAvailableMsg, version.ToString()),
+    '                        My.Resources.NewVersion,
+    '                        MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information) = DialogResult.Yes Then
+    '                    Process.Start(WebRoot & "/Download")
+    '                End If
+    '            Else
+    '                MessageDialog.Info(My.Resources.YouAreUsingNewestVersion)
+    '            End If
+    '        End If
+    '    Else
+    '        MessageDialog.Info(My.Resources.UnableToCheckForUpdates)
+    '    End If
 
-    End Sub
+    'End Sub
 
     Public Shared Sub SetClipboardText(text As String)
 

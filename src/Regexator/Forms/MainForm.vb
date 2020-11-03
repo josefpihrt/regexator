@@ -213,7 +213,7 @@ Public Class MainForm
 
     Protected Overrides Sub OnShown(e As EventArgs)
 
-        AppUtility.CheckVersionAsync()
+        'AppUtility.CheckVersionAsync()
         MyBase.OnShown(e)
 
     End Sub

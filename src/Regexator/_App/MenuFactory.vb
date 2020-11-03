@@ -490,8 +490,8 @@ Public NotInheritable Class MenuFactory
 
         Yield New ToolStripMenuItem(My.Resources.Guide, Nothing, Sub() AppForms.ShowGuideForm()) With {.ShortcutKeyDisplayString = My.Resources.F1}
         Yield New ToolStripMenuItem(My.Resources.UserGuide, Nothing, Sub() AppForms.ShowUserGuideForm()) With {.ShortcutKeyDisplayString = My.Resources.ShiftF1}
-        Yield New ToolStripSeparator()
-        Yield New ToolStripMenuItem("Check for Updates", Nothing, Sub() AppUtility.CheckVersion())
+        'Yield New ToolStripSeparator()
+        'Yield New ToolStripMenuItem("Check for Updates", Nothing, Sub() AppUtility.CheckVersion())
         Yield New ToolStripSeparator()
         Yield New ToolStripMenuItem(My.Resources.About, Nothing, Sub() AppForms.ShowAboutForm())
 
