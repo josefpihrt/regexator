@@ -167,18 +167,18 @@
     <Compile Include="_App\ExplorerStatusStripRenderer.vb" />
     <Compile Include="_App\FileSystemSearchInfo.vb" />
     <Compile Include="_App\SummaryCreator.vb" />
-    <Compile Include="_Panels\FileSystemSearchResultsPanel.vb" />
-    <Compile Include="_Panels\Panels.vb" />
-    <Compile Include="_Panels\RegexOptionsPanel.vb" />
+    <Compile Include="Panels\FileSystemSearchResultsPanel.vb" />
+    <Compile Include="Panels\Panels.vb" />
+    <Compile Include="Panels\RegexOptionsPanel.vb" />
     <Compile Include="_App\Commands.vb" />
     <Compile Include="_App\Exporter.vb" />
-    <Compile Include="_Panels\OutputTablePanel.vb" />
-    <Compile Include="_Panels\OutputTextPanel.vb" />
+    <Compile Include="Panels\OutputTablePanel.vb" />
+    <Compile Include="Panels\OutputTextPanel.vb" />
     <Compile Include="_App\RecentSnippetItem.vb" />
     <Compile Include="_App\SnippetDirectory.vb" />
     <Compile Include="_App\SubstitutionSnippetSorter.vb" />
-    <Compile Include="_Panels\FindResultsPanel.vb" />
-    <Compile Include="_Panels\SummaryPanel.vb" />
+    <Compile Include="Panels\FindResultsPanel.vb" />
+    <Compile Include="Panels\SummaryPanel.vb" />
     <Compile Include="_App\Switcher.vb" />
     <Compile Include="_App\MenuFactory.vb" />
     <Compile Include="Controls\ExportRichTextBox.vb">
@@ -237,8 +237,8 @@
     <Compile Include="_App\Enums.vb" />
     <Compile Include="_App\NativeMethods.vb" />
     <Compile Include="_App\RegexatorApplication.vb" />
-    <Compile Include="_Panels\ExplorerPanel.vb" />
-    <Compile Include="_Panels\GroupPanel.vb" />
+    <Compile Include="Panels\ExplorerPanel.vb" />
+    <Compile Include="Panels\GroupPanel.vb" />
     <Compile Include="Controls\SnippetSense.vb">
       <SubType>UserControl</SubType>
     </Compile>
@@ -258,16 +258,16 @@
     <Compile Include="Controls\OutputToolStrip.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="_Panels\InfoPanel.vb" />
+    <Compile Include="Panels\InfoPanel.vb" />
     <Compile Include="_App\FormattedPatternTab.vb" />
-    <Compile Include="_Panels\ReplacementPanel.vb" />
+    <Compile Include="Panels\ReplacementPanel.vb" />
     <Compile Include="Controls\PatternRichTextBox.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="_App\DataManager.vb" />
     <Compile Include="_App\AppPaths.vb" />
-    <Compile Include="_Panels\OutputPanel.vb" />
-    <Compile Include="_Panels\PatternPanel.vb" />
+    <Compile Include="Panels\OutputPanel.vb" />
+    <Compile Include="Panels\PatternPanel.vb" />
     <Compile Include="Forms\AboutForm.Designer.vb">
       <DependentUpon>AboutForm.vb</DependentUpon>
     </Compile>
@@ -284,7 +284,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="_App\App.vb" />
-    <Compile Include="_Panels\InputPanel.vb" />
+    <Compile Include="Panels\InputPanel.vb" />
     <Compile Include="Forms\OptionsForm.Designer.vb">
       <DependentUpon>OptionsForm.vb</DependentUpon>
     </Compile>
@@ -305,7 +305,7 @@
     <Compile Include="Controls\RegexRichTextBox.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="_Panels\ExportPanel.vb" />
+    <Compile Include="Panels\ExportPanel.vb" />
     <Compile Include="Controls\ReplacementRichTextBox.vb">
       <SubType>Component</SubType>
     </Compile>
