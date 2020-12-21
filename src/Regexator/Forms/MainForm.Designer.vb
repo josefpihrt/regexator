@@ -29,9 +29,8 @@ Partial Class MainForm
         Me._spcInputOutput = New Regexator.Windows.Forms.ExtendedSplitContainer()
         Me._stsMain = New System.Windows.Forms.StatusStrip()
         Me._tslMode = New System.Windows.Forms.ToolStripStatusLabel()
-        Me._tslExportMode = New System.Windows.Forms.ToolStripStatusLabel()
-        Me._tslEncoding = New System.Windows.Forms.ToolStripStatusLabel()
         Me._tslGroups = New System.Windows.Forms.ToolStripStatusLabel()
+        Me._tslEncoding = New System.Windows.Forms.ToolStripStatusLabel()
         Me._tslEmpty = New System.Windows.Forms.ToolStripStatusLabel()
         Me._mnsMain = New Regexator.MainMenuStrip()
         Me._tspMain = New Regexator.MainToolStrip()
@@ -119,7 +118,7 @@ Partial Class MainForm
         '_stsMain
         '
         Me._stsMain.BackColor = System.Drawing.SystemColors.Control
-        Me._stsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me._tslMode, Me._tslExportMode, Me._tslEncoding, Me._tslGroups, Me._tslEmpty})
+        Me._stsMain.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me._tslMode, Me._tslGroups, Me._tslEncoding, Me._tslEmpty})
         Me._stsMain.Location = New System.Drawing.Point(0, 490)
         Me._stsMain.Name = "_stsMain"
         Me._stsMain.ShowItemToolTips = True
@@ -133,29 +132,25 @@ Partial Class MainForm
         Me._tslMode.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right
         Me._tslMode.Name = "_tslMode"
         Me._tslMode.Size = New System.Drawing.Size(4, 17)
-        '
-        '_tslExportMode
-        '
-        Me._tslExportMode.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right
-        Me._tslExportMode.Name = "_tslExportMode"
-        Me._tslExportMode.Size = New System.Drawing.Size(4, 17)
-        '
-        '_tslEncoding
-        '
-        Me._tslEncoding.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right
-        Me._tslEncoding.Name = "_tslEncoding"
-        Me._tslEncoding.Size = New System.Drawing.Size(4, 17)
-        Me._tslEncoding.Visible = False
+        Me._tslMode.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         '_tslGroups
         '
+        Me._tslGroups.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Right
         Me._tslGroups.Name = "_tslGroups"
-        Me._tslGroups.Size = New System.Drawing.Size(0, 17)
+        Me._tslGroups.Size = New System.Drawing.Size(4, 17)
+        Me._tslGroups.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        '_tslEncoding
+        '
+        Me._tslEncoding.Name = "_tslEncoding"
+        Me._tslEncoding.Size = New System.Drawing.Size(0, 17)
+        Me._tslEncoding.Visible = False
         '
         '_tslEmpty
         '
         Me._tslEmpty.Name = "_tslEmpty"
-        Me._tslEmpty.Size = New System.Drawing.Size(597, 17)
+        Me._tslEmpty.Size = New System.Drawing.Size(566, 17)
         Me._tslEmpty.Spring = True
         '
         '_mnsMain
@@ -230,7 +225,6 @@ Partial Class MainForm
     Friend WithEvents _spcInputOutput As Regexator.Windows.Forms.ExtendedSplitContainer
     Friend WithEvents _stsMain As System.Windows.Forms.StatusStrip
     Friend WithEvents _tslMode As System.Windows.Forms.ToolStripStatusLabel
-    Friend WithEvents _tslExportMode As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents _tslGroups As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents _tslEncoding As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents _tslEmpty As System.Windows.Forms.ToolStripStatusLabel

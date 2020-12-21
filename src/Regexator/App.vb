@@ -47,7 +47,6 @@ Public Module App
 
         Select Case e.PropertyName
             Case "CodeExportMode"
-                _frm._tslExportMode.Text = Text.EnumHelper.GetDescription(My.Settings.CodeExportMode)
                 Export.Mode = My.Settings.CodeExportMode
         End Select
 

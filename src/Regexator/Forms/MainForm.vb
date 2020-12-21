@@ -50,8 +50,6 @@ Public Class MainForm
 
         _tslMode.Text = EnumHelper.GetDescription(EvaluationMode.Match)
         _tslMode.ToolTipText = My.Resources.EvaluationMode
-        _tslExportMode.Text = Regexator.Text.EnumHelper.GetDescription(My.Settings.CodeExportMode)
-        _tslExportMode.ToolTipText = My.Resources.ExportMode
         _tslEncoding.ToolTipText = My.Resources.InputFileEncoding
         _tslGroups.ToolTipText = My.Resources.Groups
         _stsMain.Visible = My.Settings.MainFormStatusBarVisible
