@@ -699,13 +699,13 @@
     <value>..\Resources\IcoSnippet.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IndexAbbr" xml:space="preserve">
-    <value>Ix</value>
+    <value>I</value>
   </data>
   <data name="LineAbbr" xml:space="preserve">
     <value>Ln</value>
   </data>
   <data name="LinesAbbr" xml:space="preserve">
-    <value>Ls</value>
+    <value>Lns</value>
   </data>
   <data name="WrapText" xml:space="preserve">
     <value>Wrap Text</value>

@@ -22,7 +22,7 @@ Namespace My.Resources
     '''<summary>
     '''  A strongly-typed resource class, for looking up localized strings, etc.
     '''</summary>
-    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0"),  _
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0"),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
      Global.Microsoft.VisualBasic.HideModuleNameAttribute()>  _
@@ -3252,7 +3252,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Ix.
+        '''  Looks up a localized string similar to I.
         '''</summary>
         Friend ReadOnly Property IndexAbbr() As String
             Get
@@ -3495,7 +3495,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Ls.
+        '''  Looks up a localized string similar to Lns.
         '''</summary>
         Friend ReadOnly Property LinesAbbr() As String
             Get
@@ -4468,7 +4468,8 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to {\rtf1\adeflang1025\ansi\ansicpg1250\uc1\adeff0\deff0\stshfdbch0\stshfloch31506\stshfhich31506\stshfbi31506\deflang1029\deflangfe1029\themelang1029\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset238\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+        '''{\f12\fbidi \froman\fcharset129\fprq2{\*\panose 02030600000101010101}Batang{\*\falt ???A};}{\f34\fbidi \froman\fcharset238\fprq2{\*\panose 02040503050406030204}Cambria Math;}{\f36\fbidi \froman\fcharset238\fprq2{\*\panose 02040503050406030204} [rest of string was truncated]&quot;;.
         '''</summary>
         Friend ReadOnly Property RtfEula() As String
             Get
@@ -5796,7 +5797,7 @@ Namespace My.Resources
         '''            &lt;Name&gt;AllControlCharacters&lt;/Name&gt;
         '''            &lt;Title&gt;All Control Characters&lt;/Title&gt;
         '''            &lt;Author&gt;Josef Pihrt&lt;/Author&gt;
-        '''            &lt;Description&gt;All control characters. This includes the Cc, Cf, Cs, Co, and Cn categor [rest of string was truncated]&quot;;.
+        '''            &lt;Description&gt;All control characters. This includes the Cc, Cf, Cs, Co, and Cn categ [rest of string was truncated]&quot;;.
         '''</summary>
         Friend ReadOnly Property XmlGeneralCategories() As String
             Get
@@ -5833,7 +5834,7 @@ Namespace My.Resources
         '''            &lt;Author&gt;Josef Pihrt&lt;/Author&gt;
         '''            &lt;Description&gt;FB00 - FB4F&lt;/Description&gt;
         '''            &lt;SnippetKinds&gt;
-        '''          [rest of string was truncated]&quot;;.
+        '''        [rest of string was truncated]&quot;;.
         '''</summary>
         Friend ReadOnly Property XmlNamedBlocks() As String
             Get

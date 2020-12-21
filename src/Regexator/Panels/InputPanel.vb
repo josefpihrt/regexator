@@ -248,14 +248,14 @@ Public Class InputPanel
 
     Private Sub SetIndexAndLineInfo(index As Integer, line As Integer)
 
-        _lblIndex.Text = My.Resources.IndexAbbr & " " & index.ToString(CultureInfo.CurrentCulture)
-        _lblLine.Text = My.Resources.LineAbbr & " " & line.ToString(CultureInfo.CurrentCulture)
+        _lblIndex.Text = My.Resources.IndexAbbr & ": " & index.ToString("n0", CultureInfo.CurrentCulture)
+        _lblLine.Text = My.Resources.LineAbbr & ": " & line.ToString("n0", CultureInfo.CurrentCulture)
 
     End Sub
 
     Private Sub SetLinesInfo(count As Integer)
 
-        _lblLines.Text = My.Resources.LinesAbbr & " " & count.ToString(CultureInfo.CurrentCulture)
+        _lblLines.Text = My.Resources.LinesAbbr & ": " & count.ToString("n0", CultureInfo.CurrentCulture)
 
     End Sub
 
