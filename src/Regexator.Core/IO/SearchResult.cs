@@ -256,7 +256,7 @@ namespace Regexator.IO
             get
             {
                 return _invalidFileNameCharsRegex
-                    ?? (_invalidFileNameCharsRegex = PatternLibrary.InvalidFileNameChars.ToRegex());
+                    ?? (_invalidFileNameCharsRegex = RegexLibrary.InvalidFileNameChar);
             }
         }
 

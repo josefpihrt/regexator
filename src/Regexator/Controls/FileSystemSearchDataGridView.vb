@@ -1,11 +1,12 @@
 ﻿Imports System.ComponentModel
 Imports System.IO
+Imports System.Text.RegularExpressions
 Imports Regexator.Collections.Generic
 Imports Regexator.FileSystem
-Imports Regexator.Windows.Forms
 Imports Regexator.IO
-Imports System.Text.RegularExpressions
-Imports Pihrtsoft.Text.RegularExpressions.Linq
+Imports Regexator.Text
+Imports Regexator.Text.RegularExpressions
+Imports Regexator.Windows.Forms
 
 Public NotInheritable Class FileSystemSearchDataGridView
     Inherits DataGridView
@@ -14,9 +15,6 @@ Public NotInheritable Class FileSystemSearchDataGridView
     Private _hideOnLostFocus As Boolean = True
     Private ReadOnly _directoryColumn As DataGridViewTextBoxColumn
     Private ReadOnly _fileNameColumn As DataGridViewTextBoxColumn
-
-    Private Shared ReadOnly _stringComparer As StringComparer = StringComparer.CurrentCultureIgnoreCase
-    Private Shared ReadOnly _invalidFileNameRegex As Regex = Patterns.NonbacktrackingGroup(Patterns.Any(Path.GetInvalidFileNameChars())).ToRegex()
 
     Public Sub New()
 
@@ -55,7 +53,7 @@ Public NotInheritable Class FileSystemSearchDataGridView
     Private Sub Load()
 
         BeginUpdate()
-        If SearchPhrase.Length > 0 AndAlso _invalidFileNameRegex.IsMatch(SearchPhrase) = False Then
+        If SearchPhrase.Length > 0 AndAlso RegexLibrary.InvalidFileNameChar.IsMatch(SearchPhrase) = False Then
             Dim items As HashSet(Of SearchResult) = Find()
             Dim lst As New List(Of SearchResult)(items.Count)
             lst.AddRange(items)

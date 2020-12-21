@@ -48,7 +48,7 @@ namespace Regexator.Xml.Serialization.Projects.VersionLessThan2
             {
                 RegexOptions = item.ParseRegexOptions(),
                 CurrentLine = Math.Max(item.CurrentLine, 0),
-                Text = (item.Text != null) ? PatternLibrary.FirstLastEmptyLine
+                Text = (item.Text != null) ? RegexLibrary.FirstLastEmptyLine
                     .Replace(XmlUtility.DecodeCDataEnd(item.Text), "")
                     .EnsureCarriageReturnLinefeed() : null
             };

@@ -25,7 +25,7 @@ namespace Regexator.IO
         public static bool IsValidPath(string input)
         {
             if (!string.IsNullOrWhiteSpace(input))
-                return !PatternLibrary.InvalidPathChars.IsMatch(input);
+                return !RegexLibrary.InvalidPathChar.IsMatch(input);
 
             return false;
         }
@@ -33,7 +33,7 @@ namespace Regexator.IO
         public static bool IsValidFileName(string input)
         {
             if (!string.IsNullOrWhiteSpace(input))
-                return !PatternLibrary.InvalidFileNameChars.IsMatch(input);
+                return !RegexLibrary.InvalidFileNameChar.IsMatch(input);
 
             return false;
         }

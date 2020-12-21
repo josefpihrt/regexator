@@ -3,23 +3,33 @@ Imports Regexator.Text
 Imports Regexator.Output
 Imports Regexator.Snippets
 Imports Regexator.Windows.Forms
+Imports Regexator.Text.RegularExpressions
 Imports System.Text.RegularExpressions
 Imports System.IO
-Imports Pihrtsoft.Text.RegularExpressions.Linq
-Imports Pihrtsoft.Text.RegularExpressions.Linq.Extensions
 
 Public Class InputRichTextBox
     Inherits RegexRichTextBox
 
-    Private Shared ReadOnly _dirRegex As Regex = _
-        Patterns.EntireInput(
-            Patterns _
-                .WhileWhiteSpace() _
-                .NamedGroup("value", Patterns.NotChar(Path.GetInvalidPathChars()).MaybeMany().Lazy()) _
-                .WhileChar(Chars.WhiteSpace() + Path.DirectorySeparatorChar)
-        ).ToRegex()
+    Private Shared ReadOnly _dirRegex As Regex = New Regex("
+(?:
+    \A
+    \s*
+    (?<value>
+        [^""<>|\x00\x01\x02\x03\x04\x05\x06\a\x08\t\n\v\f\r\x0E\x0F\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1A\e\x1C\x1D\x1E\x1F]*?
+    )
+    [\s\\]*
+    \z
+)
+")
 
-    Private Shared ReadOnly _splitPathRegex As Regex = Patterns.NoncapturingGroup(Patterns.Linefeed, Path.PathSeparator).ToRegex()
+    Private Shared ReadOnly _splitPathRegex As Regex = New Regex("
+(?:
+    \n
+|
+    ;
+)
+"
+)
 
     Public Sub New()
 
@@ -111,7 +121,7 @@ Public Class InputRichTextBox
 
         For Each value As String In _splitPathRegex.EnumerateSplit(CurrentText(NewLineMode.Lf))
             If value.Length > 0 Then
-                Dim s = _dirRegex.Match(value).Group("value").Value
+                Dim s = _dirRegex.Match(value).Groups("value").Value
                 If s.Length > 0 AndAlso Path.IsPathRooted(s) Then
                     If s(s.Length - 1) <> Path.DirectorySeparatorChar Then
                         s = s & Path.DirectorySeparatorChar

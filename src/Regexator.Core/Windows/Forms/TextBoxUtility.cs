@@ -10,9 +10,6 @@ namespace Regexator.Windows.Forms
 {
     public static class TextBoxUtility
     {
-        private static readonly Regex _emptyOrWhiteSpaceLine = PatternLibrary.EmptyOrWhiteSpaceLine.ToRegex();
-        private static readonly Regex _emptyLine = PatternLibrary.EmptyLine.ToRegex();
-
         public static bool RemoveWhiteSpaceLinesFromSelection(TextBoxBase box)
         {
             if (box == null)
@@ -21,7 +18,7 @@ namespace Regexator.Windows.Forms
             if (box.SelectionLength > 0)
             {
                 box.SelectEntireLines();
-                return ProcessSelection(box, f => _emptyOrWhiteSpaceLine.Replace(f, ""));
+                return ProcessSelection(box, f => RegexLibrary.EmptyOrWhiteSpaceLine.Replace(f, ""));
             }
 
             return false;
@@ -35,7 +32,7 @@ namespace Regexator.Windows.Forms
             if (box.SelectionLength > 0)
             {
                 box.SelectEntireLines();
-                return ProcessSelection(box, f => _emptyLine.Replace(f, ""));
+                return ProcessSelection(box, f => RegexLibrary.EmptyLine.Replace(f, ""));
             }
 
             return false;

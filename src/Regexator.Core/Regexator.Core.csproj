@@ -38,9 +38,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="Pihrtsoft.Text.RegularExpressions.Linq, Version=2.5.0.0, Culture=neutral, PublicKeyToken=7b6a2af53c8ae8ab, processorArchitecture=MSIL">
-      <HintPath>..\packages\LinqToRegex.2.5.0\lib\net40\Pihrtsoft.Text.RegularExpressions.Linq.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -134,7 +131,7 @@
     <Compile Include="Text\ITextContainer.cs" />
     <Compile Include="Text\NewLineMode.cs" />
     <Compile Include="Text\OutputSearchDefinition.cs" />
-    <Compile Include="Text\PatternLibrary.cs" />
+    <Compile Include="Text\RegexLibrary.cs" />
     <Compile Include="Text\RegexOptionsUtility.cs" />
     <Compile Include="Text\RegularExpressions\CaptureEqualityComparer.cs" />
     <Compile Include="Text\RegularExpressions\CaptureItem.cs" />
@@ -175,6 +172,14 @@
     <Compile Include="Text\RegularExpressions\SplitItemCollection.cs" />
     <Compile Include="Text\RegularExpressions\SplitItemEqualityComparer.cs" />
     <Compile Include="Text\RegularExpressions\SplitItemKind.cs" />
+    <Compile Include="Text\RegularExpressions\AsciiChar.cs" />
+    <Compile Include="Text\RegularExpressions\CharEscapeMode.cs" />
+    <Compile Include="Text\RegularExpressions\GeneralCategory.cs" />
+    <Compile Include="Text\RegularExpressions\NamedBlock.cs" />
+    <Compile Include="Text\RegularExpressions\RegexSplit.cs" />
+    <Compile Include="Text\RegularExpressions\RegexUtility.cs" />
+    <Compile Include="Text\RegularExpressions\SplitOptions.cs" />
+    <Compile Include="Text\RegularExpressions\Syntax.cs" />
     <Compile Include="Text\RichTextBoxSearcher.cs" />
     <Compile Include="Text\RichTextBoxWrapper.cs" />
     <Compile Include="Text\SearchDefinition.cs" />
@@ -543,7 +548,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="packages.config" />
     <None Include="Resources\Regexator.ico" />
   </ItemGroup>
   <ItemGroup>

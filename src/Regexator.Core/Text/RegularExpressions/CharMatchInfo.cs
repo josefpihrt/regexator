@@ -7,7 +7,6 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
-using Pihrtsoft.Text.RegularExpressions.Linq;
 
 namespace Regexator.Text.RegularExpressions
 {

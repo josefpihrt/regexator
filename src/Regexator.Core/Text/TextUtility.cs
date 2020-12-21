@@ -9,22 +9,22 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using Pihrtsoft.Text.RegularExpressions.Linq;
+using Regexator.Text.RegularExpressions;
 
 namespace Regexator.Text
 {
     public static class TextUtility
     {
-        private static readonly Pihrtsoft.Text.RegularExpressions.Linq.Pattern _whiteSpaces = Patterns.WhiteSpaces();
-        private static readonly Regex _lineStartRegex = Patterns.WhileNotChar('\n').ToRegex(RegexOptions.RightToLeft);
-        private static readonly Regex _lineEndRegex = Patterns.WhileNotNewLineChar().ToRegex();
+        private static readonly Regex _whiteSpacesRegex = new Regex(@"\s+");
+        private static readonly Regex _lineStartRegex = new Regex(@"[^\n]*", RegexOptions.RightToLeft);
+        private static readonly Regex _lineEndRegex = new Regex(@"[^\r\n]*");
 
         public static string RemoveWhiteSpace(string input)
         {
             if (input == null)
                 throw new ArgumentNullException(nameof(input));
 
-            return _whiteSpaces.Replace(input);
+            return _whiteSpacesRegex.Replace(input, "");
         }
 
         [SuppressMessage("Microsoft.Naming", "CA1709:IdentifiersShouldBeCasedCorrectly", MessageId = "Cr")]
@@ -34,7 +34,7 @@ namespace Regexator.Text
             if (input == null)
                 throw new ArgumentNullException(nameof(input));
 
-            return PatternLibrary.LinefeedWithoutCarriageReturn.Replace(input, "\r\n");
+            return RegexLibrary.LinefeedWithoutCarriageReturn.Replace(input, "\r\n");
         }
 
         public static int GetFirstInvalidXmlChar(string input)

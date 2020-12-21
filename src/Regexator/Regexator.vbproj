@@ -98,9 +98,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="Pihrtsoft.Text.RegularExpressions.Linq, Version=2.5.0.0, Culture=neutral, PublicKeyToken=7b6a2af53c8ae8ab, processorArchitecture=MSIL">
-      <HintPath>..\packages\LinqToRegex.2.5.0\lib\net40\Pihrtsoft.Text.RegularExpressions.Linq.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
@@ -358,7 +355,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="My Project\app.manifest" />
-    <None Include="packages.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

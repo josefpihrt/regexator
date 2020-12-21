@@ -1,0 +1,45 @@
+﻿// Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
+
+namespace Regexator.Text.RegularExpressions
+{
+    public enum GeneralCategory
+    {
+        AllControlCharacters = 0,
+        AllDiacriticMarks = 1,
+        AllLetterCharacters = 2,
+        AllNumbers = 3,
+        AllPunctuationCharacters = 4,
+        AllSeparatorCharacters = 5,
+        AllSymbols = 6,
+        LetterLowercase = 7,
+        LetterModifier = 8,
+        LetterOther = 9,
+        LetterTitlecase = 10,
+        LetterUppercase = 11,
+        MarkEnclosing = 12,
+        MarkNonspacing = 13,
+        MarkSpacingCombining = 14,
+        NumberDecimalDigit = 15,
+        NumberLetter = 16,
+        NumberOther = 17,
+        OtherControl = 18,
+        OtherFormat = 19,
+        OtherNotAssigned = 20,
+        OtherPrivateUse = 21,
+        OtherSurrogate = 22,
+        PunctuationClose = 23,
+        PunctuationConnector = 24,
+        PunctuationDash = 25,
+        PunctuationFinalQuote = 26,
+        PunctuationInitialQuote = 27,
+        PunctuationOpen = 28,
+        PunctuationOther = 29,
+        SeparatorLine = 30,
+        SeparatorParagraph = 31,
+        SeparatorSpace = 32,
+        SymbolCurrency = 33,
+        SymbolMath = 34,
+        SymbolModifier = 35,
+        SymbolOther = 36,
+    }
+}

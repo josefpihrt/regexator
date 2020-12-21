@@ -131,7 +131,7 @@ namespace Regexator.Xml.Serialization.Projects.VersionLessThan1
             get
             {
                 return (_text != null)
-                    ? PatternLibrary.FirstLastEmptyLine.Replace(XmlUtility.DecodeCDataEnd(_text), "")
+                    ? RegexLibrary.FirstLastEmptyLine.Replace(XmlUtility.DecodeCDataEnd(_text), "")
                     : null;
             }
             set

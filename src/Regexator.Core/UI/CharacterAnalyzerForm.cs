@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using Regexator.Collections.Generic;
 using Regexator.Text;
 using Regexator.Text.RegularExpressions;
-using Pihrtsoft.Text.RegularExpressions.Linq;
 
 namespace Regexator.UI
 {

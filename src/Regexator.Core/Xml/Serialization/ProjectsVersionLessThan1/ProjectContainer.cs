@@ -44,7 +44,7 @@ namespace Regexator.Xml.Serialization.Projects.VersionLessThan1
 
             if (item.Text != null)
             {
-                container.Pattern.Text = PatternLibrary.FirstLastEmptyLine.Replace(XmlUtility.DecodeCDataEnd(item.Text), "")
+                container.Pattern.Text = RegexLibrary.FirstLastEmptyLine.Replace(XmlUtility.DecodeCDataEnd(item.Text), "")
                     .EnsureCarriageReturnLinefeed();
             }
 

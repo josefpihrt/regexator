@@ -1,5 +1,6 @@
 // Copyright (c) Josef Pihrt. All rights reserved. Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace Regexator.Text.RegularExpressions
@@ -53,6 +54,16 @@ namespace Regexator.Text.RegularExpressions
         public static SplitItemCollection SplitItems(this Regex regex, string input, int limit)
         {
             return new SplitData(regex, input, limit).Items;
+        }
+
+        public static IEnumerable<string> EnumerateSplit(this Regex regex, string input)
+        {
+            return RegexSplit.EnumerateValues(regex, input);
+        }
+
+        public static IEnumerable<string> EnumerateSplit(this Regex regex, string input, SplitOptions splitOptions)
+        {
+            return RegexSplit.EnumerateValues(regex, input, splitOptions);
         }
     }
 }

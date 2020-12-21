@@ -84,7 +84,7 @@ namespace Regexator
             if (value == null)
                 throw new ArgumentNullException(nameof(value));
 
-            return PatternLibrary.LineLeadingTrailingWhiteSpace.Replace(value, "");
+            return RegexLibrary.LineLeadingTrailingWhiteSpace.Replace(value, "");
         }
 
         public static string TrimStartMultiline(this string value)
@@ -92,7 +92,7 @@ namespace Regexator
             if (value == null)
                 throw new ArgumentNullException(nameof(value));
 
-            return PatternLibrary.LineLeadingWhiteSpace.Replace(value, "");
+            return RegexLibrary.LineLeadingWhiteSpace.Replace(value, "");
         }
 
         public static string TrimEndMultiline(this string value)
@@ -100,7 +100,7 @@ namespace Regexator
             if (value == null)
                 throw new ArgumentNullException(nameof(value));
 
-            return PatternLibrary.LineTrailingWhiteSpace.Replace(value, "");
+            return RegexLibrary.LineTrailingWhiteSpace.Replace(value, "");
         }
 
         public static string SetLineIndent(this string value, string indent)
@@ -111,7 +111,7 @@ namespace Regexator
             if (indent == null)
                 throw new ArgumentNullException(nameof(indent));
 
-            return PatternLibrary.LineLeadingWhiteSpace.Replace(value, indent);
+            return RegexLibrary.LineLeadingWhiteSpace.Replace(value, indent);
         }
 
         [DebuggerStepThrough]
@@ -225,7 +225,7 @@ namespace Regexator
             if (newLineReplacement == null)
                 throw new ArgumentNullException(nameof(newLineReplacement));
 
-            return PatternLibrary.NewLine.Replace(input, newLineReplacement);
+            return RegexLibrary.NewLine.Replace(input, newLineReplacement);
         }
 
         public static string Enclose(this string input, string[] values)
@@ -319,7 +319,7 @@ namespace Regexator
             if (suffix == null)
                 throw new ArgumentNullException(nameof(suffix));
 
-            Match match = PatternLibrary.FirstLine.Match(input);
+            Match match = RegexLibrary.FirstLine.Match(input);
             return (match.Success) ? match.Value + suffix : input;
         }
 
