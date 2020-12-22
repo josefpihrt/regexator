@@ -11,7 +11,7 @@ namespace Regexator.Text
 ^
 [\s-[\r\n]]+
 ",
-            RegexOptions.Multiline);
+            RegexOptions.Multiline | RegexOptions.IgnorePatternWhitespace);
 
         public static readonly Regex LineTrailingWhiteSpace = new Regex(
             @"
@@ -21,14 +21,16 @@ namespace Regexator.Text
     $
 )
 ",
-            RegexOptions.Multiline);
+            RegexOptions.Multiline | RegexOptions.IgnorePatternWhitespace);
 
         public static readonly Regex LineLeadingTrailingWhiteSpace = new Regex(
             @"
 (
     ^
     [\s-[\r\n]]+
+)
 |
+(
     [\s-[\r\n]]+
     (?=
         \r?
@@ -36,33 +38,39 @@ namespace Regexator.Text
     )
 )
 ",
-            RegexOptions.Multiline);
+            RegexOptions.Multiline | RegexOptions.ExplicitCapture | RegexOptions.IgnorePatternWhitespace);
 
-        public static readonly Regex NewLine = new Regex(@"
+        public static readonly Regex NewLine = new Regex(
+            @"
 (?>
     \r?
     \n
 )
-");
+",
+            RegexOptions.IgnorePatternWhitespace);
 
-        public static readonly Regex FirstLine = new Regex(@"
+        public static readonly Regex FirstLine = new Regex(
+            @"
 \A
 [^\r\n]*
-");
+",
+            RegexOptions.IgnorePatternWhitespace);
 
-        public static readonly Regex LinefeedWithoutCarriageReturn = new Regex(@"
+        public static readonly Regex LinefeedWithoutCarriageReturn = new Regex(
+            @"
 (?<!
     \r
 )
 \n
-");
+",
+            RegexOptions.IgnorePatternWhitespace);
 
         public static readonly Regex EmptyOrWhiteSpaceLine = new Regex(
             @"
 ^
 [\s-[\r\n]]*
-(?:
-    (?:
+(
+    (
         \r?
         \n
     )
@@ -70,35 +78,34 @@ namespace Regexator.Text
     \z
 )
 ",
-            RegexOptions.Multiline);
+            RegexOptions.Multiline | RegexOptions.ExplicitCapture | RegexOptions.IgnorePatternWhitespace);
 
         public static readonly Regex EmptyLine = new Regex(
             @"
 ^
-(?:
+\r?
+\n
+",
+            RegexOptions.Multiline | RegexOptions.ExplicitCapture | RegexOptions.IgnorePatternWhitespace);
+
+        public static readonly Regex FirstLastEmptyLine = new Regex(
+            @"
+(
+    \A
     \r?
     \n
 )
-",
-            RegexOptions.Multiline);
-
-        public static readonly Regex FirstLastEmptyLine = new Regex(@"
-(?>
-    \A
-    (?:
-        \r?
-        \n
-    )
 |
-    (?:
-        \r?
-        \n
-    )
+(
+    \r?
+    \n
     \z
 )
-");
+",
+            RegexOptions.ExplicitCapture | RegexOptions.IgnorePatternWhitespace);
 
-        public static readonly Regex InvalidPathChar = new Regex(@"
+        public static readonly Regex InvalidPathChar = new Regex(
+            @"
 (?>
     \x00
 |
@@ -172,9 +179,11 @@ namespace Regexator.Text
 |
     \|
 )
-");
+",
+            RegexOptions.IgnorePatternWhitespace);
 
-        public static readonly Regex InvalidFileNameChar = new Regex(@"
+        public static readonly Regex InvalidFileNameChar = new Regex(
+            @"
 (?>
     \x00
 |
@@ -258,6 +267,7 @@ namespace Regexator.Text
 |
     \|
 )
-");
+",
+            RegexOptions.IgnorePatternWhitespace);
     }
 }
