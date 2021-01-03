@@ -9,8 +9,8 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("Regexator")>
-<Assembly: AssemblyDescription("Regexator is a development environment for regular expressions on the basis of .NET regex engine from System.Text.RegularExpressions namespace.")>
-<Assembly: AssemblyCompany("JosefPihrt")>
+<Assembly: AssemblyDescription("Regexator is a development environment for .NET regular expressions.")>
+<Assembly: AssemblyCompany("Josef Pihrt")>
 <Assembly: AssemblyProduct("Regexator")>
 <Assembly: AssemblyCopyright("© 2014-2020 Josef Pihrt")>
 <Assembly: AssemblyTrademark("")>
@@ -31,6 +31,6 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2.0.12.0")>
+<Assembly: AssemblyVersion("2.1.0.0")>
 <Assembly: NeutralResourcesLanguageAttribute("en-US")>
 <Assembly: CLSCompliant(True)>
